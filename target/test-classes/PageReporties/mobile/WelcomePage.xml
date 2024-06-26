@@ -1,0 +1,7 @@
+<objects>
+	<object name="btnContinue">
+		<android locatorType="xpath" locatorValue="//android.widget.TextView[@text='Continue']" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+</objects>

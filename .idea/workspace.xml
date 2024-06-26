@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pricer/mobile/Test_Scenarios_For_Pricer_Emulation_Login_Functionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0208a689-0d0f-4e6f-8986-5090f35aa36d-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/09754d42-65e7-42e0-b097-fc6154a18c6d-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/09c50079-dd0d-4202-976a-fae2f2fe1666-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0a9408c6-c494-4011-b26b-23ddf295761c-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0c69b726-ae4e-4f0c-ac1d-5f20613cc418-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1caf8c2a-1118-451f-bfb0-139cb55823b4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/246bbb33-e79e-4bbc-a212-f8f5760a9587-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2925ed3c-5517-4313-8ca1-f68970e39cb1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2b60e25e-4011-45d9-a12e-3eded2a4b21a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/37d2bbe2-715d-47ab-a433-dbf9a6f1ddea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3eaecd9c-d671-4a6d-bdeb-55734b2bddf8-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4313d419-5f1c-475f-bfd8-e06833f28938-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/488044f2-0508-4865-87ba-41785e3fbdf6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/525f5606-6985-46c9-aee1-000ecea1647c-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5d36e2da-e727-4ef4-b354-89515a8fec06-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/66b6e9ee-002b-4cb3-b72d-8b3514623884-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/68335fa0-38c6-4455-96d3-c9d302a4e820-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6bf43f03-ad20-4086-9cde-5cec8d2b62e8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6def91a8-f20e-4f7c-9ecc-b95bf0029d8e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7ef22853-7686-416d-b703-4f58ccee9b8d-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/80f1d0fc-f0da-447a-b7a9-25ec88436691-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/81260ba3-c872-47db-93e9-95e5eafaa0a4-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/813baf9f-557c-4a2f-99f3-85a7631a3abd-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/83d44167-3ae8-4ba1-a239-feeb71310b85-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/852a3c87-64ed-48b8-a092-4dc1a8623f9d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/872e9367-75a8-4e73-8a57-26b0d65a80eb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/99cfce83-ce4b-4b6f-9048-885db2196f07-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a0c9707a-2d05-4329-bcd1-617bd1ae836e-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a8957e81-380b-495f-994e-4292df3b1e82-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a913915d-329e-46b7-867d-e379d778fd68-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/abb4bb2d-d224-446c-a53f-fcf576a1661d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bae89531-f52c-4714-91ab-87289d912e63-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c35af973-7160-4984-8812-f599b4f1ffe1-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c3eb7300-9c65-42ee-9fb1-054d84a05b61-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c4dec734-3064-4713-9a0e-2832273e4050-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c6719477-7ddb-43e8-aace-9770c3c8b1c6-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d2f8c0fd-e870-476a-b937-774c87c386c2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e183347e-d39d-48a1-9f27-2c5d1d520c6b-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e2615657-7fd0-4371-bc04-c37355552eca-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f2e3c8b9-9ff5-490c-a449-969bc22b9292-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f422e74d-ea92-4cdd-94f0-8bc3dbf5cbe0-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f88f7b88-fe27-4b87-a470-05edf8a85424-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fbac44f1-0eea-4bdf-a032-db224f9ff5a4-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fd20a33e-3f87-4691-aea6-3d885b11f60d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/web/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pricer/page/web/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pricer/mobile/Test_Scenarios_For_Pricer_Emulation_E2E_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pricer/mobile/Test_Scenarios_For_Pricer_Emulation_E2E_Functionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/HomePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/HomePage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_mobileEmulation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_mobileEmulation.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/Sample_test.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wTgB6vyLfp3DnYNqMU52zeaWMb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Local-Git/TestDemoFramework/.idea/selenium-devtools-4.0.0-beta-3.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Local-Git\TestDemoFramework\.idea" />
+      <recent name="D:\Local-Git\TestDemoFramework\src\main\java\com\pricer\page" />
+      <recent name="D:\Local-Git\TestDemoFramework\src\test\resources\PageReporties" />
+      <recent name="D:\Local-Git\TestDemoFramework\src\test\resources" />
+      <recent name="D:\Local-Git\TestDemoFramework\src\test\resources\PageReporties\mobile" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Local-Git\TestDemoFramework\src\test\resources" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/resources/credentials" />
+      <recent name="$PROJECT_DIR$/src/test/resources/TestData" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pricer.mobile" />
+      <recent name="com.pricer.page.mobile.pricer" />
+      <recent name="com.pricer.page.web" />
+      <recent name="com.impactqa.page.web" />
+      <recent name="com.impactqa.test.web" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Batch.GenerateAllureReport">
+    <configuration name="EncryptData" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="FrameworkAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Local-Git\TestDemoFramework" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="EncryptData.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateAllureReport" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="FrameworkAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="GenerateAllureReport.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in WellCubeAutomation" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="FrameworkAutomation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="15" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobileEmulation.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng_mobileEmulation.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng_mobile.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/admin/Library/CloudStorage/OneDrive-ImpactQA/Delos Project/WellCube/src/test/resources/Sample_test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/Sample_test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" nameIsGenerated="true">
+      <module name="FrameworkAutomation" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Batch.GenerateAllureReport" />
+        <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobileEmulation.xml" />
+        <item itemvalue="Batch.EncryptData" />
+        <item itemvalue="TestNG./Users/admin/Library/CloudStorage/OneDrive-ImpactQA/Delos Project/WellCube/src/test/resources/Sample_test.xml" />
+        <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="" />
+      <created>1628487856817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628487856817</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Adding new test cases">
+      <created>1685691776391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685691776392</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding new test cases">
+      <created>1685966186978</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685966186978</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding new test cases">
+      <created>1686132347155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686132347155</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding new test cases">
+      <created>1686132382074</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686132382074</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding new test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding new test cases" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.openqa.selenium.remote.RemoteWebElement" memberName="parent" />
+        <PinnedItemInfo parentTag="org.openqa.selenium.remote.RemoteWebElement" memberName="fileDetector" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TestDemoFramework$D__Local_Git_TestDemoFramework_src_test_resources_testng_mobile_xml.ic" NAME="$PROJECT_DIR$/src/test/resources/testng_mobile.xml Coverage Results" MODIFIED="1717413196118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

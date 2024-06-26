@@ -1,0 +1,6 @@
+<objects>
+	<object name="icnStoreUI">
+		<web locatorType="xpath" locatorValue="//img[@src='/_next/static/media/bx-log-in-circle.c1a78547.svg']" />
+	</object>
+
+</objects>

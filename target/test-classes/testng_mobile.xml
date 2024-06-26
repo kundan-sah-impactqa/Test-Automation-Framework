@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mobile_Test_Execution_Suite" parallel="tests" thread-count="5">
+    <listeners>
+        <listener class-name="com.pricer.listeners.TestNGExecutionListener"/>
+        <listener class-name="com.pricer.listeners.TestAllureListener"/>
+    </listeners>
+
+    <test name="Pricer_Mobile_Test">
+        <parameter name="dataID" value="TC001_Pricer_Android_Local"/>
+        <classes>
+            <class name="com.pricer.mobile.Test_Scenarios_For_Pricer_E2E_Functionality">
+                <methods>
+                    <include name="clickOnContinueButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
