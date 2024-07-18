@@ -1,0 +1,55 @@
+<objects>
+
+	//----------Permissions--------------
+	<object name="btnAllowNotifications">
+		<android locatorType="id" locatorValue="com.android.permissioncontroller:id/permission_allow_button" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="btnAllowLocation">
+		<android locatorType="id" locatorValue="com.android.permissioncontroller:id/permission_allow_foreground_only_button" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="btnAllowDeviceLocation">
+		<android locatorType="id" locatorValue="com.starbucks.in.beta:id/tvOkay" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="rdbAllowAllTheTime">
+		<android locatorType="id" locatorValue="com.android.permissioncontroller:id/allow_always_radio_button" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="btnArrowBack">
+		<android locatorType="xpath" locatorValue="//android.widget.ImageButton[@content-desc='Navigate up']" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	//----------Login Page--------------
+	<object name="txtUsername">
+		<android locatorType="id" locatorValue="com.starbucks.in.beta:id/etUserNameValue" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="txtPassword">
+		<android locatorType="id" locatorValue="com.starbucks.in.beta:id/etPasswordValue" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="btnLogin">
+		<android locatorType="id" locatorValue="com.starbucks.in.beta:id/tvLoginBtn" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="icnSwapArrow">
+		<android locatorType="id" locatorValue="com.starbucks.in.beta:id/imgSwap" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="btnSkipConnectToInStoreWifi">
+		<android locatorType="id" locatorValue="com.starbucks.in.beta:id/tvSkip" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+</objects>

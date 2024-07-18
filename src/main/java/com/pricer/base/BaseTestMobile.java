@@ -12,6 +12,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Instant;
 import java.util.Map;
 
 import static com.pricer.utilities.PostExecutionClass.createReportVersionWithDateTime;
@@ -66,8 +67,8 @@ public class BaseTestMobile {
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Galaxy A71");
         desiredCapabilities.setCapability(MobileCapabilityType.UDID, "RZ8N21G4DTP");
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-        desiredCapabilities.setCapability("appium:appPackage", "com.pricer.plaza.mobile");
-        desiredCapabilities.setCapability("appium:appActivity", "com.pricer.plaza.mobile.MainActivity");
+        desiredCapabilities.setCapability("appium:appPackage", "com.starbucks.in.beta");
+        desiredCapabilities.setCapability("appium:appActivity", "com.tsb.app.home.presentation.view.activity.HomeActivity");
 //        desiredCapabilities.setCapability(MobileCapabilityType.APP, "/path/to/ios/app.zip");
         desiredCapabilities.setCapability("appium:chromeOptions", ImmutableMap.of("w3c", false));
 
@@ -97,6 +98,8 @@ public class BaseTestMobile {
 
     @BeforeSuite
     public void clearOldAllureReport() {
+        BaseTestWebClassContext b = new BaseTestWebClassContext();
+        b.start = Instant.now();
         // Specify the path to your Allure report directory
         String allureResultstDirectory = System.getProperty("user.dir") + "\\allure-results";
         // Create a File object representing the directory
@@ -127,12 +130,14 @@ public class BaseTestMobile {
 
     @AfterSuite
     public void generateAllureReport() {
+        BaseTestWebClassContext b = new BaseTestWebClassContext();
+        b.end = Instant.now();
         createReportVersionWithDateTime();
         try {
-//            String batchFilePath = System.getProperty("user.dir") + "\\GenerateAllureReport.bat";
-//            // Execute the batch file
-//            ProcessBuilder processBuilder = new ProcessBuilder(batchFilePath);
-//            processBuilder.start();
+            String batchFilePath = System.getProperty("user.dir") + "\\GenerateAllureReport.bat";
+            // Execute the batch file
+            ProcessBuilder processBuilder = new ProcessBuilder(batchFilePath);
+            processBuilder.start();
             System.out.println("Allure report generated successfully.");
         } catch (Exception e) {
             e.printStackTrace();

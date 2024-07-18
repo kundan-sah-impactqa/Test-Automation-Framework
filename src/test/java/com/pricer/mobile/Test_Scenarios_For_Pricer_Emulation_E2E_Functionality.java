@@ -2,10 +2,10 @@ package com.pricer.mobile;
 
 import com.pricer.base.BaseTestWebClassContext;
 import com.pricer.listeners.TestAllureListener;
-import com.pricer.page.web.HomePage;
-import com.pricer.page.web.LoginPage;
-import com.pricer.page.web.StorePage;
-import com.pricer.page.web.TenantPage;
+import com.pricer.page.web.pricer.HomePage;
+import com.pricer.page.web.pricer.LoginPage;
+import com.pricer.page.web.pricer.StorePage;
+import com.pricer.page.web.pricer.TenantPage;
 import com.pricer.utilities.ExcelUtil;
 import com.pricer.utilities.FrameworkConfig;
 import io.qameta.allure.*;

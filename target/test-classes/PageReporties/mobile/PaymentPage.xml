@@ -1,0 +1,33 @@
+<objects>
+
+	<object name="lnkCreditDebitCards">
+		<android locatorType="xpath" locatorValue="//android.widget.TextView[@text='Credit / Debit Cards']" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="txtCardNumber">
+		<android locatorType="xpath" locatorValue="//android.widget.EditText[@content-desc='edt_card_number']" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="txtExpiry">
+		<android locatorType="xpath" locatorValue="//android.widget.EditText[@content-desc='edt_expiry_date']" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="txtCVV">
+		<android locatorType="xpath" locatorValue="//android.widget.EditText[@content-desc='edt_cvv']" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="btnProceedToPay">
+		<android locatorType="xpath" locatorValue="//android.widget.TextView[contains(@text,'Proceed to Pay')]" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="btnOptOutForNow">
+		<android locatorType="xpath" locatorValue="//android.widget.TextView[contains(@text,'Opt out for now')]" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+</objects>

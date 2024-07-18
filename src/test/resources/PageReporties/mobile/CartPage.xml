@@ -1,0 +1,23 @@
+<objects>
+
+	<object name="lnkSelectPaymentMode">
+		<android locatorType="id" locatorValue="com.starbucks.in.beta:id/tvCardName" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="btnCloseTip">
+		<android locatorType="id" locatorValue="com.starbucks.in.beta:id/tvTipClose" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="btnOtherPaymentMethods">
+		<android locatorType="xpath" locatorValue="//android.widget.TextView[contains(@text,'Pay using other')]" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="btnPlaceOrder">
+		<android locatorType="id" locatorValue="com.starbucks.in.beta:id/tvPlaceOrder" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+</objects>
