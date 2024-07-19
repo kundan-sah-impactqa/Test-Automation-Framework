@@ -1,0 +1,18 @@
+<objects>
+
+	<object name="lblVirtualBrands">
+		<android locatorType="xpath" locatorValue="//android.widget.TextView[@text='Virtual Brands']" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="icnHamburger">
+		<android locatorType="xpath" locatorValue="(//android.widget.Button)[1]" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+	<object name="btnLogOut">
+		<android locatorType="xpath" locatorValue="//android.widget.Button[@text='Log out']" />
+		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
+	</object>
+
+</objects>

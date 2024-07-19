@@ -42,23 +42,23 @@ public class BaseTestMobile {
     @Parameters({ "dataID" })
     public void openMobileSession(String dataID) throws MalformedURLException, InterruptedException {
 
-//        ExcelUtil excel = new ExcelUtil();
-//        excel.setWorkbook(FrameworkConfig.getStringConfigProperty("TestDataFileLocation"),
-//                FrameworkConfig.getStringConfigProperty("TestDataSheetName_mobile"));
-//
-//        testDataMap = excel.getRowDataMatchingDataId(dataID);
-//
-//        if (testDataMap.size() < 1)
-//            Assert.fail("dataID '" + dataID + "' is valid the excel sheet. please check the com.impactqa.test data sheet");
-//
-//        excel.setWorkbook(FrameworkConfig.getStringConfigProperty("TestDataFileLocation"),
-//                "MobileSessionDetails");
-//
-//        Map<String, String> sessionDetails = excel.getRowDataMatchingDataId(testDataMap.get("MobileSessionID1"));
-//
-//        if ("ios".equals(sessionDetails.get("platformName").toLowerCase()))
-//            platform = PageObjectRepoHelper.PLATFORM.IOS;
-//        else
+/*        ExcelUtil excel = new ExcelUtil();
+        excel.setWorkbook(FrameworkConfig.getStringConfigProperty("TestDataFileLocation"),
+                FrameworkConfig.getStringConfigProperty("TestDataSheetName_mobile"));
+
+        testDataMap = excel.getRowDataMatchingDataId(dataID);
+
+        if (testDataMap.size() < 1)
+            Assert.fail("dataID '" + dataID + "' is valid the excel sheet. please check the com.impactqa.test data sheet");
+
+        excel.setWorkbook(FrameworkConfig.getStringConfigProperty("TestDataFileLocation"),
+                "MobileSessionDetails");
+
+        Map<String, String> sessionDetails = excel.getRowDataMatchingDataId(testDataMap.get("MobileSessionID1"));
+
+        if ("ios".equals(sessionDetails.get("platformName").toLowerCase()))
+            platform = PageObjectRepoHelper.PLATFORM.IOS;
+        else*/
         platform = PageObjectRepoHelper.PLATFORM.ANDROID;
 //        driver = DriverProvider.createNewMobileSession(platform, sessionDetails);
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
@@ -67,9 +67,10 @@ public class BaseTestMobile {
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Galaxy A71");
         desiredCapabilities.setCapability(MobileCapabilityType.UDID, "RZ8N21G4DTP");
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-        desiredCapabilities.setCapability("appium:appPackage", "com.starbucks.in.beta");
-        desiredCapabilities.setCapability("appium:appActivity", "com.tsb.app.home.presentation.view.activity.HomeActivity");
-//        desiredCapabilities.setCapability(MobileCapabilityType.APP, "/path/to/ios/app.zip");
+//        desiredCapabilities.setCapability("appium:appPackage", "com.starbucks.in.beta");
+//        desiredCapabilities.setCapability("appium:appActivity", "com.tsb.app.home.presentation.view.activity.HomeActivity");
+        desiredCapabilities.setCapability("appium:appPackage", "com.vitamojo.pos.demo");
+        desiredCapabilities.setCapability("appium:appActivity", "vmos.vitamojo.app.MainActivity");
         desiredCapabilities.setCapability("appium:chromeOptions", ImmutableMap.of("w3c", false));
 
         URL url = new URL("http://127.0.0.1:4723/wd/hub");

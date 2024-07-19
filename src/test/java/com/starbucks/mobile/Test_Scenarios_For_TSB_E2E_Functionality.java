@@ -1,6 +1,7 @@
 package com.starbucks.mobile;
 
 import com.pricer.base.BaseTestMobile;
+import com.pricer.listeners.TestAllureListener;
 import com.pricer.page.mobile.starbucks.*;
 import com.pricer.utilities.ExcelUtil;
 import com.pricer.utilities.FrameworkConfig;
@@ -8,11 +9,13 @@ import io.qameta.allure.*;
 import io.qameta.allure.model.Status;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 @Epic("Test Android or iOS")
 @Feature("Test Android Execution")
+@Listeners(TestAllureListener.class)
 public class Test_Scenarios_For_TSB_E2E_Functionality extends BaseTestMobile {
 
     @BeforeClass
