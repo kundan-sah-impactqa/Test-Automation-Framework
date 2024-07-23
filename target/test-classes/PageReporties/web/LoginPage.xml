@@ -1,23 +1,19 @@
 <objects>
 
 	<object name="txtEmail">
-		<web locatorType="xpath" locatorValue="//input[@id='username']" />
+		<web locatorType="xpath" locatorValue="//input[@id='username_input']" />
 	</object>
 
 	<object name="txtPassword">
-		<web locatorType="xpath" locatorValue="//input[@name='password']" />
+		<web locatorType="xpath" locatorValue="//input[@type='password']" />
 	</object>
 
-	<object name="btnNext">
-		<web locatorType="xpath" locatorValue="//button[@type='submit']" />
+	<object name="btnLogin">
+		<web locatorType="xpath" locatorValue="//button[text()='Login']" />
 	</object>
 
-	<object name="btnEnterYourPlaza">
-		<web locatorType="xpath" locatorValue="//button[text()='Enter your Plaza']" />
-	</object>
-
-	<object name="icnEyePasswordField">
-		<web locatorType="xpath" locatorValue="//button[@data-action='toggle']" />
+	<object name="btnLogOut">
+		<web locatorType="xpath" locatorValue="//button[text()='Log out']" />
 	</object>
 
 </objects>

@@ -45,7 +45,6 @@ public class LoginPage extends BasePage {
         // Copy the text to the clipboard
         StringSelection stringSelection = new StringSelection(text);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
-
         // Simulate pressing Ctrl+V to paste the text
         robot.keyPress(KeyEvent.VK_CONTROL);
         robot.keyPress(KeyEvent.VK_V);
@@ -56,52 +55,23 @@ public class LoginPage extends BasePage {
 
     @Step("Enter email address {0}")
     public void enterEmail(String email) {
-        seleniumUtils.isElementDisplayed("txtEmail", 90);
-        seleniumUtils.sleep(3000);
+        seleniumUtils.isElementDisplayed("txtEmail", 30);
         seleniumUtils.enterText("txtEmail", email);
     }
 
     @Step("Enter password {0}")
     public void enterPassword(String password) {
-        seleniumUtils.isElementDisplayed("txtPassword", 90);
+        seleniumUtils.isElementDisplayed("txtPassword", 30);
         seleniumUtils.enterText("txtPassword", password);
     }
 
-    @Step("Is Pricer Application Opens On Browser")
-    public boolean isPricerApplicationOpensOnBrowser() {
-        try {
-            return seleniumUtils.isElementDisplayed("txtEmail", implicitWaitSec);
-        } catch (Exception ex) {
-            return false;
+    @Step("Click on Login Button")
+    public void clickOnLoginButton() {
+        seleniumUtils.click("btnLogin");
+        if (seleniumUtils.isElementDisplayed("btnLogOut", 10)) {
+            seleniumUtils.click("btnLogOut");
         }
+        seleniumUtils.sleep(4000);
     }
 
-    @Step("Click on Next Button")
-    public void clickOnNextButton() {
-        seleniumUtils.click("btnNext");
-    }
-
-    @Step("Click on Enter Your Plaza Button")
-    public void clickOnEnterYourPlaza() {
-        seleniumUtils.waitForElementToBeClickable("btnEnterYourPlaza");
-        seleniumUtils.click("btnEnterYourPlaza");
-        seleniumUtils.sleep(3000);
-    }
-
-    @Step("Click on password field eye icon")
-    public void clickOnPasswordFieldEyeIcon() {
-        seleniumUtils.waitForElementToBeClickable("icnEyePasswordField");
-        seleniumUtils.click("icnEyePasswordField");
-    }
-
-    @Step("Is password field eye icon working")
-    public boolean isPasswordFieldEyeIconWorking(String type) {
-        try {
-            seleniumUtils.sleep(1000);
-            WebElement element = seleniumUtils.getDriver().findElement(By.xpath("//input[@id='password' and @type='" + type + "']"));
-            return element.isDisplayed();
-        } catch (Exception ex) {
-            return false;
-        }
-    }
 }

@@ -5,28 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/ProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/ProfilePage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/02818071-fa2b-4abd-acd9-c33dd5f9e138-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/04993ec2-2769-4456-8c78-f8656595594e-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0f7f64f3-f69a-448a-ae2b-3b7a68c8e414-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/38b7907e-0132-4fb0-8482-6b78d5b937f4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/426c76ed-ef4b-4a47-8662-8b6caf1f62c9-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/452ec70c-82e3-43b5-a7c9-76adcbf72644-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/471ffbc9-dd60-4475-88e6-453d2278d353-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5b0e68de-a067-4f52-953a-736ca850d67a-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5cdd7f2f-5c5a-4865-b946-4e19836bd380-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5daa6e82-e31e-4dfe-a84f-982e4011efdf-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6794c4af-3f27-4f86-9271-4a5bc1adaf95-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6d65260a-1f67-4d7b-97df-8707064a3f86-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/700b7690-14c7-46f0-90fd-dd317d882d00-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/89110bd3-0715-48eb-a97f-a2a70e444476-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/92f1fe9f-0351-4efc-b30c-ba1fb91b6f7e-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/abdc76e0-8eb0-409b-9f74-32a1b80fe7ef-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b636017a-8771-43dc-923d-a43fe1e2e584-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c334af87-140a-4d4f-8588-9acc6ac1b709-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e164a99b-ad75-4642-9cbe-7ba9126524f1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ebaf70a3-f99f-423e-94df-0818ffc39a27-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f421a94d-4501-4ba0-aaed-ac84e006ff6d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/019a20e9-9467-4a8c-bb39-f7fce2cb6b47-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/073d0562-7766-41d2-9267-ef40aa151522-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1664c09e-4086-44bd-92c2-c9524a7e1621-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/16d06753-254b-4e56-87ef-fb6fd3123eac-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3212ce16-a506-4866-9849-24f5e2b24f69-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/33204da2-9a80-443a-a455-4219928047ce-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3cceff6a-875e-434d-ad04-f310b0acb671-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3e2ee9ce-dde7-4a5a-bb5a-a0a5fefbb2b7-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/41ff012a-32db-42ba-9dbc-394e1f8bf551-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6924d1ab-759e-478b-8442-7f5bb0342c26-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/982e1276-4913-4054-995c-df5850e91943-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/98cfeef7-9e93-4e9e-973e-16d0058770fe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/adfee6aa-2d4c-46c4-9062-9f9faff2b4e9-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ba9bb8f6-5fda-42c8-900d-218de37214f2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c2955183-8722-465d-8754-99e8a7fbebb4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cdb7916c-9423-468a-9c9a-12a51b314dc9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d4e9744f-50f6-4d43-b5c5-9645b28ec7af-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/df97bac3-ea13-4e33-98cc-c731a83b850f-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e4d3036c-d0fa-4813-8173-87db0009079d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e507586a-5edb-4011-841d-bc9741ec33d3-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f3634b50-eded-4266-b1a9-80ab489f31d3-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestMobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/StorePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/TenantPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_Login_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_Login_Functionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/HomePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/DashboardPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/LoginPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/LoginPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/page/web/starbucks/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/page/web/starbucks/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/starbucks/page/web/starbucks/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/page/web/starbucks/StorePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/page/web/starbucks/TenantPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageReporties/web/HomePage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageReporties/web/LoginPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageReporties/web/LoginPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/starbucks/web/Test_Scenarios_For_Starbucks_Login_Functionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/starbucks/web/Test_Scenarios_For_Starbucks_Login_Functionality.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_web_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_web_starbucks.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +106,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TODO_SCOPE": "All Places",
-    "com.google.cloudcode.ide_session_index": "20240723_0000",
-    "last_opened_file_path": "D:/Local-Git/TestDemoFramework/src/test/java/com/starbucks/mobile",
+    "com.google.cloudcode.ide_session_index": "20240723_0001",
+    "last_opened_file_path": "D:/Local-Git/TestDemoFramework/src/test/resources/PageReporties/web",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -92,11 +117,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Local-Git\TestDemoFramework\src\test\resources\PageReporties\web" />
       <recent name="D:\Local-Git\TestDemoFramework\src\test\java\com\starbucks\mobile" />
       <recent name="D:\Local-Git\TestDemoFramework\src\test\resources\PageReporties\mobile" />
       <recent name="D:\Local-Git\TestDemoFramework\src\main\java\com\pricer\page\mobile" />
       <recent name="D:\Local-Git\TestDemoFramework\.idea" />
-      <recent name="D:\Local-Git\TestDemoFramework\src\main\java\com\pricer\page" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Local-Git\TestDemoFramework\src\test\resources" />
@@ -105,14 +130,14 @@
       <recent name="$PROJECT_DIR$/src/test/resources/TestData" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.starbucks.page.web.starbucks" />
       <recent name="com.pricer.mobile" />
       <recent name="com.pricer.page.mobile.starbucks" />
       <recent name="com.pricer.page.mobile.pricer" />
       <recent name="com.pricer.page.web" />
-      <recent name="com.impactqa.page.web" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile_starbucks.xml">
+  <component name="RunManager" selected="Batch.GenerateAllureReport">
     <configuration name="GenerateAllureReport" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="FrameworkAutomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,9 +224,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile_starbucks.xml" />
-        <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_starbucks.xml" />
         <item itemvalue="Batch.GenerateAllureReport" />
+        <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_starbucks.xml" />
+        <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile_starbucks.xml" />
         <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_pricer.xml" />
         <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile_vitamojo.xml" />
       </list>

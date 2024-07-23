@@ -17,11 +17,9 @@
 
             <class name="com.starbucks.web.Test_Scenarios_For_Starbucks_Login_Functionality">
                 <methods>
-                    <include name="verify_PricerApplicationOpensOnBrowserSuccessfully"/>
-<!--                    <include name="verify_PasswordFieldEyeIconFunctionality"/>-->
-<!--                    <include name="verify_LoginSuccessWithCorrectCredentials"/>-->
-<!--                    <include name="verify_TenantPageTitle"/>-->
-<!--                    <include name="verify_LoginFailsWithInvalidPassword"/>-->
+                    <include name="verify_StarbucksApplicationOpensOnBrowserSuccessfully"/>
+                    <include name="verify_UserSuccessfullyAbleToLandOnProfilePage"/>
+                    <include name="verify_UserSuccessfullyAbleToLoginWithValidCredentials"/>
                 </methods>
             </class>
 
