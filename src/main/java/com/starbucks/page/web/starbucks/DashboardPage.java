@@ -40,7 +40,7 @@ public class DashboardPage extends BasePage {
     }
 
     @Step("Is Login Success With Valid Credentials")
-    public boolean isLoginSuccessWithValidCredentials (String partialUrl) {
+    public boolean isLoginSuccessWithValidCredentials(String partialUrl) {
         try {
             return seleniumUtils.getDriver().getCurrentUrl().contains(partialUrl);
         } catch (Exception ex) {
@@ -48,11 +48,30 @@ public class DashboardPage extends BasePage {
         }
     }
 
+    @Step("Clear existing cart")
+    public void clearExistingCart() {
+        if (seleniumUtils.isElementDisplayed("icnCloseRatingBox", 5)) {
+            seleniumUtils.click("icnCloseRatingBox");
+        }
+        if (seleniumUtils.isElementDisplayed("btnViewCart", 5)) {
+            seleniumUtils.click("btnViewCart");
+        }
+        if (seleniumUtils.isElementDisplayed("btnConfirm", 5)) {
+            seleniumUtils.click("btnConfirm");
+        }
+        if (seleniumUtils.isElementDisplayed("btnMinusQuantity", 5)) {
+            seleniumUtils.click("btnMinusQuantity");
+            seleniumUtils.click("btnYesDelete");
+        }
+        seleniumUtils.click("lnkHome");
+        seleniumUtils.sleep(2000);
+    }
+
     @Step("Navigate to Store Page")
     public void clickOnStorePage() {
         seleniumUtils.isElementDisplayed("lnkStore", implicitWaitSec);
         seleniumUtils.click("lnkStore");
-        seleniumUtils.sleep(3000);
+        seleniumUtils.sleep(5000);
     }
 
 }

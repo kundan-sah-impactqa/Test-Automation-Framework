@@ -28,4 +28,24 @@
 		<web locatorType="xpath" locatorValue="//a[text()='Store']" />
 	</object>
 
+	<object name="icnCloseRatingBox">
+		<web locatorType="xpath" locatorValue="//img[@alt='close-icon']" />
+	</object>
+
+	<object name="btnViewCart">
+		<web locatorType="xpath" locatorValue="//button[text()='View Cart ']" />
+	</object>
+
+	<object name="btnMinusQuantity">
+		<web locatorType="xpath" locatorValue="//span[normalize-space()='-']" />
+	</object>
+
+	<object name="btnYesDelete">
+		<web locatorType="xpath" locatorValue="//button[normalize-space()='Yes']" />
+	</object>
+
+	<object name="btnConfirm">
+		<web locatorType="xpath" locatorValue="//button[normalize-space()='Confirm']" />
+	</object>
+
 </objects>

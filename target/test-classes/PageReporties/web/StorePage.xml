@@ -28,4 +28,20 @@
 		<web locatorType="xpath" locatorValue="//a[text()='Store']" />
 	</object>
 
+	<object name="lblStoreCard">
+		<web locatorType="xpath" locatorValue="//h3[normalize-space()='Netaji Subhash Place']" />
+	</object>
+
+	<object name="txtSearchStore">
+		<web locatorType="xpath" locatorValue="//input[@id='searchbox']" />
+	</object>
+
+	<object name="btnOrderNow">
+		<web locatorType="xpath" locatorValue="//button[normalize-space()='Order Now']" />
+	</object>
+
+	<object name="lnkBestSeller">
+		<web locatorType="xpath" locatorValue="//button[normalize-space()='Bestseller']" />
+	</object>
+
 </objects>

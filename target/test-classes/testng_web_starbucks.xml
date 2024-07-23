@@ -21,6 +21,8 @@
                     <include name="verify_UserSuccessfullyAbleToLandOnProfilePage"/>
                     <include name="verify_UserSuccessfullyAbleToLoginWithValidCredentials"/>
                     <include name="verify_UserSuccessfullyAbleToLandOnStorePage"/>
+                    <include name="verify_UserAbleToSelectDesiredStoreAndNavigateToStoreDetailsPage"/>
+                    <include name="verify_UserSuccessfullyAbleToNavigateToOrderingPage"/>
                 </methods>
             </class>
 

@@ -104,6 +104,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
     @Description("Verify that user is successfully able to land on Store Page")
     public void verify_UserSuccessfullyAbleToLandOnStorePage() {
         DashboardPage dashboardPage = new DashboardPage(driver);
+        dashboardPage.clearExistingCart();
         dashboardPage.clickOnStorePage();
         StorePage storePage = new StorePage(driver);
         String title = "Store | Tata Starbucks";
@@ -111,6 +112,35 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
             Allure.step("User is successfully able to land on Store Page", Status.PASSED);
         } else {
             Allure.step("User is not able to land on Store Page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC005_Verify that user is successfully able to select desired store navigate to Store Details Page")
+    @Story("verify store page functionality")
+    @Description("Verify that user is successfully able to select desired store navigate to Store Details Page")
+    public void verify_UserAbleToSelectDesiredStoreAndNavigateToStoreDetailsPage() {
+        StorePage storePage = new StorePage(driver);
+        storePage.enterAndSearchStore("Netaji Subhash Place, Shakurpur, Delhi, India");
+        storePage.selectStore("Netaji Subhash Place");
+        if (storePage.isStoreDetailsPageDisplayed()) {
+            Allure.step("User is successfully able to select desired store navigate to Store Details Page", Status.PASSED);
+        } else {
+            Allure.step("User is not able to select desired store navigate to Store Details Page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC006_Verify that user is successfully able to navigate to Ordering Page")
+    @Story("verify store page functionality")
+    @Description("Verify that user is successfully able to navigate to Ordering Page")
+    public void verify_UserSuccessfullyAbleToNavigateToOrderingPage() {
+        StorePage storePage = new StorePage(driver);
+        storePage.clickOnOrderNowButton();
+        if (storePage.isOrderingPageDisplayed()) {
+            Allure.step("User is successfully able to navigate to Ordering Page", Status.PASSED);
+        } else {
+            Allure.step("User is not able to navigate to Ordering Page", Status.FAILED);
             Assert.fail("Fail");
         }
     }

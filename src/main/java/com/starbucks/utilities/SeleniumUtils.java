@@ -974,7 +974,11 @@ public class SeleniumUtils {
     public void pressEnterKey(String locatorName) {
         WebElement element = waitForElementToDisplay(locatorName);
         element.sendKeys(Keys.ENTER);
+    }
 
+    public void pressTabKey(String locatorName) {
+        WebElement element = waitForElementToDisplay(locatorName);
+        element.sendKeys(Keys.TAB);
     }
 }
 

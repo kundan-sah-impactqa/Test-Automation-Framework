@@ -50,7 +50,7 @@ public class LoginPage extends BasePage {
         robot.keyPress(KeyEvent.VK_V);
         robot.keyRelease(KeyEvent.VK_V);
         robot.keyRelease(KeyEvent.VK_CONTROL);
-        robot.delay(2000);
+        robot.delay(500);
     }
 
     @Step("Enter email address {0}")
