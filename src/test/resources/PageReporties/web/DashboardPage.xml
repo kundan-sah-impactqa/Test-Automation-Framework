@@ -8,4 +8,24 @@
 		<web locatorType="xpath" locatorValue="//img[@alt='profile icon']" />
 	</object>
 
+	<object name="lnkHome">
+		<web locatorType="xpath" locatorValue="//a[text()='Home']" />
+	</object>
+
+	<object name="lnkGift">
+		<web locatorType="xpath" locatorValue="//a[text()='Gift']" />
+	</object>
+
+	<object name="lnkOrder">
+		<web locatorType="xpath" locatorValue="//a[text()='Order']" />
+	</object>
+
+	<object name="lnkPay">
+		<web locatorType="xpath" locatorValue="//a[text()='Pay']" />
+	</object>
+
+	<object name="lnkStore">
+		<web locatorType="xpath" locatorValue="//a[text()='Store']" />
+	</object>
+
 </objects>

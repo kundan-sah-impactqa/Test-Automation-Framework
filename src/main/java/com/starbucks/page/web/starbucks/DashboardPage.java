@@ -48,4 +48,11 @@ public class DashboardPage extends BasePage {
         }
     }
 
+    @Step("Navigate to Store Page")
+    public void clickOnStorePage() {
+        seleniumUtils.isElementDisplayed("lnkStore", implicitWaitSec);
+        seleniumUtils.click("lnkStore");
+        seleniumUtils.sleep(3000);
+    }
+
 }

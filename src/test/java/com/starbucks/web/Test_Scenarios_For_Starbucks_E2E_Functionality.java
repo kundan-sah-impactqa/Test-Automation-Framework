@@ -1,9 +1,12 @@
 package com.starbucks.web;
 
 import com.starbucks.base.BaseTestWebClassContext;
+import com.starbucks.listeners.RetryAnalyzer;
 import com.starbucks.listeners.TestAllureListener;
 import com.starbucks.page.web.starbucks.DashboardPage;
 import com.starbucks.page.web.starbucks.LoginPage;
+import com.starbucks.page.web.starbucks.ProfilePage;
+import com.starbucks.page.web.starbucks.StorePage;
 import com.starbucks.utilities.ExcelUtil;
 import com.starbucks.utilities.FrameworkConfig;
 import io.qameta.allure.*;
@@ -42,45 +45,73 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         if (testDataMap.size() < 1)
             Assert.fail("dataID '" + dataID + "' is valid the excel sheet. please check the test data sheet");
     }
+    @Test(priority = 1, description = "TC001_Verify that user is able to launch the Starbucks application on Browser", retryAnalyzer = RetryAnalyzer.class)
+    @Story("verify login functionality")
+    @Description("Verify that user is able to launch the Starbucks application on Browser")
+    public void verify_StarbucksApplicationOpensOnBrowserSuccessfully() {
+        LoginPage loginPage = new LoginPage(driver);
+        String username = "Starbucksdev";
+        String password = "tsbdev@star7";
+        loginPage.enterSecureLoginCredentials(username, password);
+        DashboardPage dashboardPage = new DashboardPage(driver);
+        if (dashboardPage.isStarbucksApplicationOpensOnBrowser()) {
+            Allure.step("User is successfully able to launch the Starbucks application on browser", Status.PASSED);
+        } else {
+            Allure.step("User is not able to launch the Starbucks application on browser", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
 
-//    @Test(priority = 1, description = "TC008_Verify that 'Pricer Labels Cards' should be available in Overview section of Status tab")
-//    @Story("Verify content of Home page")
-//    @Description("Verify that 'Pricer Labels Cards' should be available in Overview section of Status tab")
-//    public void verify_PricerLabelsCardsExists() {
-//        DashboardPage dashboardPage = new DashboardPage(driver);
-//        if (dashboardPage.isPricerLabelsCardsDisplayed()) {
-//            Allure.step("Verify 'Pricer Labels Cards' available in Overview section of Status tab", Status.PASSED);
-//        } else {
-//            Allure.step("Verify 'Pricer Labels Cards' is not available in Overview section of Status tab", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC009_Verify that Request History Table should be present in Request History section of Status tab")
-//    @Story("Verify content of Home page")
-//    @Description("Verify that Request History Table should be present in Request History section of Status tab")
-//    public void verify_RequestHistoryTableDisplayed() {
-//        DashboardPage dashboardPage = new DashboardPage(driver);
-//        dashboardPage.clickOnRequestHistoryTab();
-//        if (dashboardPage.isRequestHistoryTableDisplayed()) {
-//            Allure.step("Verify Request History Table should be present in Request History section of Status tab", Status.PASSED);
-//        } else {
-//            Allure.step("Verify Request History Table is not present in Request History section of Status tab", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC010_Verify that Reports Table should be present in Reports section of Status tab")
-//    @Story("Verify content of Home page")
-//    @Description("Verify that Reports Table should be present in Reports section of Status tab")
-//    public void verify_ReportsTableDisplayed() {
-//        DashboardPage dashboardPage = new DashboardPage(driver);
-//        dashboardPage.clickOnReportsTab();
-//        if (dashboardPage.isReportsTableDisplayed()) {
-//            Allure.step("Verify Reports Table should be present in Reports section of Status tab", Status.PASSED);
-//        } else {
-//            Allure.step("Verify Reports Table is not present in Reports section of Status tab", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
+    @Test(priority = 1, description = "TC002_Verify that user is successfully able to land on Profile Page")
+    @Story("verify profile page functionality")
+    @Description("Verify that user is successfully able to land on Profile Page")
+    public void verify_UserSuccessfullyAbleToLandOnProfilePage() {
+        DashboardPage dashboardPage = new DashboardPage(driver);
+        dashboardPage.clickOnProfileIcon();
+        ProfilePage profilePage = new ProfilePage(driver);
+        String title = "Profile | Tata Starbucks";
+        if (profilePage.getPageTitle().equalsIgnoreCase(title)) {
+            Allure.step("User is successfully able to land on Profile Page", Status.PASSED);
+        } else {
+            Allure.step("User is not able to land on Profile Page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC003_Verify that user is successfully able to do Login with valid credentials")
+    @Story("verify login functionality")
+    @Description("Verify that user is successfully able to do Login with valid credentials")
+    public void verify_UserSuccessfullyAbleToLoginWithValidCredentials() {
+        ProfilePage profilePage = new ProfilePage(driver);
+        profilePage.clickOnLoginOrSignUpButton();
+
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.enterEmail(FrameworkConfig.getStringConfigProperty("Email"));
+        loginPage.enterPassword(FrameworkConfig.getStringConfigProperty("Password"));
+        loginPage.clickOnLoginButton();
+
+        DashboardPage dashboardPage = new DashboardPage(driver);
+        if (dashboardPage.isLoginSuccessWithValidCredentials("dashboard")) {
+            Allure.step("User is successfully able to do Login with valid credentials", Status.PASSED);
+        } else {
+            Allure.step("User is not able to do Login with valid credentials", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC004_Verify that user is successfully able to land on Store Page")
+    @Story("verify store page functionality")
+    @Description("Verify that user is successfully able to land on Store Page")
+    public void verify_UserSuccessfullyAbleToLandOnStorePage() {
+        DashboardPage dashboardPage = new DashboardPage(driver);
+        dashboardPage.clickOnStorePage();
+        StorePage storePage = new StorePage(driver);
+        String title = "Store | Tata Starbucks";
+        if (storePage.getPageTitle().equalsIgnoreCase(title)) {
+            Allure.step("User is successfully able to land on Store Page", Status.PASSED);
+        } else {
+            Allure.step("User is not able to land on Store Page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
 }

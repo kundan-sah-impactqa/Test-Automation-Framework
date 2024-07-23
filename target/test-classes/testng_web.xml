@@ -5,7 +5,7 @@
         <listener class-name="com.starbucks.listeners.TestNGExecutionListener"/>
     </listeners>
 
-    <test name="Pricer_Test">
+    <test name="Starbucks_Web_Test">
         <!--
           To run on Chrome browser pass browser value as : "chrome"
           To run on Firefox browser pass browser value as : "firefox"

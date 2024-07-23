@@ -20,7 +20,6 @@ import java.time.Instant;
  */
 public class BaseTestWebClassContext {
 
-    protected static SeleniumUtils seleniumUtils = new SeleniumUtils();
     protected WebDriver driver;
     protected String browser;
     public static Instant start = null;
@@ -80,10 +79,10 @@ public class BaseTestWebClassContext {
         end = Instant.now();
         PostExecutionClass.createReportVersionWithDateTime();
         try {
-//            String batchFilePath = System.getProperty("user.dir") + "\\GenerateAllureReport.bat";
-//            // Execute the batch file
-//            ProcessBuilder processBuilder = new ProcessBuilder(batchFilePath);
-//            processBuilder.start();
+            String batchFilePath = System.getProperty("user.dir") + "\\GenerateAllureReport.bat";
+            // Execute the batch file
+            ProcessBuilder processBuilder = new ProcessBuilder(batchFilePath);
+            processBuilder.start();
             System.out.println("Allure report generated successfully.");
         } catch (Exception e) {
             e.printStackTrace();

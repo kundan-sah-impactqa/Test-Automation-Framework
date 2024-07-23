@@ -1,6 +1,31 @@
 <objects>
-	<object name="icnStoreUI">
-		<web locatorType="xpath" locatorValue="//img[@src='/_next/static/media/bx-log-in-circle.c1a78547.svg']" />
+
+	<object name="imgStarbucksLogo">
+		<web locatorType="xpath" locatorValue="//a[@title='Starbucks Logo']//img[@alt='Logo']" />
+	</object>
+
+	<object name="icnProfile">
+		<web locatorType="xpath" locatorValue="//img[@alt='profile icon']" />
+	</object>
+
+	<object name="lnkHome">
+		<web locatorType="xpath" locatorValue="//a[text()='Home']" />
+	</object>
+
+	<object name="lnkGift">
+		<web locatorType="xpath" locatorValue="//a[text()='Gift']" />
+	</object>
+
+	<object name="lnkOrder">
+		<web locatorType="xpath" locatorValue="//a[text()='Order']" />
+	</object>
+
+	<object name="lnkPay">
+		<web locatorType="xpath" locatorValue="//a[text()='Pay']" />
+	</object>
+
+	<object name="lnkStore">
+		<web locatorType="xpath" locatorValue="//a[text()='Store']" />
 	</object>
 
 </objects>
