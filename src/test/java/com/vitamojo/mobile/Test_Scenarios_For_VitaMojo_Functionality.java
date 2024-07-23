@@ -1,13 +1,13 @@
 package com.vitamojo.mobile;
 
-import com.pricer.base.BaseTestMobile;
-import com.pricer.listeners.TestAllureListener;
-import com.pricer.page.mobile.vitamojo.NewOrderPage;
-import com.pricer.page.mobile.vitamojo.LoginPage;
-import com.pricer.page.mobile.vitamojo.StockQuantityPage;
-import com.pricer.page.mobile.vitamojo.VirtualBrandsPage;
-import com.pricer.utilities.ExcelUtil;
-import com.pricer.utilities.FrameworkConfig;
+import com.vitamojo.base.BaseTestMobile;
+import com.vitamojo.listeners.TestAllureListener;
+import com.vitamojo.page.mobile.vitamojo.NewOrderPage;
+import com.vitamojo.page.mobile.vitamojo.LoginPage;
+import com.vitamojo.page.mobile.vitamojo.StockQuantityPage;
+import com.vitamojo.page.mobile.vitamojo.VirtualBrandsPage;
+import com.vitamojo.utilities.ExcelUtil;
+import com.vitamojo.utilities.FrameworkConfig;
 import io.qameta.allure.*;
 import io.qameta.allure.model.Status;
 import org.testng.Assert;

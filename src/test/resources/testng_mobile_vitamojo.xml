@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Mobile_Test_Execution_Suite" parallel="tests" thread-count="5">
     <listeners>
-        <listener class-name="com.pricer.listeners.TestNGExecutionListener"/>
-        <listener class-name="com.pricer.listeners.TestAllureListener"/>
-        <listener class-name="com.pricer.listeners.TestListener"/>
+        <listener class-name="com.vitamojo.listeners.TestNGExecutionListener"/>
+        <listener class-name="com.vitamojo.listeners.TestAllureListener"/>
+<!--        <listener class-name="com.pricer.listeners.TestListener"/>-->
     </listeners>
 
     <test name="VitaMojo_Mobile_Test">
