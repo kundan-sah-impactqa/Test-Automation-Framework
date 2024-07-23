@@ -5,86 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/486d3d29-1e3d-472b-ae54-beca2ff4e0fd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/base/BaseTestMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestMobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/base/BaseTestWebClassContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestWebClassContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/base/BaseTestWebMethodContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestWebMethodContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/exceptions/CustomRunTimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/exceptions/CustomRunTimeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/listeners/RetryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/RetryAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/listeners/TestAllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestAllureListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/listeners/TestNGExecutionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestNGExecutionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/mobile/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/starbucks/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/mobile/starbucks/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/starbucks/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/mobile/starbucks/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/starbucks/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/mobile/starbucks/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/starbucks/OrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/mobile/starbucks/OrderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/starbucks/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/mobile/starbucks/PaymentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/vitamojo/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/vitamojo/NewOrderPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/vitamojo/StockQuantityPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/vitamojo/VirtualBrandsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/web/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/web/pricer/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/web/pricer/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/web/pricer/StorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/StorePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/web/pricer/TenantPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/TenantPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/AllureEnvironmentPropertyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/AllureEnvironmentPropertyUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/AppiumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/AppiumUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/CommonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/CryptoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/CryptoUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/CustomMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/CustomMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/DriverProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/DriverProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/EmailReportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/EmailReportUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/EmailSSLUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/EmailSSLUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/EmailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/ExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/FrameworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/FrameworkConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/GMailAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/GMailAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/JiraClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/JiraClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/JiraIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/JiraIntegration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/PageObjectRepoHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/PageObjectRepoHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/PostExecutionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/PostExecutionClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/SeleniumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/SeleniumUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/StringOccurrenceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/StringOccurrenceUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/SystemUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/SystemUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/ZipUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/ZipUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pricer/mobile/Test_Scenarios_For_Pricer_Emulation_E2E_Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pricer/mobile/Test_Scenarios_For_Pricer_Emulation_Login_Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pricer/web/Gemini_Test_Scenarios_For_Login_Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pricer/web/Test_Scenarios_For_Login_Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pricer/web/Test_Scenarios_For_Pricer_E2E_Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/mobile/Test_Scenarios_For_Starbucks_E2E_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/starbucks/mobile/Test_Scenarios_For_Starbucks_E2E_Functionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/mobile/Test_Scenarios_For_TSB_E2E_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/starbucks/mobile/Test_Scenarios_For_TSB_E2E_Functionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_Login_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_Login_Functionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vitamojo/mobile/Test_Scenarios_For_VitaMojo_E2E_Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vitamojo/mobile/Test_Scenarios_For_VitaMojo_Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/vLoginPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/vNewOrderPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/vStockQuantityPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/vVirtualBrandsPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/StorePage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/TenantPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_android.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_android.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_iOS.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_iOS.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_mobileEmulation_pricer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_mobile_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_mobile_starbucks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_mobile_vitamojo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_pricer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vitamojo/mobile/Test_Scenarios_For_VitaMojo_E2E_Functionality.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vitamojo/mobile/Test_Scenarios_For_VitaMojo_Functionality.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_android.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_android.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_mobile_vitamojo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/02818071-fa2b-4abd-acd9-c33dd5f9e138-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/04993ec2-2769-4456-8c78-f8656595594e-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0f7f64f3-f69a-448a-ae2b-3b7a68c8e414-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/38b7907e-0132-4fb0-8482-6b78d5b937f4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/426c76ed-ef4b-4a47-8662-8b6caf1f62c9-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/452ec70c-82e3-43b5-a7c9-76adcbf72644-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/471ffbc9-dd60-4475-88e6-453d2278d353-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5b0e68de-a067-4f52-953a-736ca850d67a-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5cdd7f2f-5c5a-4865-b946-4e19836bd380-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5daa6e82-e31e-4dfe-a84f-982e4011efdf-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6794c4af-3f27-4f86-9271-4a5bc1adaf95-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6d65260a-1f67-4d7b-97df-8707064a3f86-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/700b7690-14c7-46f0-90fd-dd317d882d00-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/89110bd3-0715-48eb-a97f-a2a70e444476-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/92f1fe9f-0351-4efc-b30c-ba1fb91b6f7e-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/abdc76e0-8eb0-409b-9f74-32a1b80fe7ef-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b636017a-8771-43dc-923d-a43fe1e2e584-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c334af87-140a-4d4f-8588-9acc6ac1b709-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e164a99b-ad75-4642-9cbe-7ba9126524f1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ebaf70a3-f99f-423e-94df-0818ffc39a27-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f421a94d-4501-4ba0-aaed-ac84e006ff6d-container.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,22 +74,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20240722_0000&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Local-Git/TestDemoFramework/src/test/java/com/starbucks/mobile&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TODO_SCOPE": "All Places",
+    "com.google.cloudcode.ide_session_index": "20240723_0000",
+    "last_opened_file_path": "D:/Local-Git/TestDemoFramework/src/test/java/com/starbucks/mobile",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Local-Git\TestDemoFramework\src\test\java\com\starbucks\mobile" />
