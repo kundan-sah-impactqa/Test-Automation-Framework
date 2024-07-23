@@ -1,13 +1,13 @@
 package com.starbucks.web;
 
-import com.pricer.base.BaseTestWebClassContext;
-import com.pricer.listeners.TestAllureListener;
-import com.pricer.page.web.pricer.HomePage;
-import com.pricer.page.web.pricer.LoginPage;
-import com.pricer.page.web.pricer.StorePage;
-import com.pricer.page.web.pricer.TenantPage;
-import com.pricer.utilities.ExcelUtil;
-import com.pricer.utilities.FrameworkConfig;
+import com.starbucks.base.BaseTestWebClassContext;
+import com.starbucks.listeners.TestAllureListener;
+import com.starbucks.page.web.starbucks.HomePage;
+import com.starbucks.page.web.starbucks.LoginPage;
+import com.starbucks.page.web.starbucks.StorePage;
+import com.starbucks.page.web.starbucks.TenantPage;
+import com.starbucks.utilities.ExcelUtil;
+import com.starbucks.utilities.FrameworkConfig;
 import io.qameta.allure.*;
 import io.qameta.allure.model.Status;
 import org.testng.Assert;

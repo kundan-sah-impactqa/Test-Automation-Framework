@@ -1,10 +1,10 @@
 package com.starbucks.mobile;
 
-import com.pricer.base.BaseTestMobile;
-import com.pricer.listeners.TestAllureListener;
-import com.pricer.page.mobile.starbucks.*;
-import com.pricer.utilities.ExcelUtil;
-import com.pricer.utilities.FrameworkConfig;
+import com.starbucks.base.BaseTestMobile;
+import com.starbucks.listeners.TestAllureListener;
+import com.starbucks.page.mobile.starbucks.*;
+import com.starbucks.utilities.ExcelUtil;
+import com.starbucks.utilities.FrameworkConfig;
 import io.qameta.allure.*;
 import io.qameta.allure.model.Status;
 import org.testng.Assert;
