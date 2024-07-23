@@ -59,7 +59,7 @@ public class EmailReportUtils {
             Message message = new MimeMessage(session);
             message.setFrom(new InternetAddress(senderEmail));
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipientEmail));
-            message.setSubject("Allure Report");
+            message.setSubject("Test Automation Execution Report");
 
             Multipart multipart = new MimeMultipart();
 
@@ -142,8 +142,7 @@ public class EmailReportUtils {
                 .append("Failed Test Case Count: ").append(fail).append("\n")
                 .append("Skipped Test Case Count: ").append(skip).append("\n");
 
-        String htmlMessage = prepareHTMLMessage(overallTimeLapsed, totalCount/2, (Integer.parseInt(pass))/2, (Integer.parseInt(fail))/2, (Integer.parseInt(skip))/2);
-//       String htmlMessage = prepareHTMLMessage(overallTimeLapsed, totalCount, Integer.parseInt(pass), Integer.parseInt(fail), Integer.parseInt(skip));
+        String htmlMessage = prepareHTMLMessage(overallTimeLapsed, totalCount, Integer.parseInt(pass), Integer.parseInt(fail), Integer.parseInt(skip));
         return htmlMessage;
     }
 
