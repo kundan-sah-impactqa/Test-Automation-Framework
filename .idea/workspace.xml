@@ -6,50 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/486d3d29-1e3d-472b-ae54-beca2ff4e0fd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/starbucks/CartPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/starbucks/DashboardPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/starbucks/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/pricer/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/starbucks/OrderPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/starbucks/PaymentPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/vitamojo/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/vitamojo/NewOrderPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/vitamojo/StockQuantityPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/page/mobile/vitamojo/VirtualBrandsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/EmailReportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pricer/utilities/EmailReportUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/mobile/Test_Scenarios_For_Starbucks_E2E_Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/mobile/Test_Scenarios_For_TSB_E2E_Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_Login_Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vitamojo/mobile/Test_Scenarios_For_VitaMojo_E2E_Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vitamojo/mobile/Test_Scenarios_For_VitaMojo_Functionality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/CartPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/DashboardPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/OrderPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/PaymentPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/vLoginPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/vNewOrderPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/vStockQuantityPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/vVirtualBrandsPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_android.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_android.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_mobileEmulation_pricer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_mobileEmulation_pricer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_mobile_starbucks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_mobile_vitamojo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_pricer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web_pricer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pricer/page/web/pricer/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pricer/page/web/pricer/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pricer/utilities/EmailReportUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pricer/utilities/EmailReportUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vitamojo/mobile/Test_Scenarios_For_VitaMojo_E2E_Functionality.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vitamojo/mobile/Test_Scenarios_For_VitaMojo_Functionality.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_android.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_android.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_mobile_vitamojo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_web_pricer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_web_pricer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pricer/base/BaseTestMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pricer/base/BaseTestMobile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
