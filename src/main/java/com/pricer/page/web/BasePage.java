@@ -6,11 +6,14 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.Transferable;
+
 /**
  * @author Kundan Kumar Sah
  * @description All page classes should be extended by this class. It will have handle common elements to all the pages
  */
-public class BasePage {
+public abstract class BasePage {
 
     protected SeleniumUtils seleniumUtils;
     public static final int maxWaitTimeInSec = 180;
@@ -30,4 +33,5 @@ public class BasePage {
         TakesScreenshot ts = (TakesScreenshot) driver;
         return ts.getScreenshotAs(OutputType.BYTES);
     }
+
 }

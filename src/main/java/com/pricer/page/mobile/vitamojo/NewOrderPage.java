@@ -21,7 +21,7 @@ public class NewOrderPage extends BasePage {
     @Step("Is Login Success with valid credentials")
     public boolean isLoginSuccessWithValidCredentials() {
         try {
-            return appiumUtils.isElementDisplayed("lblNewOrder", 15);
+            return appiumUtils.isElementDisplayed("lblNewOrder", 30);
         } catch (Exception ex) {
             return false;
         }

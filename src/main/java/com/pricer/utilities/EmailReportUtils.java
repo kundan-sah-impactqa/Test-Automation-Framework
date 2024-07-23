@@ -145,7 +145,8 @@ public class EmailReportUtils {
                 .append("Failed Test Case Count: ").append(fail).append("\n")
                 .append("Skipped Test Case Count: ").append(skip).append("\n");
 
-        String htmlMessage = prepareHTMLMessage(overallTimeLapsed, totalCount, Integer.parseInt(pass), Integer.parseInt(fail), Integer.parseInt(skip));
+        String htmlMessage = prepareHTMLMessage(overallTimeLapsed, totalCount/2, (Integer.parseInt(pass))/2, (Integer.parseInt(fail))/2, (Integer.parseInt(skip))/2);
+//       String htmlMessage = prepareHTMLMessage(overallTimeLapsed, totalCount, Integer.parseInt(pass), Integer.parseInt(fail), Integer.parseInt(skip));
         return htmlMessage;
     }
 

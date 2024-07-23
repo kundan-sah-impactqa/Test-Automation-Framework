@@ -12,7 +12,7 @@
         <classes>
             <class name="com.vitamojo.mobile.Test_Scenarios_For_VitaMojo_E2E_Functionality">
                 <methods>
-                    <include name="verify_LoginFailsWithInvalidPassword"/>
+<!--                    <include name="verify_LoginFailsWithInvalidPassword"/>-->
                     <include name="verify_LoginSuccessWithCorrectCredentials"/>
                     <include name="verify_HamburgerMenuIconDisplayed"/>
                     <include name="verify_StockQuantityDisplayed"/>

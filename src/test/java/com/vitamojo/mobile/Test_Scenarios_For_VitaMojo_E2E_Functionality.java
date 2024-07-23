@@ -59,6 +59,9 @@ public class Test_Scenarios_For_VitaMojo_E2E_Functionality extends BaseTestMobil
     @Description("Verify that user is able Login into Vita Mojo Application using valid Credential")
     public void verify_LoginSuccessWithCorrectCredentials() {
         LoginPage loginPage = new LoginPage(driver, platform);
+        loginPage.allowApplicationPermission();
+        loginPage.enterUsername(FrameworkConfig.getStringConfigProperty("VitaMojo_Email"));
+
         loginPage.enterPassword(FrameworkConfig.getStringConfigProperty("VitaMojo_Password"));
         loginPage.clickOnSignInButton();
         NewOrderPage newOrderPage = new NewOrderPage(driver, platform);

@@ -52,6 +52,9 @@ public class Test_Scenarios_For_Starbucks_Login_Functionality extends BaseTestWe
     @Description("Verify that user is able to launch the Pricer application on Browser")
     public void verify_PricerApplicationOpensOnBrowserSuccessfully() {
         LoginPage loginPage = new LoginPage(driver);
+        String username = "Starbucksdev";
+        String password = "tsbdev@star7";
+        loginPage.enterSecureLoginCredentials(username, password);
         if (loginPage.isPricerApplicationOpensOnBrowser()) {
             Allure.step("User is successfully able to launch the Pricer application on browser", Status.PASSED);
         } else {
