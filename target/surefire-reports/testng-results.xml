@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-24T06:41:56Z" name="Web_Test_Execution_Suite" finished-at="2024-07-24T06:42:23Z" duration-ms="27691">
+    <groups>
+    </groups>
+    <test started-at="2024-07-24T06:41:56Z" name="Starbucks_Web_Test" finished-at="2024-07-24T06:42:23Z" duration-ms="27691">
+      <class name="com.starbucks.web.Test_Scenarios_For_Starbucks_E2E_Functionality">
+        <test-method is-config="true" signature="clearOldAllureReport()[pri:0, instance:com.starbucks.web.Test_Scenarios_For_Starbucks_E2E_Functionality@2692b61e]" started-at="2024-07-24T12:11:56Z" name="clearOldAllureReport" finished-at="2024-07-24T12:11:56Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearOldAllureReport -->
+        <test-method is-config="true" signature="setupDriverInstance(java.lang.String)[pri:0, instance:com.starbucks.web.Test_Scenarios_For_Starbucks_E2E_Functionality@2692b61e]" started-at="2024-07-24T12:11:56Z" name="setupDriverInstance" description="Open new browser session" finished-at="2024-07-24T12:12:03Z" duration-ms="7671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriverInstance -->
+        <test-method is-config="true" signature="getTestData(java.lang.String)[pri:0, instance:com.starbucks.web.Test_Scenarios_For_Starbucks_E2E_Functionality@2692b61e]" started-at="2024-07-24T12:12:03Z" name="getTestData" finished-at="2024-07-24T12:12:05Z" duration-ms="1703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Starbucks_Web_Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestData -->
+        <test-method is-config="true" signature="generateAllureReport()[pri:0, instance:com.starbucks.web.Test_Scenarios_For_Starbucks_E2E_Functionality@2692b61e]" started-at="2024-07-24T12:12:23Z" name="generateAllureReport" finished-at="2024-07-24T12:12:25Z" duration-ms="2128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateAllureReport -->
+      </class> <!-- com.starbucks.web.Test_Scenarios_For_Starbucks_E2E_Functionality -->
+    </test> <!-- Starbucks_Web_Test -->
+  </suite> <!-- Web_Test_Execution_Suite -->
+</testng-results>

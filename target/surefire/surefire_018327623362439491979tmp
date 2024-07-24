@@ -1,0 +1,6 @@
+#surefire_0
+#Wed Jul 24 12:11:49 IST 2024
+basedir=D\:\\Local-Git\\TestDemoFramework
+user.dir=D\:\\Local-Git\\TestDemoFramework
+suiteXmlFile=src/test/resources/testng_web_starbucks.xml
+localRepository=C\:\\Users\\Kundan\\.m2\\repository

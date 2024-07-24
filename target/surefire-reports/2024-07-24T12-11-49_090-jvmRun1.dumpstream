@@ -1,0 +1,227 @@
+# Created on 2024-07-24T12:12:10.629
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created on 2024-07-24T12:12:23.734
+Unexpected IOException with stream: I am in onTestFailure method verify_StarbucksApplicationOpensOnBrowserSuccessfully failed
+
+
+# Created on 2024-07-24T12:12:23.750
+Unexpected IOException with stream: Screenshot captured for test case:verify_StarbucksApplicationOpensOnBrowserSuccessfully
+
+
+# Created on 2024-07-24T12:12:23.760
+Unexpected IOException with stream: I am in onTestFailure method verify_StarbucksApplicationOpensOnBrowserSuccessfully failed
+
+
+# Created on 2024-07-24T12:12:23.765
+Unexpected IOException with stream: Screenshot captured for test case:verify_StarbucksApplicationOpensOnBrowserSuccessfully
+
+
+# Created on 2024-07-24T12:12:23.777
+Unexpected IOException with stream: Exception in thread "pool-1-thread-1" 
+
+# Created on 2024-07-24T12:12:23.789
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IQAL95-KUNDAN', ip: '192.168.1.34', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Kundan\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:23793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fae521975616df69146ac73d51b473e
+
+# Created on 2024-07-24T12:12:23.801
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:23.807
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created on 2024-07-24T12:12:23.817
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:23.824
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+
+# Created on 2024-07-24T12:12:23.833
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:23.837
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created on 2024-07-24T12:12:23.850
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:23.867
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+
+# Created on 2024-07-24T12:12:23.905
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:23.919
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+
+# Created on 2024-07-24T12:12:23.929
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:23.935
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created on 2024-07-24T12:12:23.939
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:23.946
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created on 2024-07-24T12:12:23.952
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:23.957
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created on 2024-07-24T12:12:23.963
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:23.968
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created on 2024-07-24T12:12:23.973
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:23.980
+Unexpected IOException with stream: Report has been Archived to the directory : D:\Local-Git\TestDemoFramework\ArchivedReports\Report_2024-07-24_12-12-23
+
+
+# Created on 2024-07-24T12:12:23.986
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created on 2024-07-24T12:12:23.993
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:23.998
+Unexpected IOException with stream: Allure report generated successfully.
+
+
+# Created on 2024-07-24T12:12:24.001
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created on 2024-07-24T12:12:24.005
+Unexpected IOException with stream: Old allure-results.zip deleted successfully.
+
+
+# Created on 2024-07-24T12:12:24.010
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:24.016
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+
+# Created on 2024-07-24T12:12:24.022
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:24.028
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+
+# Created on 2024-07-24T12:12:24.033
+Unexpected IOException with stream: allure-results folder zipped successfully!
+
+
+# Created on 2024-07-24T12:12:24.036
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:24.045
+Unexpected IOException with stream: 	at com.starbucks.listeners.TestAllureListener.saveScreenshotPNG(TestAllureListener.java:30)
+
+# Created on 2024-07-24T12:12:24.053
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:24.057
+Unexpected IOException with stream: 	at com.starbucks.listeners.TestAllureListener.onTestFailure(TestAllureListener.java:116)
+
+# Created on 2024-07-24T12:12:24.064
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:24.069
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1895)
+
+# Created on 2024-07-24T12:12:24.074
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:24.079
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1879)
+
+# Created on 2024-07-24T12:12:24.083
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:24.087
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1292)
+
+# Created on 2024-07-24T12:12:24.090
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:24.093
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+
+# Created on 2024-07-24T12:12:24.097
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:24.101
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+
+# Created on 2024-07-24T12:12:24.104
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:24.115
+Unexpected IOException with stream: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+
+# Created on 2024-07-24T12:12:24.122
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:24.127
+Unexpected IOException with stream: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+
+# Created on 2024-07-24T12:12:24.134
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:24.138
+Unexpected IOException with stream: 	at java.base/java.lang.Thread.run(Thread.java:833)
+
+# Created on 2024-07-24T12:12:24.144
+Unexpected IOException with stream: 
+
+
+# Created on 2024-07-24T12:12:25.984
+Unexpected IOException with stream: Email sent successfully with Allure report attachment.
+
+
+# Created on 2024-07-24T12:12:26.305
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
