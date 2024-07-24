@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2b2e2d4c-eb53-440a-ab15-cddd9356a691-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/70376983-fecd-48d2-a465-d69ff0895a22-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9980737b-2636-4e39-8ad9-e170c16dd141-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a6756c6c-17a8-477c-903d-c8c776d7bb8f-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +99,7 @@
       <recent name="com.pricer.page.web" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_starbucks.xml">
+  <component name="RunManager" selected="Batch.GenerateAllureReport">
     <configuration name="CryptoUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.starbucks.utilities.CryptoUtils" />
       <module name="FrameworkAutomation" />
@@ -182,9 +189,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Batch.GenerateAllureReport" />
         <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_starbucks.xml" />
         <item itemvalue="Application.CryptoUtils" />
-        <item itemvalue="Batch.GenerateAllureReport" />
         <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile_starbucks.xml" />
         <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_pricer.xml" />
       </list>
