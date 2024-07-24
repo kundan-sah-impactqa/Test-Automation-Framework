@@ -6,35 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/09b2b843-91ce-4a66-b5a3-5ffde2856f72-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0b309bf6-33ab-43bc-8b35-16b45e447976-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/177093d3-764c-4d06-9006-484467f491f8-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/17a298b3-cfe7-4ffb-b39e-467c6a14613e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1834fbd5-bb05-46b9-91d1-30b19b1734ce-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/234a97e7-9625-483d-b2cc-7e3496c80b1a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3b767939-5e67-4686-9ef6-39e47aa137cf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/407021d4-0f81-4490-8359-46089021370f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6a06f9b6-f3f7-4336-afaa-adc848db6e74-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/72475f09-60e7-437c-8cd3-b93be532a01f-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7eedbf1a-85fc-4a3e-a5d3-f50fc955ff89-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/91bfd70a-e46f-4970-99d6-f9c7a8e15d78-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/995b5508-de40-4e0c-a9bf-ce2fddbcc2cf-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c6d655f9-267f-4852-9f84-9e67ef2e3bfc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e16081a3-b64b-4686-acf9-10c91a631940-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e95515dc-5905-45b7-a186-8ecc18c6bbdc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f277fd67-a467-42dd-9186-bb9c510ba45f-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fdb2d2ad-4970-436a-a72d-41c9c7485cf8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ffaff093-e1b8-4e5c-acc2-37526eabb234-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/StorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/StorePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/SeleniumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/SeleniumUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/DashboardPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/DashboardPage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/StorePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/StorePage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestWebClassContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestWebClassContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TODO_SCOPE": "All Places",
-    "com.google.cloudcode.ide_session_index": "20240723_0003",
+    "com.google.cloudcode.ide_session_index": "20240724_0000",
     "last_opened_file_path": "D:/Local-Git/TestDemoFramework/src/test/resources/PageReporties/web",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
