@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestWebClassContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestWebClassContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/DashboardPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

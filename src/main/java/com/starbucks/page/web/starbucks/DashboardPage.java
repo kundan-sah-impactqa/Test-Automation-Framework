@@ -53,18 +53,17 @@ public class DashboardPage extends BasePage {
         if (seleniumUtils.isElementDisplayed("icnCloseRatingBox", 5)) {
             seleniumUtils.click("icnCloseRatingBox");
         }
-        if (seleniumUtils.isElementDisplayed("btnViewCart", 5)) {
+        if (seleniumUtils.isElementDisplayed("btnViewCart", 3)) {
             seleniumUtils.click("btnViewCart");
         }
-        if (seleniumUtils.isElementDisplayed("btnConfirm", 5)) {
+        if (seleniumUtils.isElementDisplayed("btnConfirm", 3)) {
             seleniumUtils.click("btnConfirm");
         }
-        if (seleniumUtils.isElementDisplayed("btnMinusQuantity", 5)) {
+        if (seleniumUtils.isElementDisplayed("btnMinusQuantity", 3)) {
             seleniumUtils.click("btnMinusQuantity");
             seleniumUtils.click("btnYesDelete");
         }
         seleniumUtils.click("lnkHome");
-        seleniumUtils.sleep(2000);
     }
 
     @Step("Navigate to Store Page")
