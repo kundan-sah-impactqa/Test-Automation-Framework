@@ -20,6 +20,8 @@ public class NewOrderPage extends BasePage {
 
     @Step("Is Login Success with valid credentials")
     public boolean isLoginSuccessWithValidCredentials() {
+//            appiumUtils.sleepForMiliseconds(9000);
+//            appiumUtils.clickAtCoordinates(145, 1288, "New order");
         try {
             return appiumUtils.isElementDisplayed("lblNewOrder", 30);
         } catch (Exception ex) {
@@ -27,7 +29,7 @@ public class NewOrderPage extends BasePage {
         }
     }
 
-    public void wait (int time) throws InterruptedException {
+    public void wait(int time) throws InterruptedException {
         Thread.sleep(time);
     }
 
