@@ -78,4 +78,15 @@ public class DashboardPage extends BasePage {
         seleniumUtils.sleep(time);
     }
 
+    @Step("Is total stars, rewards, and another reward level status displayed")
+    public boolean isTotalStarsRewardsAndRewardLevelDisplayed() {
+        try {
+            return seleniumUtils.isElementDisplayed("lblTotalStars", 20)
+                    && seleniumUtils.isElementDisplayed("lblRewards", 20)
+                    && seleniumUtils.isElementDisplayed("lblRewardLevel", 20);
+        } catch (Exception ex) {
+            return false;
+        }
+    }
+
 }

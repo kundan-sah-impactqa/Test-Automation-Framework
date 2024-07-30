@@ -48,4 +48,16 @@
 		<web locatorType="xpath" locatorValue="//button[normalize-space()='Confirm']" />
 	</object>
 
+	<object name="lblTotalStars">
+		<web locatorType="xpath" locatorValue="//span[@class='star-grid-text']/parent::div" />
+	</object>
+
+	<object name="lblRewards">
+		<web locatorType="xpath" locatorValue="//span[@class='reward-grid-text ng-star-inserted']/parent::div" />
+	</object>
+
+	<object name="lblRewardLevel">
+		<web locatorType="xpath" locatorValue="//span[@class='bold ng-star-inserted']" />
+	</object>
+
 </objects>

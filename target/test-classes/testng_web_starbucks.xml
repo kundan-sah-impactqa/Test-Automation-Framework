@@ -20,6 +20,7 @@
                     <include name="verify_StarbucksApplicationOpensOnBrowserSuccessfully"/>
                     <include name="verify_UserSuccessfullyAbleToLandOnProfilePage"/>
                     <include name="verify_UserSuccessfullyAbleToLoginWithValidCredentials"/>
+                    <include name="verify_DashboardPageFunctionality"/>
                     <include name="verify_UserSuccessfullyAbleToLandOnStorePage"/>
                     <include name="verify_UserAbleToSelectDesiredStoreAndNavigateToStoreDetailsPage"/>
                     <include name="verify_UserSuccessfullyAbleToNavigateToOrderingPage"/>
