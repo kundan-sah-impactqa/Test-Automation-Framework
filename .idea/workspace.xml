@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases" />
+    <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/OrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/CartPage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/OrderPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/14aaed0f-cb58-4857-acf3-5fb2c2753ebe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1ae1125d-deb0-40c1-b5ee-d4b52bcee20f-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/289869b3-3e64-4b3c-872d-5b73d079129a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3dbbcb7a-79a9-4615-8fdd-cb4919dc7cc4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4f289dbb-f3f3-446c-9ec4-90f17577996a-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9339f636-aee0-4755-8b2b-fbe22851e909-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9b772a03-8fe8-4a08-887f-3061294aa37f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestWebClassContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestWebClassContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/StorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/StorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/ProfilePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/ProfilePage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/StorePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/StorePage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/base/BaseTestWebClassContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/starbucks/base/BaseTestWebClassContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/page/web/starbucks/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/starbucks/page/web/starbucks/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/page/web/starbucks/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/starbucks/page/web/starbucks/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/page/web/starbucks/ProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/starbucks/page/web/starbucks/ProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/page/web/starbucks/StorePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/starbucks/page/web/starbucks/StorePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageReporties/web/ProfilePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageReporties/web/ProfilePage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageReporties/web/StorePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageReporties/web/StorePage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_web_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_web_starbucks.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,22 +84,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20240724_0001&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Local-Git/TestDemoFramework/src/test/resources/PageReporties/web&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TODO_SCOPE": "All Places",
+    "com.google.cloudcode.ide_session_index": "20240730_0004",
+    "last_opened_file_path": "D:/Local-Git/TestDemoFramework/src/test/resources/PageReporties/web",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Local-Git\TestDemoFramework\src\test\resources\PageReporties\web" />
@@ -89,7 +122,7 @@
       <recent name="com.pricer.page.web" />
     </key>
   </component>
-  <component name="RunManager" selected="Batch.GenerateAllureReport">
+  <component name="RunManager" selected="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_starbucks.xml">
     <configuration name="CryptoUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.starbucks.utilities.CryptoUtils" />
       <module name="FrameworkAutomation" />
@@ -179,8 +212,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Batch.GenerateAllureReport" />
         <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_starbucks.xml" />
+        <item itemvalue="Batch.GenerateAllureReport" />
         <item itemvalue="Application.CryptoUtils" />
         <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile_starbucks.xml" />
         <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_pricer.xml" />

@@ -66,13 +66,4 @@ public class StorePage extends BasePage {
         seleniumUtils.javaScriptClick("btnOrderNow");
     }
 
-    @Step("Is Ordering Page Displayed")
-    public boolean isOrderingPageDisplayed () {
-        try {
-            return seleniumUtils.isElementDisplayed("lnkBestSeller", 20);
-        } catch (Exception ex) {
-            return false;
-        }
-    }
-
 }

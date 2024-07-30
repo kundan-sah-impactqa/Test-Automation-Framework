@@ -1,0 +1,39 @@
+<objects>
+
+	<object name="icnPlus">
+		<web locatorType="xpath" locatorValue="//span[normalize-space()='+']" />
+	</object>
+
+	<object name="icnMinus">
+		<web locatorType="xpath" locatorValue="//span[normalize-space()='-']" />
+	</object>
+
+	<object name="btnRepeatLast">
+		<web locatorType="xpath" locatorValue="//button[normalize-space()='Repeat Last']" />
+	</object>
+
+	<object name="lnkOtherPaymentMethods">
+		<web locatorType="xpath" locatorValue="//img[contains(@src, 'assets/icon/upward_chevron')]" />
+	</object>
+
+	<object name="btnPlaceOrder">
+		<web locatorType="xpath" locatorValue="//button[normalize-space()='Place Order']" />
+	</object>
+
+	<object name="rdbCardAroma">
+		<web locatorType="xpath" locatorValue="//p[contains(text(), 'Aroma')]/ancestor::div[@class='card-horizontal']//span[@class='mat-radio-outer-circle']" />
+	</object>
+
+	<object name="rdbCardIndia">
+		<web locatorType="xpath" locatorValue="//p[contains(text(), 'India')]/ancestor::div[@class='card-horizontal']//span[@class='mat-radio-outer-circle']" />
+	</object>
+
+	<object name="lblOtherPaymentMethods">
+		<web locatorType="xpath" locatorValue="//p[@class='pointer ng-star-inserted' and contains(text(), '*3631')] | //p[@class='pointer ng-star-inserted' and contains(text(), '*1670')]" />
+	</object>
+
+	<object name="lblTrackMyOrder">
+		<web locatorType="xpath" locatorValue="//a[normalize-space()='Track My Order']" />
+	</object>
+
+</objects>

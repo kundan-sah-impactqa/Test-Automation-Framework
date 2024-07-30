@@ -40,8 +40,4 @@
 		<web locatorType="xpath" locatorValue="//button[normalize-space()='Order Now']" />
 	</object>
 
-	<object name="lnkBestSeller">
-		<web locatorType="xpath" locatorValue="//button[normalize-space()='Bestseller']" />
-	</object>
-
 </objects>

@@ -35,6 +35,7 @@ public class DashboardPage extends BasePage {
     @Step("Click on Profile icon")
     public void clickOnProfileIcon() {
         seleniumUtils.isElementDisplayed("icnProfile", implicitWaitSec);
+        seleniumUtils.waitForElementToBeClickable("icnProfile");
         seleniumUtils.click("icnProfile");
         seleniumUtils.sleep(3000);
     }
@@ -71,6 +72,10 @@ public class DashboardPage extends BasePage {
         seleniumUtils.isElementDisplayed("lnkStore", implicitWaitSec);
         seleniumUtils.click("lnkStore");
         seleniumUtils.sleep(5000);
+    }
+
+    public void wait(int time) {
+        seleniumUtils.sleep(time);
     }
 
 }

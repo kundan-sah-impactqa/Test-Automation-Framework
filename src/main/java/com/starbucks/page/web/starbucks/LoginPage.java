@@ -74,4 +74,13 @@ public class LoginPage extends BasePage {
         seleniumUtils.sleep(4000);
     }
 
+    @Step("Is Log In Page Displayed")
+    public boolean isLogInPageDisplayed() {
+        try {
+            return (seleniumUtils.isElementDisplayed("txtEmail", 30));
+        } catch (Exception ex) {
+            return false;
+        }
+    }
+
 }

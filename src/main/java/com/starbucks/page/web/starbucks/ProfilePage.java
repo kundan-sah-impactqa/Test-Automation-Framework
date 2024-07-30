@@ -4,7 +4,6 @@ import com.starbucks.page.web.BasePage;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 
-
 /**
  * @author Kundan Kumar Sah
  * @description Implemented logic to handle validations
@@ -28,5 +27,12 @@ public class ProfilePage extends BasePage {
         seleniumUtils.isElementDisplayed("btnLoginOrSignUp", implicitWaitSec);
         seleniumUtils.click("btnLoginOrSignUp");
     }
-    
+
+    @Step("Click on Log Out button")
+    public void clickOnLogOutButton() {
+        seleniumUtils.sleep(3000);
+        seleniumUtils.scrollIntoView("btnMyAddresses");
+        seleniumUtils.javaScriptClick("btnLogOut");
+    }
+
 }

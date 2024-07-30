@@ -23,6 +23,15 @@
                     <include name="verify_UserSuccessfullyAbleToLandOnStorePage"/>
                     <include name="verify_UserAbleToSelectDesiredStoreAndNavigateToStoreDetailsPage"/>
                     <include name="verify_UserSuccessfullyAbleToNavigateToOrderingPage"/>
+                    <include name="verify_AddItemAndNavigateToProductPage"/>
+                    <include name="verify_UserAbleToSeeTheViewCartButtonAfterAddingItem"/>
+                    <include name="verify_UserSuccessfullyAbleToLandOnCartPage"/>
+                    <include name="verify_UserAbleToRepeatSameOrder"/>
+                    <include name="verify_UserAbleToDeleteItem"/>
+                    <include name="verify_CardsDisplayedOnMakePaymentPage"/>
+                    <include name="verify_UserAbleToSeePaymentMethodInPayWithSection"/>
+                    <include name="verify_OrderPlaceSuccessfully"/>
+                    <include name="verify_LogOutFunctionality"/>
                 </methods>
             </class>
 

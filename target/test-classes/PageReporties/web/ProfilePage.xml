@@ -8,4 +8,12 @@
 		<web locatorType="xpath" locatorValue="//button[text()='Login or Sign Up']" />
 	</object>
 
+	<object name="btnMyAddresses">
+		<web locatorType="xpath" locatorValue="//span[contains(text(),'MY ADRESSES')]" />
+	</object>
+
+	<object name="btnLogOut">
+		<web locatorType="xpath" locatorValue="//span[normalize-space()='LOG OUT']" />
+	</object>
+
 </objects>

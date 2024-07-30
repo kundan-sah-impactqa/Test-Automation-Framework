@@ -3,10 +3,7 @@ package com.starbucks.web;
 import com.starbucks.base.BaseTestWebClassContext;
 import com.starbucks.listeners.RetryAnalyzer;
 import com.starbucks.listeners.TestAllureListener;
-import com.starbucks.page.web.starbucks.DashboardPage;
-import com.starbucks.page.web.starbucks.LoginPage;
-import com.starbucks.page.web.starbucks.ProfilePage;
-import com.starbucks.page.web.starbucks.StorePage;
+import com.starbucks.page.web.starbucks.*;
 import com.starbucks.utilities.ExcelUtil;
 import com.starbucks.utilities.FrameworkConfig;
 import io.qameta.allure.*;
@@ -45,6 +42,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         if (testDataMap.size() < 1)
             Assert.fail("dataID '" + dataID + "' is valid the excel sheet. please check the test data sheet");
     }
+
     @Test(priority = 1, description = "TC001_Verify that user is able to launch the Starbucks application on Browser", retryAnalyzer = RetryAnalyzer.class)
     @Story("verify login functionality")
     @Description("Verify that user is able to launch the Starbucks application on Browser")
@@ -137,10 +135,146 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
     public void verify_UserSuccessfullyAbleToNavigateToOrderingPage() {
         StorePage storePage = new StorePage(driver);
         storePage.clickOnOrderNowButton();
-        if (storePage.isOrderingPageDisplayed()) {
+        OrderPage orderPage = new OrderPage(driver);
+        if (orderPage.isOrderingPageDisplayed()) {
             Allure.step("User is successfully able to navigate to Ordering Page", Status.PASSED);
         } else {
             Allure.step("User is not able to navigate to Ordering Page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC007_Verify that user is successfully able to add item and navigate to product page")
+    @Story("verify product page functionality")
+    @Description("Verify that user is successfully able to add item and navigate to product page")
+    public void verify_AddItemAndNavigateToProductPage() {
+        OrderPage orderPage = new OrderPage(driver);
+        orderPage.clickOnAddItemButton("Signature Hot Chocolate");
+        if (orderPage.isSignatureHotChocolatePageDisplayed()) {
+            Allure.step("User is successfully able to add item and navigate to product page", Status.PASSED);
+        } else {
+            Allure.step("User is not able to add item and navigate to product page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC008_Verify that user is able to see the view cart button after adding item")
+    @Story("verify order page functionality")
+    @Description("Verify that user is able to see the view cart button after adding item")
+    public void verify_UserAbleToSeeTheViewCartButtonAfterAddingItem() {
+        OrderPage orderPage = new OrderPage(driver);
+        orderPage.clickOnAddItemButton();
+        if (orderPage.isViewCartButtonDisplayed()) {
+            Allure.step("User is able to see the view cart button after adding item", Status.PASSED);
+        } else {
+            Allure.step("User is not able to see the view cart button after adding item", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC009_Verify that user is successfully able to land on Cart Page")
+    @Story("verify cart page functionality")
+    @Description("Verify that user is successfully able to land on Cart Page")
+    public void verify_UserSuccessfullyAbleToLandOnCartPage() {
+        OrderPage orderPage = new OrderPage(driver);
+        orderPage.clickOnViewCartButton();
+        CartPage cartPage = new CartPage(driver);
+        String title = "Cart | Tata Starbucks";
+        if (cartPage.getPageTitle().equalsIgnoreCase(title)) {
+            Allure.step("User is successfully able to land on Cart Page", Status.PASSED);
+        } else {
+            Allure.step("User is not able to land on Cart Page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC010_Verify that user is able to repeat same order from Cart Page")
+    @Story("verify cart page functionality")
+    @Description("Verify that user is able to repeat same order from Cart Page")
+    public void verify_UserAbleToRepeatSameOrder() {
+        CartPage cartPage = new CartPage(driver);
+        cartPage.clickOnPlusIcon();
+        cartPage.clickOnRepeatLastButton();
+        String newCartValue = "2";
+        if (cartPage.isCartValueIncreases(newCartValue)) {
+            Allure.step("User is able to repeat same order from Cart Page", Status.PASSED);
+        } else {
+            Allure.step("User is not able to repeat same order from Cart Page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC011_Verify delete/decrease item functionality on Cart Page")
+    @Story("verify cart page functionality")
+    @Description("Verify delete/decrease item functionality on Cart Page")
+    public void verify_UserAbleToDeleteItem() {
+        CartPage cartPage = new CartPage(driver);
+        cartPage.clickOnMinusIcon();
+        String newCartValue = "1";
+        if (cartPage.isCartValueIncreases(newCartValue)) {
+            Allure.step("User is able to delete/decrease item", Status.PASSED);
+        } else {
+            Allure.step("User is not able to delete/decrease item", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC012_Verify cards displayed on make payment page")
+    @Story("verify make payment page functionality")
+    @Description("Verify cards displayed on make payment page")
+    public void verify_CardsDisplayedOnMakePaymentPage() {
+        CartPage cartPage = new CartPage(driver);
+        cartPage.clickOnOtherPaymentMethods();
+        if (cartPage.isCardsDisplayed()) {
+            Allure.step("User is able to see cards on make payment page", Status.PASSED);
+        } else {
+            Allure.step("User is not able to see cards on make payment page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC013_Verify payment method display in Pay With section")
+    @Story("verify cart page functionality")
+    @Description("Verify payment method display in Pay With section")
+    public void verify_UserAbleToSeePaymentMethodInPayWithSection() {
+        CartPage cartPage = new CartPage(driver);
+        cartPage.selectCardForPayment();
+        if (cartPage.isPaymentMethodSelected()) {
+            Allure.step("User is able to see payment method in Pay With section", Status.PASSED);
+        } else {
+            Allure.step("User is not able see payment method in Pay With section", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC014_Verify user is able to place order successfully")
+    @Story("verify order functionality")
+    @Description("Verify user is able to place order successfully")
+    public void verify_OrderPlaceSuccessfully() {
+        CartPage cartPage = new CartPage(driver);
+        cartPage.clickOnPlaceOrderButton();
+        if (cartPage.isOrderPlacedSuccessfully()) {
+            Allure.step("User is able to place order successfully", Status.PASSED);
+        } else {
+            Allure.step("User is not able to place order successfully", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC015_Verify that user is successfully able to logout from application")
+    @Story("verify logout functionality")
+    @Description("Verify that user is successfully able to logout from application")
+    public void verify_LogOutFunctionality() {
+        DashboardPage dashboardPage = new DashboardPage(driver);
+        dashboardPage.wait(7000);
+        dashboardPage.clickOnProfileIcon();
+        ProfilePage profilePage = new ProfilePage(driver);
+        profilePage.clickOnLogOutButton();
+        LoginPage loginPage = new LoginPage(driver);
+        if (loginPage.isLogInPageDisplayed()) {
+            Allure.step("User is able to logout from application", Status.PASSED);
+        } else {
+            Allure.step("User is not able to logout from application", Status.FAILED);
             Assert.fail("Fail");
         }
     }
