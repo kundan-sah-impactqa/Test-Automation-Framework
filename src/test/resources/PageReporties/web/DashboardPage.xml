@@ -60,4 +60,16 @@
 		<web locatorType="xpath" locatorValue="//span[@class='bold ng-star-inserted']" />
 	</object>
 
+	<object name="imgPromotionalBannerCard">
+		<web locatorType="xpath" locatorValue="(//div[@class='card card-content'])[1]" />
+	</object>
+
+	<object name="secLatestOfferings">
+		<web locatorType="xpath" locatorValue="//span[normalize-space()='Latest Offerings']/ancestor::section" />
+	</object>
+
+	<object name="secBaristaRecommends">
+		<web locatorType="xpath" locatorValue="//span[normalize-space()='Barista Recommends']/ancestor::section" />
+	</object>
+
 </objects>

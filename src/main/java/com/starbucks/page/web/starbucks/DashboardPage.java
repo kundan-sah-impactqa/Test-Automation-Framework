@@ -89,4 +89,41 @@ public class DashboardPage extends BasePage {
         }
     }
 
+    @Step("Is total stars, rewards, and another reward level status not displayed")
+    public boolean isTotalStarsRewardsAndRewardLevelNotDisplayed() {
+        try {
+            return !(seleniumUtils.isElementDisplayed("lblTotalStars", 5)
+                    || seleniumUtils.isElementDisplayed("lblRewards", 5)
+                    || seleniumUtils.isElementDisplayed("lblRewardLevel", 5));
+        } catch (Exception ex) {
+            return false;
+        }
+    }
+
+    @Step("Is promotional banner offers displayed")
+    public boolean isPromotionalBannerOffersDisplayed() {
+        try {
+            return seleniumUtils.isElementDisplayed("imgPromotionalBannerCard", 20);
+        } catch (Exception ex) {
+            return false;
+        }
+    }
+    @Step("Is Latest Offerings displayed")
+    public boolean isLatestOfferingsDisplayed() {
+        try {
+            return seleniumUtils.isElementDisplayed("secLatestOfferings", 20);
+        } catch (Exception ex) {
+            return false;
+        }
+    }
+
+    @Step("Is Barista Recommends displayed")
+    public boolean isBaristaRecommendsDisplayed() {
+        try {
+            return seleniumUtils.isElementDisplayed("secLatestOfferings", 20);
+        } catch (Exception ex) {
+            return false;
+        }
+    }
+
 }

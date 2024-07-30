@@ -60,7 +60,20 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC002_Verify that user is successfully able to land on Profile Page")
+    @Test(priority = 1, description = "TC002_Verify the dashboard screen as a guest user")
+    @Story("verify dashboard page functionality")
+    @Description("Verify the dashboard screen as a guest user")
+    public void verify_DashboardScreenAsGuestUser() {
+        DashboardPage dashboardPage = new DashboardPage(driver);
+        if (dashboardPage.isTotalStarsRewardsAndRewardLevelNotDisplayed()) {
+            Allure.step("User is not able to see total stars, rewards, or another reward level status on dashboard screen when logged in as guest user", Status.PASSED);
+        } else {
+            Allure.step("User is able to see total stars, rewards, or another reward level status on dashboard screen when logged in as guest user", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC003_Verify that user is successfully able to land on Profile Page")
     @Story("verify profile page functionality")
     @Description("Verify that user is successfully able to land on Profile Page")
     public void verify_UserSuccessfullyAbleToLandOnProfilePage() {
@@ -76,7 +89,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC003_Verify that user is successfully able to do Login with valid credentials")
+    @Test(priority = 1, description = "TC004_Verify that user is successfully able to do Login with valid credentials")
     @Story("verify login functionality")
     @Description("Verify that user is successfully able to do Login with valid credentials")
     public void verify_UserSuccessfullyAbleToLoginWithValidCredentials() {
@@ -97,7 +110,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC004_Verify that the user is able to see total stars, rewards, and another reward level status on top of the dashboard")
+    @Test(priority = 1, description = "TC005_Verify that the user is able to see total stars, rewards, and another reward level status on top of the dashboard")
     @Story("verify dashboard page functionality")
     @Description("Verify that the user is able to see total stars, rewards, and another reward level status on top of the dashboard")
     public void verify_DashboardPageFunctionality() {
@@ -110,7 +123,46 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC005_Verify that user is successfully able to land on Store Page")
+    @Test(priority = 1, description = "TC006_Verify that the user is able to see Promotional banner offers on Dashboard page")
+    @Story("verify dashboard page functionality")
+    @Description("Verify that the user is able to see Promotional banner offers on Dashboard page")
+    public void verify_PromotionalBannerOffers() {
+        DashboardPage dashboardPage = new DashboardPage(driver);
+        if (dashboardPage.isPromotionalBannerOffersDisplayed()) {
+            Allure.step("User is able to see Promotional banner offers on Dashboard page", Status.PASSED);
+        } else {
+            Allure.step("User is not able to see Promotional banner offers on Dashboard page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC007_Verify that the user is able to see Latest Offerings on Dashboard page")
+    @Story("verify dashboard page functionality")
+    @Description("Verify that the user is able to see Latest Offerings on Dashboard page")
+    public void verify_LatestOfferings() {
+        DashboardPage dashboardPage = new DashboardPage(driver);
+        if (dashboardPage.isLatestOfferingsDisplayed()) {
+            Allure.step("User is able to see Latest Offerings on Dashboard page", Status.PASSED);
+        } else {
+            Allure.step("User is not able to see Latest Offerings on Dashboard page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC008_Verify that the user is able to see Barista Recommends on Dashboard page")
+    @Story("verify dashboard page functionality")
+    @Description("Verify that the user is able to see Barista Recommends on Dashboard page")
+    public void verify_BaristaRecommends() {
+        DashboardPage dashboardPage = new DashboardPage(driver);
+        if (dashboardPage.isBaristaRecommendsDisplayed()) {
+            Allure.step("User is able to see Barista Recommends on Dashboard page", Status.PASSED);
+        } else {
+            Allure.step("User is not able to see Barista Recommends on Dashboard page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC009_Verify that user is successfully able to land on Store Page")
     @Story("verify store page functionality")
     @Description("Verify that user is successfully able to land on Store Page")
     public void verify_UserSuccessfullyAbleToLandOnStorePage() {
@@ -127,7 +179,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC006_Verify that user is successfully able to select desired store navigate to Store Details Page")
+    @Test(priority = 1, description = "TC010_Verify that user is successfully able to select desired store navigate to Store Details Page")
     @Story("verify store page functionality")
     @Description("Verify that user is successfully able to select desired store navigate to Store Details Page")
     public void verify_UserAbleToSelectDesiredStoreAndNavigateToStoreDetailsPage() {
@@ -142,7 +194,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC007_Verify that user is successfully able to navigate to Ordering Page")
+    @Test(priority = 1, description = "TC011_Verify that user is successfully able to navigate to Ordering Page")
     @Story("verify store page functionality")
     @Description("Verify that user is successfully able to navigate to Ordering Page")
     public void verify_UserSuccessfullyAbleToNavigateToOrderingPage() {
@@ -157,7 +209,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC008_Verify that user is successfully able to add item and navigate to product page")
+    @Test(priority = 1, description = "TC012_Verify that user is successfully able to add item and navigate to product page")
     @Story("verify product page functionality")
     @Description("Verify that user is successfully able to add item and navigate to product page")
     public void verify_AddItemAndNavigateToProductPage() {
@@ -171,7 +223,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC009_Verify that user is able to see the view cart button after adding item")
+    @Test(priority = 1, description = "TC013_Verify that user is able to see the view cart button after adding item")
     @Story("verify order page functionality")
     @Description("Verify that user is able to see the view cart button after adding item")
     public void verify_UserAbleToSeeTheViewCartButtonAfterAddingItem() {
@@ -185,7 +237,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC010_Verify that user is successfully able to land on Cart Page")
+    @Test(priority = 1, description = "TC014_Verify that user is successfully able to land on Cart Page")
     @Story("verify cart page functionality")
     @Description("Verify that user is successfully able to land on Cart Page")
     public void verify_UserSuccessfullyAbleToLandOnCartPage() {
@@ -201,7 +253,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC011_Verify that user is able to repeat same order from Cart Page")
+    @Test(priority = 1, description = "TC015_Verify that user is able to repeat same order from Cart Page")
     @Story("verify cart page functionality")
     @Description("Verify that user is able to repeat same order from Cart Page")
     public void verify_UserAbleToRepeatSameOrder() {
@@ -217,7 +269,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC012_Verify delete/decrease item functionality on Cart Page")
+    @Test(priority = 1, description = "TC016_Verify delete/decrease item functionality on Cart Page")
     @Story("verify cart page functionality")
     @Description("Verify delete/decrease item functionality on Cart Page")
     public void verify_UserAbleToDeleteItem() {
@@ -232,7 +284,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC013_Verify cards displayed on make payment page")
+    @Test(priority = 1, description = "TC017_Verify cards displayed on make payment page")
     @Story("verify make payment page functionality")
     @Description("Verify cards displayed on make payment page")
     public void verify_CardsDisplayedOnMakePaymentPage() {
@@ -246,7 +298,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC014_Verify payment method display in Pay With section")
+    @Test(priority = 1, description = "TC018_Verify payment method display in Pay With section")
     @Story("verify cart page functionality")
     @Description("Verify payment method display in Pay With section")
     public void verify_UserAbleToSeePaymentMethodInPayWithSection() {
@@ -260,7 +312,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC015_Verify user is able to place order successfully")
+    @Test(priority = 1, description = "TC019_Verify user is able to place order successfully")
     @Story("verify order functionality")
     @Description("Verify user is able to place order successfully")
     public void verify_OrderPlaceSuccessfully() {
@@ -274,7 +326,7 @@ public class Test_Scenarios_For_Starbucks_E2E_Functionality extends BaseTestWebC
         }
     }
 
-    @Test(priority = 1, description = "TC016_Verify that user is successfully able to logout from application")
+    @Test(priority = 1, description = "TC020_Verify that user is successfully able to logout from application")
     @Story("verify logout functionality")
     @Description("Verify that user is successfully able to logout from application")
     public void verify_LogOutFunctionality() {
