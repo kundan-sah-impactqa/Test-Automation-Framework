@@ -71,6 +71,7 @@ public class OrderPage extends BasePage {
 
     @Step("Click on View Cart Button")
     public void clickOnViewCartButton() {
+        seleniumUtils.sleep(2000);
         seleniumUtils.isElementDisplayed("btnViewCart", 20);
         seleniumUtils.click("btnViewCart");
         seleniumUtils.sleep(4000);
