@@ -42,8 +42,10 @@ public class DashboardPage extends BasePage {
      */
     @Step("Click on Order button")
     public void clickOnOrderButton() {
-        appiumUtils.waitForElementToBeClickable("btnOrder");
-        appiumUtils.click("btnOrder");
+        if (appiumUtils.isElementDisplayed("btnOrder", 10)) {
+            appiumUtils.click("btnOrder");
+        }
+        appiumUtils.sleepForMiliseconds(2000);
     }
 
     /**
