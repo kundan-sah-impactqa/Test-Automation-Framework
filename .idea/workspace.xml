@@ -5,51 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vitamojo/listeners/TestSlackListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vitamojo/utilities/SlackUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/05c3814f-cadb-4df4-b435-9b65c2e68c61-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0a202029-7657-483a-83dc-4aea778c6184-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1190520e-1608-4f32-87c2-ddf6bf4f2e44-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1686183d-483c-412a-bb26-eadbf01886fa-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1d668b09-8320-4cd9-9c83-70e40730e6f9-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/30825c49-e56f-431c-ba5b-07e225b75d97-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/385155f7-0bd2-48bd-805d-2d9528582bce-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3b5034bf-7fee-4fe0-99e5-0b94df253954-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4dfc8ca1-595f-45a5-8ef5-44a9f26799fc-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5ec186a0-632f-4a17-9d52-550881bc76f7-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/61b606bd-7cc5-4f09-9488-e7e29d4dc7ff-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/653c8adc-f99c-43a4-b5ec-fd160f645c2e-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/653e7958-657b-4a42-9ca8-35eb0347a7be-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6db88131-e242-4b5e-9f10-5149828474fa-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7b929d95-2f09-447e-9470-bf94c2e8c774-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7c2bcbd1-cd2a-4c06-bf42-a13f5405fff7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7f2d33a7-8765-4b6c-8f0d-1c7904ca232c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/820b6af9-59dd-4bf6-bba4-e6d334370790-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/85c9ec21-ef6a-45ea-a159-62033a4ae1ac-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8a45816d-07d5-4c3d-9caa-10b46aea67e8-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8b492863-ace2-481b-b847-3fe37a5e185c-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8c559d6b-0eb2-451f-b914-c5831d6260ad-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b7ba980a-7520-4cea-a52e-1d186dc1d189-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c0d789f7-2dea-4af3-a781-64be5c8cc566-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c1c03103-b2a1-4697-bafa-7a81fcf40dca-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ce131d0c-56ba-4ca3-9603-b26007bc09a9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/db0cee77-3d68-4898-9949-fa436c9c4664-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e5f4c8c7-5038-42bd-bd17-741ab815f9e7-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f2b89c2d-417b-4a8f-a666-39cea4762724-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f2cd48e9-8a84-4180-a05a-1745c34c2db7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitamojo/listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitamojo/listeners/TestJiraListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/testdata1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/testdata1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1ce13465-252b-4675-942c-eb85903f6fcc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/21617cc6-f921-4e33-9b5b-12e2c9a096b7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5c51407c-2c5c-4fec-b11b-5fc7eb0c06ad-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8b0c3c19-1b8c-4ca9-bf57-d1549c07d36a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cf8266c7-b07b-4a18-bc58-d38892761eb3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d2003b03-31a2-478b-9fa3-247afc91beaf-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ef20dab3-5b58-43c5-b49e-15844cd9d6eb-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitamojo/utilities/JiraIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitamojo/utilities/JiraIntegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitamojo/utilities/SlackUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitamojo/utilities/SlackUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_mobile_vitamojo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_mobile_vitamojo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestData/testdata1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestData/testdata1.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_mobile_vitamojo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_mobile_vitamojo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
