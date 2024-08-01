@@ -3,16 +3,17 @@
 <suite name="Web_Test_Execution_Suite" parallel="classes" thread-count="1" data-provider-thread-count="1">
     <listeners>
         <listener class-name="com.vitamojo.listeners.TestNGExecutionListener"/>
-<!--        <listener class-name="com.vitamojo.listeners.TestListener"/>-->
+        <listener class-name="com.vitamojo.listeners.TestSlackListener"/>
+<!--        <listener class-name="com.vitamojo.listeners.TestJiraListener"/>-->
     </listeners>
 
-    <test name="Starbucks_Test">
+    <test name="VitaMojo_Web_Test">
         <!--
           To run on Chrome browser pass browser value as : "chrome"
           To run on Firefox browser pass browser value as : "firefox"
         -->
         <parameter name="browser" value="chrome."/>
-        <parameter name="dataID" value="Starbucks_Web_Automation"/>
+        <parameter name="dataID" value="VitaMojo_Web_Automation"/>
         <classes>
 
             <class name="com.vitamojo.web.Test_Scenarios_For_Login_Functionality">

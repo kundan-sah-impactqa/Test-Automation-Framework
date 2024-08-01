@@ -3,7 +3,8 @@
 <suite name="Mobile_Test_Execution_Suite" parallel="tests" thread-count="5">
     <listeners>
         <listener class-name="com.vitamojo.listeners.TestNGExecutionListener"/>
-<!--        <listener class-name="com.vitamojo.listeners.TestListener"/>-->
+<!--        <listener class-name="com.vitamojo.listeners.TestSlackListener"/>-->
+<!--        <listener class-name="com.vitamojo.listeners.TestJiraListener"/>-->
     </listeners>
 
     <test name="VitaMojo_Mobile_Test">
@@ -11,7 +12,7 @@
         <classes>
             <class name="com.vitamojo.mobile.Test_Scenarios_For_VitaMojo_E2E_Functionality">
                 <methods>
-<!--                    <include name="verify_LoginFailsWithInvalidPassword"/>-->
+                    <!--                    <include name="verify_LoginFailsWithInvalidPassword"/>-->
                     <include name="verify_LoginSuccessWithCorrectCredentials"/>
                     <include name="verify_HamburgerMenuIconDisplayed"/>
                     <include name="verify_StockQuantityDisplayed"/>
