@@ -5,39 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
-      <change afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_15-45-39/GenerateAllureReport.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_15-45-39/GenerateAllureReport.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_15-45-39/allure-results/32f950f6-8163-4c2a-b92e-179f82ace850-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_15-45-39/allure-results/586a1ea2-39be-4d8b-bf0d-9f9533194d5c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_15-45-39/allure-results/b97a4d1f-70e2-4839-abf5-8d10ad9d653d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_16-02-53/GenerateAllureReport.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_16-02-53/GenerateAllureReport.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_16-02-53/allure-results/18dd29c8-e1e0-4aa5-b31e-1d3877ab792d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_16-02-53/allure-results/8a819711-f75a-4eea-b8c1-f48a176249b9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_16-02-53/allure-results/8fc134c2-7470-4b10-832a-141b33f33b2c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_16-02-53/allure-results/b033c30d-ba9f-4bc6-99eb-b9e72d1b519f-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_16-02-53/allure-results/c38ffb45-67ff-4a7c-8e8e-731f4b9804a3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_16-02-53/allure-results/f1403eba-d982-4342-ab8f-cdb4fec7ef41-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/18dd29c8-e1e0-4aa5-b31e-1d3877ab792d-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8a819711-f75a-4eea-b8c1-f48a176249b9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8fc134c2-7470-4b10-832a-141b33f33b2c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b033c30d-ba9f-4bc6-99eb-b9e72d1b519f-attachment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c38ffb45-67ff-4a7c-8e8e-731f4b9804a3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f1403eba-d982-4342-ab8f-cdb4fec7ef41-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/fbc49692-6506-4321-bd83-1c35a49a74a8-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/06c16e5a-fbcb-44f2-97c7-b371c54829af-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/178938b6-2d1d-4576-b503-9b0fc94d5e16-attachment" beforeDir="false" afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_15-45-39/allure-results/3f1f86ec-144b-437b-99ab-dcc38bc7fd55-attachment" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/83ad4771-8bd9-440d-93ee-dc36f2fef153-container.json" beforeDir="false" afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_15-45-39/allure-results/1f80da56-2254-4fdf-9ede-a0adfa91e0d0-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/949ae892-e6d6-46f8-a581-8fef969d3938-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ae60e006-a6f3-4245-8464-169cd0be26a0-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/ArchivedReports/Report_2024-08-01_15-45-39/allure-results/c03d61fe-c7f8-4251-ab5b-f991ddc817a8-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d9b7f329-561c-4e21-8cd2-b1005ec071b1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e60f357b-2e44-4483-9001-b646061f04ae-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/SlackUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/SlackUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/JiraIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/JiraIntegration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/utilities/SlackUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/starbucks/utilities/SlackUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/utilities/JiraIntegration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/starbucks/utilities/JiraIntegration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +95,7 @@
       <recent name="com.pricer.page.web" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_starbucks.xml">
+  <component name="RunManager" selected="Application.CryptoUtils">
     <configuration name="CryptoUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.starbucks.utilities.CryptoUtils" />
       <module name="FrameworkAutomation" />
@@ -213,8 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_starbucks.xml" />
         <item itemvalue="Application.CryptoUtils" />
+        <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_starbucks.xml" />
         <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile_starbucks.xml" />
         <item itemvalue="Batch.GenerateAllureReport" />
         <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_pricer.xml" />

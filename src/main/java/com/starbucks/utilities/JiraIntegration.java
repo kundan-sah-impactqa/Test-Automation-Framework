@@ -10,7 +10,16 @@ public class JiraIntegration {
 
     private static final String JIRA_URL = FrameworkConfig.getStringConfigProperty("JIRA_URL");
     private static final String JIRA_USERNAME = FrameworkConfig.getStringConfigProperty("JIRA_USERNAME");
-    private static final String JIRA_API_TOKEN = FrameworkConfig.getStringConfigProperty("JIRA_API_TOKEN");
+    private static final String JIRA_API_TOKEN;
+
+    static {
+        try {
+            JIRA_API_TOKEN = CryptoUtils.decryptTheValue(FrameworkConfig.getStringConfigProperty("JIRA_API_TOKEN"));
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     private static String getAuthHeader() {
         String auth = Base64.getEncoder().encodeToString((JIRA_USERNAME + ":" + JIRA_API_TOKEN).getBytes());
         return "Basic " + auth;
