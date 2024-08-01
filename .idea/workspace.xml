@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestSlackListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestSlackListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/27dbb8e0-c723-4362-b827-c7da8f5d61f0-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/64ae9452-9d76-4c70-8a18-6581b3cd746d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8139aa51-e085-4cf0-bed5-5b1aa59fb285-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/963df7b2-c83d-4720-8557-4f0ca2ed6ff0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b386afe8-f472-49d2-9ead-6a681c9da829-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d37697a7-8a7a-4f09-9908-ab98d3206ae9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fb8f7cb0-0893-4f76-b49b-bd8be1cfc536-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/listeners/TestSlackListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/starbucks/listeners/TestSlackListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
