@@ -7,7 +7,15 @@ import org.apache.http.impl.client.HttpClients;
 
 public class SlackUtils {
 
-    private static final String WEBHOOK_URL = FrameworkConfig.getStringConfigProperty("WEBHOOK_URL");
+    private static final String WEBHOOK_URL;
+
+    static {
+        try {
+            WEBHOOK_URL = CryptoUtils.decryptTheValue(FrameworkConfig.getStringConfigProperty("WEBHOOK_URL"));
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     public static void sendSlackMessage(String message) {
         CloseableHttpClient httpClient = HttpClients.createDefault();
