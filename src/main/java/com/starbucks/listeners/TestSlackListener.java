@@ -62,7 +62,7 @@ public class TestSlackListener implements ITestListener {
                         "Skipped: %d\n" +
                         "Execution Start Time: %s\n" +
                         "Execution End Time: %s\n" +
-                        "Total Execution Time: %s",
+                        "Total Execution Time: %s\n\n",
                 currentDate, totalCount, passCount, failCount, skipCount,
                 new Date(startTime), new Date(endTime), formattedExecutionTime
         );

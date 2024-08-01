@@ -5,39 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestSlackListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/SlackUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/010ed64a-361f-426e-b66f-6cbea59d444d-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/03148f41-3e33-4ab2-9078-21c32f16ea76-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/185262d2-8475-402b-9604-468fe0d7ab7f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1914dd03-fb6b-42b5-8b40-11a4f8b1dd27-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/26e5f015-3fdc-4d8e-8a21-84d64dc024da-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/39e4adfc-d18d-41fb-b871-0329a1b0c6ce-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/426da47c-f3ae-48fe-810c-f89aede84eea-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4a9f79a4-98d3-4cd1-8e75-616c16cfd30a-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4cedc4e3-c239-45af-b428-3d38b896ca6f-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/839d1960-7555-4bc3-90c1-0337e2e919a4-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/86a1ef0e-816d-459f-a971-0a4ecd70a4c4-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/897b381e-710b-44ec-9e95-180cd3f1294d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/99330ea0-9014-408f-ab3d-6c52a9e7c361-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/99e06eaa-c816-48f3-b4c4-a22e21ed756c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a03efb73-e04a-45b9-8cfe-d260200c7d99-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a4cf832f-4ad6-4f40-a35c-8008db4f50fa-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/be75ca8a-7295-4557-86a6-8ddabb36907e-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c6caf3ed-1eec-4929-9a3f-aa3b32a22065-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ed146e0e-85e3-4cbd-a2bf-8343d0e1211b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f36a4d50-b734-4e70-9f85-e70d1a54ed93-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f8818060-1e9b-464f-86be-d300e6179455-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestJiraListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_mobile_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_mobile_starbucks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_web_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_web_starbucks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestSlackListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestSlackListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
