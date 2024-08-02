@@ -4,6 +4,7 @@
     <listeners>
         <listener class-name="com.pricer.listeners.TestNGExecutionListener"/>
         <listener class-name="com.pricer.listeners.TestSlackListener"/>
+        <listener class-name="com.pricer.listeners.TestTeamsListener"/>
 <!--        <listener class-name="com.pricer.listeners.TestJiraListener"/>-->
     </listeners>
 
