@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-public class TestSlackListener implements ITestListener {
+public class TestTeamsListener implements ITestListener {
 
     private int passCount = 0;
     private int failCount = 0;
@@ -54,20 +54,20 @@ public class TestSlackListener implements ITestListener {
         String currentDate = sdf.format(new Date());
 
         String message = String.format(
-                "**************** Test Execution Report ****************\n\n" +
-                        "Date: %s\n" +
-                        "Total Tests: %d\n" +
-                        "Passed: %d\n" +
-                        "Failed: %d\n" +
-                        "Skipped: %d\n" +
-                        "Execution Start Time: %s\n" +
-                        "Execution End Time: %s\n" +
-                        "Total Execution Time: %s\n\n",
+                "**************** Test Execution Report ****************\n\n\n" +
+                        "Date: %s\n\n" +
+                        "Total Tests: %d\n\n" +
+                        "Passed: %d\n\n" +
+                        "Failed: %d\n\n" +
+                        "Skipped: %d\n\n" +
+                        "Execution Start Time: %s\n\n" +
+                        "Execution End Time: %s\n\n" +
+                        "Total Execution Time: %s\n\n\n",
                 currentDate, totalCount, passCount, failCount, skipCount,
                 new Date(startTime), new Date(endTime), formattedExecutionTime
         );
 
-        SlackTeamsUtils.sendSlackMessage(message);
+        SlackTeamsUtils.sendTeamsMessage(message);
     }
 
     @Override

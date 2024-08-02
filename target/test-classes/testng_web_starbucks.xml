@@ -4,6 +4,7 @@
     <listeners>
         <listener class-name="com.starbucks.listeners.TestNGExecutionListener"/>
         <listener class-name="com.starbucks.listeners.TestSlackListener"/>
+        <listener class-name="com.starbucks.listeners.TestTeamsListener"/>
 <!--        <listener class-name="com.starbucks.listeners.TestJiraListener"/>-->
     </listeners>
 
@@ -19,7 +20,7 @@
             <class name="com.starbucks.web.Test_Scenarios_For_Starbucks_E2E_Functionality">
                 <methods>
                     <include name="verify_StarbucksApplicationOpensOnBrowserSuccessfully"/>
-<!--                    <include name="verify_DashboardScreenAsGuestUser"/>-->
+                    <include name="verify_DashboardScreenAsGuestUser"/>
 <!--                    <include name="verify_UserSuccessfullyAbleToLandOnProfilePage"/>-->
 <!--                    <include name="verify_UserSuccessfullyAbleToLoginWithValidCredentials"/>-->
 <!--                    <include name="verify_DashboardPageFunctionality"/>-->
