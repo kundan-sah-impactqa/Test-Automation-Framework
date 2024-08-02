@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vitamojo/listeners/TestTeamsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vitamojo/utilities/SlackTeamsUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1ce13465-252b-4675-942c-eb85903f6fcc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/21617cc6-f921-4e33-9b5b-12e2c9a096b7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5c51407c-2c5c-4fec-b11b-5fc7eb0c06ad-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8b0c3c19-1b8c-4ca9-bf57-d1549c07d36a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/cf8266c7-b07b-4a18-bc58-d38892761eb3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d2003b03-31a2-478b-9fa3-247afc91beaf-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ef20dab3-5b58-43c5-b49e-15844cd9d6eb-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitamojo/utilities/JiraIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitamojo/utilities/JiraIntegration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitamojo/utilities/SlackUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitamojo/utilities/SlackUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitamojo/listeners/TestSlackListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vitamojo/listeners/TestSlackListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vitamojo/utilities/SlackUtils.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_mobile_vitamojo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_mobile_vitamojo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,11 +91,11 @@
       <recent name="$PROJECT_DIR$/src/test/resources/TestData" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vitamojo.listeners" />
       <recent name="com.vitamojo.web" />
       <recent name="com.pricer.mobile" />
       <recent name="com.pricer.page.mobile.starbucks" />
       <recent name="com.pricer.page.mobile.pricer" />
-      <recent name="com.pricer.page.web" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web.xml">
