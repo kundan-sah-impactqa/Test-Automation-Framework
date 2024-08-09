@@ -59,7 +59,10 @@ public class DriverProvider {
                     desiredCapabilities.setCapability("app", appPath);
 
                 } else
+//                    desiredCapabilities.setCapability(key, sessionDetails.get(key).trim());
+                if(!key.equals("MobileSessionID")) {
                     desiredCapabilities.setCapability(key, sessionDetails.get(key).trim());
+                }
             }
         }
         URL remoteUrl = null;

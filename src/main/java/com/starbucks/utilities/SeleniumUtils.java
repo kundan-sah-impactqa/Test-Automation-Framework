@@ -1,5 +1,6 @@
 package com.starbucks.utilities;
 
+import com.epam.healenium.annotation.DisableHealing;
 import com.starbucks.page.web.BasePage;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;

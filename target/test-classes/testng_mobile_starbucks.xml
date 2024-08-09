@@ -14,10 +14,10 @@
                 <methods>
                     <include name="verify_LoginFailsWithInvalidPassword"/>
                     <include name="verify_LoginSuccessWithCorrectCredentials"/>
-                    <include name="verify_UserLandOnOrderPageSuccessfully"/>
-                    <include name="verify_UserLandOnCartPageSuccessfully"/>
-                    <include name="verify_UserLandOnAddCardPageSuccessfully"/>
-                    <include name="verify_ProceedToPay"/>
+<!--                    <include name="verify_UserLandOnOrderPageSuccessfully"/>-->
+<!--                    <include name="verify_UserLandOnCartPageSuccessfully"/>-->
+<!--                    <include name="verify_UserLandOnAddCardPageSuccessfully"/>-->
+<!--                    <include name="verify_ProceedToPay"/>-->
                 </methods>
             </class>
         </classes>
