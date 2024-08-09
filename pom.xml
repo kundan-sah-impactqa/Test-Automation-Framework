@@ -188,7 +188,11 @@
             <artifactId>httpclient</artifactId>
             <version>4.5.13</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.epam.healenium</groupId>
+            <artifactId>healenium-web</artifactId>
+            <version>3.1.5</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
