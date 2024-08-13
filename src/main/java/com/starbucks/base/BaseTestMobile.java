@@ -1,17 +1,15 @@
 package com.starbucks.base;
 
-import com.google.common.collect.ImmutableMap;
 import com.starbucks.utilities.*;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.remote.MobileCapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
+import org.json.simple.JSONObject;
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.net.MalformedURLException;
-import java.net.URL;
 import java.time.Instant;
 import java.util.Map;
 
@@ -23,69 +21,62 @@ import java.util.Map;
 public class BaseTestMobile {
 
     protected AppiumDriver driver;
-    protected PageObjectRepoHelper.PLATFORM platform;
+    public static PageObjectRepoHelper.PLATFORM platform;
     protected Map<String, String> testDataMap;
     public static long startTime; // change
     public static long endTime; // change
 
-    /**
-     * This method opens the mobile session with the input dataID.
-     *
-     * @param dataID string that has the dataID.
-     * @throws MalformedURLException if any.
-     * @throws InterruptedException
-     */
     @BeforeTest(description = "Open new mobile session")
     @Parameters({"dataID"})
-    public void openMobileSession(String dataID) throws MalformedURLException, InterruptedException {
+    public void openMobileSession(String dataID) throws MalformedURLException {
+        //--------------- change
 
-/*        ExcelUtil excel = new ExcelUtil();
+        startTime = System.currentTimeMillis();
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("startTime", startTime);
+        try {
+            FileWriter file = null;
+            try {
+                file = new FileWriter(System.getProperty("user.dir") + "/TestExecutionTime.json");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            file.write(jsonObject.toJSONString());
+            file.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        ExcelUtil excel = new ExcelUtil();
         excel.setWorkbook(FrameworkConfig.getStringConfigProperty("TestDataFileLocation"),
                 FrameworkConfig.getStringConfigProperty("TestDataSheetName_mobile"));
 
         testDataMap = excel.getRowDataMatchingDataId(dataID);
 
         if (testDataMap.size() < 1)
-            Assert.fail("dataID '" + dataID + "' is valid the excel sheet. please check the com.impactqa.test data sheet");
+            Assert.fail("dataID '" + dataID + "' is valid the excel sheet. please check the test data sheet");
 
         excel.setWorkbook(FrameworkConfig.getStringConfigProperty("TestDataFileLocation"),
                 "MobileSessionDetails");
 
         Map<String, String> sessionDetails = excel.getRowDataMatchingDataId(testDataMap.get("MobileSessionID1"));
 
-        if ("ios".equals(sessionDetails.get("platformName").toLowerCase()))
+        if ("ios".equals(sessionDetails.get("platformName").toLowerCase())){
             platform = PageObjectRepoHelper.PLATFORM.IOS;
-        else*/
-        platform = PageObjectRepoHelper.PLATFORM.ANDROID;
-//        driver = DriverProvider.createNewMobileSession(platform, sessionDetails);
-        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-        desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "13");
-        desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-        desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Galaxy A71");
-        desiredCapabilities.setCapability(MobileCapabilityType.UDID, "RZ8N21G4DTP");
-        desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-        desiredCapabilities.setCapability("appium:appPackage", "com.starbucks.in.beta");
-        desiredCapabilities.setCapability("appium:appActivity", "com.tsb.app.home.presentation.view.activity.HomeActivity");
-        desiredCapabilities.setCapability("appium:chromeOptions", ImmutableMap.of("w3c", false));
-
-        URL url = new URL("http://127.0.0.1:4723/wd/hub");
-
-        driver = new AndroidDriver(url, desiredCapabilities);
-        Thread.sleep(12000);
+            AllureEnvironmentPropertyUtil.addProperty("PlatFormName", "iOS");
+        }
+        else{
+            platform = PageObjectRepoHelper.PLATFORM.ANDROID;
+            AllureEnvironmentPropertyUtil.addProperty("PlatFormName", "Android");
+        }
+        AllureEnvironmentPropertyUtil.addProperty("Environment", FrameworkConfig.getStringConfigProperty("ApplicationEnvironment"));
+        driver = DriverProvider.createNewMobileSession(platform, sessionDetails);
     }
 
-    /**
-     * This method returns the current mobile driver.
-     *
-     * @return Appium driver instance.
-     */
     public AppiumDriver getDriver() {
         return driver;
     }
 
-    /**
-     * This method closes the mobile session.
-     */
     @AfterTest(description = "close the mobile session")
     public void teardownDriverInstance() {
         if (driver != null)
@@ -182,101 +173,5 @@ public class BaseTestMobile {
             throw new RuntimeException(e);
         }
     }
+
 }
-
-
-//    protected AppiumDriver driver;
-//    public static PageObjectRepoHelper.PLATFORM platform;
-//    protected Map<String, String> testDataMap;
-//    public static long startTime; // change
-//    public static long endTime; // change
-//
-//    @BeforeTest(description = "Open new mobile session")
-//    @Parameters({"dataID"})
-//    public void openMobileSession(String dataID) throws MalformedURLException {
-//        //--------------- change
-//
-//        startTime = System.currentTimeMillis();
-//        System.out.println("wfbiechigrbigvhbwekjgvhjkrgk 1"+startTime);
-//        JSONObject jsonObject = new JSONObject();
-//        jsonObject.put("startTime", startTime);
-//        try {
-//            FileWriter file = null;
-//            try {
-//                file = new FileWriter(System.getProperty("user.dir") + "/TestExecutionTime.json");
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//            file.write(jsonObject.toJSONString());
-//            file.close();
-//        } catch (IOException e) {
-//            // TODO Auto-generated catch block
-//            e.printStackTrace();
-//        }
-//        //--------------- change
-//        ExcelUtil excel = new ExcelUtil();
-//        excel.setWorkbook(FrameworkConfig.getStringConfigProperty("TestDataFileLocation"),
-//                FrameworkConfig.getStringConfigProperty("TestDataSheetName_mobile"));
-//
-//        testDataMap = excel.getRowDataMatchingDataId(dataID);
-//
-//        if (testDataMap.size() < 1)
-//            Assert.fail("dataID '" + dataID + "' is valid the excel sheet. please check the test data sheet");
-//
-//        excel.setWorkbook(FrameworkConfig.getStringConfigProperty("TestDataFileLocation"),
-//                "MobileSessionDetails");
-//
-//        Map<String, String> sessionDetails = excel.getRowDataMatchingDataId(testDataMap.get("MobileSessionID1"));
-//
-//        if ("ios".equals(sessionDetails.get("platformName").toLowerCase())){
-//            platform = PageObjectRepoHelper.PLATFORM.IOS;
-//            AllureEnvironmentPropertyUtil.addProperty("PlatFormName", "iOS");
-//        }
-//        else{
-//            platform = PageObjectRepoHelper.PLATFORM.ANDROID;
-//            AllureEnvironmentPropertyUtil.addProperty("PlatFormName", "Android");
-//        }
-//        AllureEnvironmentPropertyUtil.addProperty("Environment", FrameworkConfig.getStringConfigProperty("ApplicationEnvironment"));
-//        driver = DriverProvider.createNewMobileSession(platform, sessionDetails);
-//    }
-//
-//    public AppiumDriver getDriver() {
-//        return driver;
-//    }
-//
-//    public void switchContext(String context)
-//    {
-//        System.out.println("Before Switching : "+driver.getContext());
-//        Set<String> con = driver.getContextHandles();
-//        System.out.println("Set : " + con);
-//        for(String c : con)
-//        {
-//            System.out.println("Available Context : "+c);
-//            if(c.contains(context))
-//            {
-//                driver.context(c);
-//                break;
-//            }
-//        }
-//        System.out.println("After Switching : "+driver.getContext());
-//    }
-//
-//    @Step("Wait for {0}")
-//    public void waitForTrackToComplete(int minutes){
-//        int second = minutes*2;
-//        for(int i =0; i<second; i++) { // 30x30sec=15min
-//            try{
-//                Thread.sleep(30000);
-//            }
-//            catch(Exception e){
-//            } //every 30 sec
-//            getDriver().getPageSource();
-//        }
-//    }
-//
-//    @AfterTest(description = "close the mobile session")
-//    public void teardownDriverInstance() {
-//        if (driver != null)
-//            driver.quit();
-//    }
-//}

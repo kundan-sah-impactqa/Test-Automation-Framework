@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestTeamsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/SlackTeamsUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/18dd29c8-e1e0-4aa5-b31e-1d3877ab792d-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8a819711-f75a-4eea-b8c1-f48a176249b9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8fc134c2-7470-4b10-832a-141b33f33b2c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b033c30d-ba9f-4bc6-99eb-b9e72d1b519f-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c38ffb45-67ff-4a7c-8e8e-731f4b9804a3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f1403eba-d982-4342-ab8f-cdb4fec7ef41-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fbc49692-6506-4321-bd83-1c35a49a74a8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestSlackListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestSlackListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/SlackUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/listeners/TestSlackListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/starbucks/listeners/TestSlackListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestMobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/DriverProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/DriverProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/testdata1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/testdata1.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TODO_SCOPE": "All Places",
     "com.google.cloudcode.ide_session_index": "20240801_0000",
-    "last_opened_file_path": "D:/Local-Git/TestDemoFramework/src/test/resources/PageReporties/web",
+    "last_opened_file_path": "D:/Local-Git/TestDemoFramework/src/test/resources/TestData",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -88,11 +74,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Local-Git\TestDemoFramework\src\test\resources\TestData" />
       <recent name="D:\Local-Git\TestDemoFramework\src\test\resources\PageReporties\web" />
       <recent name="D:\Local-Git\TestDemoFramework\src\test\java\com\starbucks\mobile" />
       <recent name="D:\Local-Git\TestDemoFramework\src\test\resources\PageReporties\mobile" />
       <recent name="D:\Local-Git\TestDemoFramework\src\main\java\com\pricer\page\mobile" />
-      <recent name="D:\Local-Git\TestDemoFramework\.idea" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Local-Git\TestDemoFramework\src\test\resources" />
