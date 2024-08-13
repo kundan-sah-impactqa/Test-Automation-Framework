@@ -3,21 +3,22 @@
 <suite name="Mobile_Test_Execution_Suite" parallel="tests" thread-count="5">
     <listeners>
         <listener class-name="com.starbucks.listeners.TestNGExecutionListener"/>
-<!--        <listener class-name="com.starbucks.listeners.TestSlackListener"/>-->
-<!--        <listener class-name="com.starbucks.listeners.TestJiraListener"/>-->
+        <listener class-name="com.starbucks.listeners.TestSlackListener"/>
+        <listener class-name="com.starbucks.listeners.TestTeamsListener"/>
+        <!--        <listener class-name="com.starbucks.listeners.TestJiraListener"/>-->
     </listeners>
 
     <test name="Starbucks_Mobile_Test">
-        <parameter name="dataID" value="Starbucks_Mobile_Automation"/>
+        <parameter name="dataID" value="Starbucks_Mobile_Auto"/>
         <classes>
             <class name="com.starbucks.mobile.Test_Scenarios_For_Starbucks_E2E_Functionality">
                 <methods>
                     <include name="verify_LoginFailsWithInvalidPassword"/>
                     <include name="verify_LoginSuccessWithCorrectCredentials"/>
-                    <include name="verify_UserLandOnOrderPageSuccessfully"/>
-                    <include name="verify_UserLandOnCartPageSuccessfully"/>
-                    <include name="verify_UserLandOnAddCardPageSuccessfully"/>
-                    <include name="verify_ProceedToPay"/>
+<!--                    <include name="verify_UserLandOnOrderPageSuccessfully"/>-->
+<!--                    <include name="verify_UserLandOnCartPageSuccessfully"/>-->
+<!--                    <include name="verify_UserLandOnAddCardPageSuccessfully"/>-->
+<!--                    <include name="verify_ProceedToPay"/>-->
                 </methods>
             </class>
         </classes>

@@ -6,9 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestMobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/DriverProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/DriverProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestExecutionTime.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestExecutionTime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/23023bfc-9c6c-4126-9327-936465381530-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/47fa9600-ec49-4e0b-ab85-0d80117028e6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/73bce8a0-9df6-4829-8069-f52756b1c98e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7722598e-ce67-47bf-b290-ce5ef5daa7ec-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/84afbe91-bc65-4fe2-81c6-dab20aae286c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8f49d85f-0578-42ad-819a-4262ee5df4e9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/94c0b08b-702f-482c-b326-7f39aaade47b-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c0b588ca-cc62-4243-98cd-f712e766790f-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ceda71da-9af2-4362-8d28-ba1fa1d22347-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/db7ea4cb-428c-4e52-beae-de7db4d3a29c-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f3e4e2d3-d72b-45e3-b2c3-c45f15a82856-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/testdata1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/testdata1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_mobile_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_mobile_starbucks.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +107,7 @@
       <recent name="com.pricer.page.mobile.pricer" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_starbucks.xml">
+  <component name="RunManager" selected="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile_starbucks.xml">
     <configuration name="CryptoUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.starbucks.utilities.CryptoUtils" />
       <module name="FrameworkAutomation" />
@@ -184,9 +197,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile_starbucks.xml" />
         <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_starbucks.xml" />
         <item itemvalue="Application.CryptoUtils" />
-        <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile_starbucks.xml" />
         <item itemvalue="Batch.GenerateAllureReport" />
         <item itemvalue="TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_pricer.xml" />
       </list>
