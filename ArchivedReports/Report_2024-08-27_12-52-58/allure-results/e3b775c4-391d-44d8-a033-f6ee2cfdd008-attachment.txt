@@ -1,0 +1,6 @@
+Assertion Results:[
+  [JSON_PATH, EXPECTED_VALUE, ACTUAL_VALUE, RESULT],
+  [name, Sal Ruecker, Sal Ruecker, MATCHED],
+  [id, 7379, 7379, MATCHED],
+  [job, Regional Banking Director, Regional Banking Director, MATCHED],
+]

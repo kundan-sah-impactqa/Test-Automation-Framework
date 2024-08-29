@@ -1,0 +1,4 @@
+{
+  "createUserEndPoint": "https://reqres.in/api/users",
+  "getUserEndPoint": "https://reqres.in/api/users/2"
+}
