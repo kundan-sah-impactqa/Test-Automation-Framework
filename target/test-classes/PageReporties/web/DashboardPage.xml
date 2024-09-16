@@ -53,7 +53,7 @@
 	</object>
 
 	<object name="lblRewards">
-		<web locatorType="xpath" locatorValue="//span[@class='reward-grid-text ng-star-inserted']/parent::div" />
+		<web locatorType="xpath" locatorValue="//span[contains(@class, 'reward-grid')]/parent::div" />
 	</object>
 
 	<object name="lblRewardLevel">
