@@ -5,38 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/APIAssertionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/AssertionKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/starbucks/Payloads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/starbucks/ReqresAPIs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/starbucks/pojos/BasePojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/starbucks/pojos/CreateReqres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/starbucks/pojos/Reqres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/RandomDataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/RestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/starbucks/api/Test_Scenarios_For_Api_Functionality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData/API_Endpoints.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData/testdata-api.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng_api_starbucks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/279e1229-37bf-40c8-a400-664ad96688b9-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/647d5c69-7b68-434e-9d93-8e603d410eed-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a29a676f-cd62-457f-947b-48009955b5b4-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b30ea3f6-085a-4e01-ae5b-2e1dbae50125-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c0825bfd-e0d5-4f67-9fbd-cb87a6490d01-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c79cbe3a-daaa-4eff-b7ee-1f41f0d6492c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/dad5eba2-9ae8-43f2-9549-10a543c0126e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/dbbd9bc8-2a5c-46b5-97e7-9051eeafba46-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/efe87432-c225-4ad2-8e47-54d966ee85c8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/environment.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/ExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/utilities/ExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/starbucks/utilities/ExcelUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_mobile_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_mobile_starbucks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/204a8550-aaa3-4db9-8ad0-b260501cb13f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/22eb38d3-cf00-482c-a7ff-0f4b2f6083b9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/294692b2-2e68-4d74-a472-fa7b2b9cf45f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/42c23b37-a438-486f-800b-0307af94e2d0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4fc296eb-b134-45f6-a671-93281200eda4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/76f6877f-b7a4-4777-bcd3-2d7a31acaa38-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7a7986b4-e90d-40e3-8b57-9c6324d2b039-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c88b6809-5c3f-419f-b840-2583dd1ce13f-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d5eece1e-2419-437c-8f73-164f9a8a6460-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/dd2c4b01-3ebb-4b5f-9565-22c0ed11044d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/dfbdc92e-eec0-42e7-af61-42459f9e952f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e45100b3-4372-4757-8901-4391c3df36bd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e7f810ff-5822-4a70-9765-c430c2860f7a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fbebc238-7ba7-4d1f-b18d-fac96a353f4a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fc0f9ee7-876e-43e9-8d53-a353b4c1bac7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/starbucks/ReqresAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/starbucks/ReqresAPIs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/starbucks/pojos/BasePojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/starbucks/pojos/CreateReqres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/RestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/RestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/api/Test_Scenarios_For_Api_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/starbucks/api/Test_Scenarios_For_Api_Functionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/API_Endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/API_Endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/testdata-api.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/testdata-api.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_api_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_api_starbucks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/page/api/starbucks/ReqresAPIs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/starbucks/page/api/starbucks/ReqresAPIs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/page/api/starbucks/pojos/BasePojo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/page/api/starbucks/pojos/CreateReqres$CreateReqresBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/page/api/starbucks/pojos/CreateReqres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/starbucks/utilities/RestUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/starbucks/utilities/RestUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestData/API_Endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestData/API_Endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestData/testdata-api.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestData/testdata-api.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/starbucks/api/Test_Scenarios_For_Api_Functionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/starbucks/api/Test_Scenarios_For_Api_Functionality.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_api_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_api_starbucks.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +96,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TODO_SCOPE": "All Places",
     "TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_api_starbucks.xml.executor": "Run",
-    "com.google.cloudcode.ide_session_index": "20240829_0000",
+    "com.google.cloudcode.ide_session_index": "20240916_0000",
     "git-widget-placeholder": "auto-starbucks",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Local-Git/TestDemoFramework/src/test/resources/TestData",
@@ -101,7 +104,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "com.android.studio.ml.bot.mainConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">

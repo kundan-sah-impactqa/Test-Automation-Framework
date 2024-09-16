@@ -110,6 +110,8 @@ public class RestUtils {
         }
     }
 
+    //=====================================================================
+
     private static RequestSpecification getRequestSpecification(String endpoint, Map<String, String> headers) {
         return RestAssured.given()
                 .baseUri(endpoint)
@@ -117,8 +119,16 @@ public class RestUtils {
                 .contentType(ContentType.JSON);
     }
 
+    private static void printRequestLogReport(RequestSpecification requestSpecification) {
+        QueryableRequestSpecification queryableRequestSpecification = SpecificationQuerier.query(requestSpecification);
+        Allure.step("Endpoint: " + queryableRequestSpecification.getBaseUri());
+        Allure.step("Method: " + queryableRequestSpecification.getMethod());
+        Allure.step("Request Headers: " + queryableRequestSpecification.getHeaders().asList().toString());
+    }
+
     public static Response performGet(String endpoint, Map<String, String> headers) {
         RequestSpecification requestSpecification = getRequestSpecification(endpoint, headers);
+        printRequestLogReport(requestSpecification);
         Response response = requestSpecification.get();
         printResponseLogInReport(response);
         return response;

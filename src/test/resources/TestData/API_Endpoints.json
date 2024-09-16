@@ -1,4 +1,5 @@
 {
   "createUserEndPoint": "https://reqres.in/api/users",
-  "getUserEndPoint": "https://reqres.in/api/users/2"
+  "getUserEndPoint": "https://reqres.in/api/users/2",
+  "deleteUserEndPoint": "https://reqres.in/api/users/2"
 }

@@ -25,4 +25,9 @@ public class ReqresAPIs extends BaseTestAPI {
         return RestUtils.performGet(endpoint, new HashMap<>());
     }
 
+    public Response deleteUser() {
+        String endpoint = (String) dataFromJsonFile.get("deleteUserEndPoint");
+        return RestUtils.performGet(endpoint, new HashMap<>());
+    }
+
 }

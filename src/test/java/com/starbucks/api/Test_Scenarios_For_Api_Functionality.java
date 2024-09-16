@@ -239,7 +239,7 @@ public class Test_Scenarios_For_Api_Functionality extends ReqresAPIs {
     @Test(priority = 1, description = "TC002_Verify existing user - get method")
     @Story("GET - Existing User")
     @Description("Verify existing user - get method")
-    public void verify_getMethod_CreatedUserResponse() {
+    public void verify_getMethod_CreatedUserResponse() throws JsonProcessingException {
 //        Reqres payload = Payloads.getCreateUserPayloadFromPojo();
         Response response = getUser();
 
@@ -247,6 +247,12 @@ public class Test_Scenarios_For_Api_Functionality extends ReqresAPIs {
         expectedValueMap.put("data.id", 2);
         expectedValueMap.put("data.first_name", "Janet");
         expectedValueMap.put("data.last_name", "Weaver");
+
+//        String id = response.jsonPath().getString("data.id");
+//        String name = response.jsonPath().getString("data.first_name");
+//        String job = response.jsonPath().getString("data.last_name");
+//        System.out.println(">>>>>>>>" + id + " " + name + " " + job);
+
 
         if (APIAssertionUtils.assertExpectedValuesWithJsonPath(response, expectedValueMap)) {
             Allure.step("User created successfully and status code is 200", Status.PASSED);

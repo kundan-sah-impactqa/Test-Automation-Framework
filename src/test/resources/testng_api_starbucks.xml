@@ -20,11 +20,11 @@
             <class name="com.starbucks.api.Test_Scenarios_For_Api_Functionality">
                 <methods>
 <!--                    <include name="verify_createUser"/>-->
-<!--                    <include name="verify_createUserAndVerifyResponse5"/>-->
-<!--                    <include name="verify_getMethod_CreatedUserResponse"/>-->
+                    <include name="verify_createUserAndVerifyResponse5"/>
+                    <include name="verify_getMethod_CreatedUserResponse"/>
 <!--                    <include name="verify_createUserAndVerifyResponse3"/>-->
 <!--                    <include name="verify_createUserAndVerifyResponse2"/>-->
-                    <include name="verify_createUserAndVerifyResponsePoiji1"/>
+<!--                    <include name="verify_createUserAndVerifyResponsePoiji1"/>-->
                 </methods>
             </class>
 
