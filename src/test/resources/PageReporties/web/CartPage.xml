@@ -21,7 +21,7 @@
 	</object>
 
 	<object name="rdbCardAroma">
-		<web locatorType="xpath" locatorValue="//p[contains(text(), 'Aroma')]/ancestor::div[@class='card-horizontal']//span[@class='mat-radio-outer-circle']" />
+		<web locatorType="xpath" locatorValue="//p[contains(., '3685')]/ancestor::div[@class='card-horizontal']//span[@class='mat-radio-outer-circle']" />
 	</object>
 
 	<object name="rdbCardIndia">
@@ -29,7 +29,7 @@
 	</object>
 
 	<object name="lblOtherPaymentMethods">
-		<web locatorType="xpath" locatorValue="//p[@class='pointer ng-star-inserted' and contains(text(), '*3631')] | //p[@class='pointer ng-star-inserted' and contains(text(), '*1670')]" />
+		<web locatorType="xpath" locatorValue="//p[@class='pointer ng-star-inserted' and contains(text(), '*3631')] | //p[@class='pointer ng-star-inserted' and contains(text(), '*1670')] | //p[@class='pointer ng-star-inserted' and contains(text(), '*3685')] | //p[@class='pointer ng-star-inserted' and contains(text(), '*1678')]" />
 	</object>
 
 	<object name="lblTrackMyOrder">
