@@ -1,0 +1,4 @@
+Write manual test cases for Starbucks application.
+
+Write list of detailed manual test cases for Starbucks application
+
