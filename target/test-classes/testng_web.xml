@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Web_Test_Execution_Suite" parallel="classes" thread-count="1" data-provider-thread-count="1">
     <listeners>
-        <listener class-name="com.starbucks.listeners.TestNGExecutionListener"/>
+        <listener class-name="com.nsano.listeners.TestNGExecutionListener"/>
     </listeners>
 
     <test name="Starbucks_Web_Test">
@@ -14,7 +14,7 @@
         <parameter name="dataID" value="Pricer_Web_Automation"/>
         <classes>
 
-            <class name="com.starbucks.web.Gemini_Test_Scenarios_For_Login_Functionality">
+            <class name="com.nsano.web.Gemini_Test_Scenarios_For_Login_Functionality">
                 <methods>
                     <include name="verify_UserLogin"/>
                 </methods>

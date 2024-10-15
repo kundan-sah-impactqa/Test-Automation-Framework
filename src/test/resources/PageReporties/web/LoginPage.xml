@@ -1,7 +1,7 @@
 <objects>
 
-	<object name="txtEmail">
-		<web locatorType="xpath" locatorValue="//input[@id='username_input']" />
+	<object name="txtUsername">
+		<web locatorType="xpath" locatorValue="//input[@id='txtUsername']" />
 	</object>
 
 	<object name="txtPassword">
@@ -9,11 +9,11 @@
 	</object>
 
 	<object name="btnLogin">
-		<web locatorType="xpath" locatorValue="//button[text()='Login']" />
+		<web locatorType="xpath" locatorValue="//a[text()='Login']" />
 	</object>
 
-	<object name="btnLogOut">
-		<web locatorType="xpath" locatorValue="//button[text()='Log out']" />
+	<object name="lblInvalidUsernameAndOrPassword">
+		<web locatorType="xpath" locatorValue="//div[@class='msgAlertPlaceHolder']" />
 	</object>
 
 </objects>

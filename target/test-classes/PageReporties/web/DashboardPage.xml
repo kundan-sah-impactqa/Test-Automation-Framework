@@ -1,75 +1,7 @@
 <objects>
 
-	<object name="imgStarbucksLogo">
-		<web locatorType="xpath" locatorValue="//a[@title='Starbucks Logo']//img[@alt='Logo']" />
-	</object>
-
-	<object name="icnProfile">
-		<web locatorType="xpath" locatorValue="//img[@alt='profile icon']" />
-	</object>
-
-	<object name="lnkHome">
-		<web locatorType="xpath" locatorValue="//a[text()='Home']" />
-	</object>
-
-	<object name="lnkGift">
-		<web locatorType="xpath" locatorValue="//a[text()='Gift']" />
-	</object>
-
-	<object name="lnkOrder">
-		<web locatorType="xpath" locatorValue="//a[text()='Order']" />
-	</object>
-
-	<object name="lnkPay">
-		<web locatorType="xpath" locatorValue="//a[text()='Pay']" />
-	</object>
-
-	<object name="lnkStore">
-		<web locatorType="xpath" locatorValue="//a[text()='Store']" />
-	</object>
-
-	<object name="icnCloseRatingBox">
-		<web locatorType="xpath" locatorValue="//img[@alt='close-icon']" />
-	</object>
-
-	<object name="btnViewCart">
-		<web locatorType="xpath" locatorValue="//button[text()='View Cart ']" />
-	</object>
-
-	<object name="btnMinusQuantity">
-		<web locatorType="xpath" locatorValue="//span[normalize-space()='-']" />
-	</object>
-
-	<object name="btnYesDelete">
-		<web locatorType="xpath" locatorValue="//button[normalize-space()='Yes']" />
-	</object>
-
-	<object name="btnConfirm">
-		<web locatorType="xpath" locatorValue="//button[normalize-space()='Confirm']" />
-	</object>
-
-	<object name="lblTotalStars">
-		<web locatorType="xpath" locatorValue="//span[@class='star-grid-text']/parent::div" />
-	</object>
-
-	<object name="lblRewards">
-		<web locatorType="xpath" locatorValue="//span[contains(@class, 'reward-grid')]/parent::div" />
-	</object>
-
-	<object name="lblRewardLevel">
-		<web locatorType="xpath" locatorValue="//span[@class='bold ng-star-inserted']" />
-	</object>
-
-	<object name="imgPromotionalBannerCard">
-		<web locatorType="xpath" locatorValue="(//div[@class='card card-content'])[1]" />
-	</object>
-
-	<object name="secLatestOfferings">
-		<web locatorType="xpath" locatorValue="//span[normalize-space()='Latest Offerings']/ancestor::section" />
-	</object>
-
-	<object name="secBaristaRecommends">
-		<web locatorType="xpath" locatorValue="//span[normalize-space()='Barista Recommends']/ancestor::section" />
+	<object name="lnkDashboard">
+		<web locatorType="xpath" locatorValue="//a[text()='Dashboard']" />
 	</object>
 
 </objects>

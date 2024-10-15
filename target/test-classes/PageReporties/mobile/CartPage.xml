@@ -1,12 +1,12 @@
 <objects>
 
 	<object name="lnkSelectPaymentMode">
-		<android locatorType="id" locatorValue="com.starbucks.in.beta:id/tvCardName" />
+		<android locatorType="id" locatorValue="com.nsano.in.beta:id/tvCardName" />
 		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
 	</object>
 
 	<object name="btnCloseTip">
-		<android locatorType="id" locatorValue="com.starbucks.in.beta:id/tvTipClose" />
+		<android locatorType="id" locatorValue="com.nsano.in.beta:id/tvTipClose" />
 		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
 	</object>
 
@@ -16,7 +16,7 @@
 	</object>
 
 	<object name="btnPlaceOrder">
-		<android locatorType="id" locatorValue="com.starbucks.in.beta:id/tvPlaceOrder" />
+		<android locatorType="id" locatorValue="com.nsano.in.beta:id/tvPlaceOrder" />
 		<ios locatorType="xpath" locatorValue="//*[@name='n1']" />
 	</object>
 
