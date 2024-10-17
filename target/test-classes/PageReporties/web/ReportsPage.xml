@@ -1,0 +1,43 @@
+<objects>
+
+	<object name="lblMessagesCount">
+		<web locatorType="xpath" locatorValue="//div[@id='reportsTotalCount']" />
+	</object>
+
+	<object name="lnkMessages">
+		<web locatorType="xpath" locatorValue="//tbody[@id='reportsTable']" />
+	</object>
+
+	<object name="lblMessageContent">
+		<web locatorType="xpath" locatorValue="//div[@class='card-tasks']" />
+	</object>
+
+	<object name="lnkFilter">
+		<web locatorType="xpath" locatorValue="//button[@data-target='#filterReportsModal']/i" />
+	</object>
+
+	<object name="iconCloseMsgDetailsModal">
+		<web locatorType="xpath" locatorValue="//h5[text()='Message Details']/parent::div/button[@aria-label='Close']/span" />
+	</object>
+
+	<object name="lnkDateSent">
+		<web locatorType="xpath" locatorValue="//div[@id='reportrange']" />
+	</object>
+
+	<object name="lstAccount">
+		<web locatorType="xpath" locatorValue="//select[@id='allAccounts']" />
+	</object>
+
+	<object name="btnFilter">
+		<web locatorType="xpath" locatorValue="//button[@id='btnFilterSMS']" />
+	</object>
+
+	<object name="txtBulkId">
+		<web locatorType="xpath" locatorValue="//input[@id='txtBulkId']" />
+	</object>
+
+	<object name="txtRecipient">
+		<web locatorType="xpath" locatorValue="//input[@id='txtRecpNum']" />
+	</object>
+
+</objects>

@@ -4,4 +4,32 @@
 		<web locatorType="xpath" locatorValue="//a[text()='Dashboard']" />
 	</object>
 
+	<object name="lnkFilter">
+		<web locatorType="xpath" locatorValue="//a[@class='nav-item dropdown nav-link']" />
+	</object>
+
+	<object name="lnkDateSent">
+		<web locatorType="xpath" locatorValue="//div[@id='reportrange']" />
+	</object>
+
+	<object name="btnFilter">
+		<web locatorType="xpath" locatorValue="//button[@id='btnResellerFilter']" />
+	</object>
+
+	<object name="lstAccount">
+		<web locatorType="xpath" locatorValue="//select[@id='allAccounts']" />
+	</object>
+
+	<object name="totalCount">
+		<web locatorType="xpath" locatorValue="//h3[@class='info-title txtTotal']" />
+	</object>
+
+	<object name="btnApply">
+		<web locatorType="xpath" locatorValue="(//button[text()='Apply'])[1]" />
+	</object>
+
+	<object name="lblBalanceSms">
+		<web locatorType="xpath" locatorValue="//span[@id='balBadge']" />
+	</object>
+
 </objects>

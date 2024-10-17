@@ -129,8 +129,11 @@ public class DriverProvider {
             case "chrome":
 //                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
 //                driver = new ChromeDriver();
+                ChromeOptions options = new ChromeOptions();
+//                options.addArguments("force-device-scale-factor=0.85");
+//                options.addArguments("high-dpi-support=0.85");
                 WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+                driver = new ChromeDriver(options);
                 break;
             case "firefox":
                 driver = new FirefoxDriver();

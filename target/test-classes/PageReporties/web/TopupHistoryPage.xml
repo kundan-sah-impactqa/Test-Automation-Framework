@@ -1,0 +1,39 @@
+<objects>
+
+	<object name="lblTopupCount">
+		<web locatorType="xpath" locatorValue="//div[@id='topupTotalCount']" />
+	</object>
+
+	<object name="lnkFilter">
+		<web locatorType="xpath" locatorValue="//button[@data-target='#filterTopupModal']/i" />
+	</object>
+
+	<object name="lnkDate">
+		<web locatorType="xpath" locatorValue="//div[@id='reportrange']" />
+	</object>
+
+	<object name="btnPrevious">
+		<web locatorType="xpath" locatorValue="//th[@class='prev available']" />
+	</object>
+
+	<object name="btnApply">
+		<web locatorType="xpath" locatorValue="(//button[text()='Apply'])[1]" />
+	</object>
+
+	<object name="btnFilter">
+		<web locatorType="xpath" locatorValue="//button[@id='btnFilterTopup']" />
+	</object>
+
+	<object name="btnReset">
+		<web locatorType="xpath" locatorValue="//button[@id='resetTopupFilter']" />
+	</object>
+
+	<object name="btnExport">
+		<web locatorType="xpath" locatorValue="//button[@id='btnExportTopUp']" />
+	</object>
+
+	<object name="tblTopupHistory">
+		<web locatorType="xpath" locatorValue="//tbody[@id='topupTrailTable']/tr" />
+	</object>
+
+</objects>

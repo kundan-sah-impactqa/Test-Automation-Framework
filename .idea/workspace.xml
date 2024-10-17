@@ -8,79 +8,49 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/environment.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/base/BaseTestAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/base/BaseTestMobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestWebClassContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/base/BaseTestWebClassContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/base/BaseTestWebMethodContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/base/BaseTestWebMethodContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/exceptions/CustomRunTimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/exceptions/CustomRunTimeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/RetryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/listeners/RetryAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestAllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/listeners/TestAllureListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestJiraListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/listeners/TestJiraListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestNGExecutionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/listeners/TestNGExecutionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestSlackListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/listeners/TestSlackListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/listeners/TestTeamsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/listeners/TestTeamsListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/APIAssertionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/api/APIAssertionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/AssertionKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/api/AssertionKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/starbucks/Payloads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/api/nsano/Payloads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/starbucks/ReqresAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/api/nsano/ReqresAPIs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/api/starbucks/pojos/Reqres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/api/nsano/pojos/Reqres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/mobile/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/mobile/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/mobile/starbucks/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/mobile/nsano/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/mobile/starbucks/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/mobile/nsano/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/mobile/starbucks/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/mobile/nsano/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/mobile/starbucks/OrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/mobile/nsano/OrderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/mobile/starbucks/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/mobile/nsano/PaymentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/OrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/OrderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/ProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/page/web/starbucks/StorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/StorePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/AllureEnvironmentPropertyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/AllureEnvironmentPropertyUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/AppiumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/AppiumUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/CommonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/CryptoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/CryptoUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/CustomMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/CustomMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/DriverProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/DriverProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/EmailReportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/EmailReportUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/EmailSSLUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/EmailSSLUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/EmailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/ExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/FrameworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/FrameworkConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/GMailAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/GMailAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/JiraClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/JiraClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/JiraIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/JiraIntegration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/PageObjectRepoHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/PageObjectRepoHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/PostExecutionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/PostExecutionClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/RandomDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/RandomDataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/RestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/RestUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/SeleniumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/SeleniumUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/SlackTeamsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/SlackTeamsUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/StringOccurrenceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/StringOccurrenceUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/SystemUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/SystemUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/starbucks/utilities/ZipUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/ZipUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/api/Test_Scenarios_For_Api_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nsano/api/Test_Scenarios_For_Api_Functionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/mobile/Test_Scenarios_For_Starbucks_E2E_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nsano/mobile/Test_Scenarios_For_Starbucks_E2E_Functionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/mobile/Test_Scenarios_For_TSB_E2E_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nsano/mobile/Test_Scenarios_For_TSB_E2E_Functionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_E2E_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nsano/web/Test_Scenarios_For_NSano_E2E_Functionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/starbucks/web/Test_Scenarios_For_Starbucks_Login_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nsano/web/Test_Scenarios_For_NSano_Login_Functionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/CartPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/CartPage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/DashboardPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/DashboardPage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/LoginPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/LoginPage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/OrderPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/mobile/OrderPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0a6db1cf-6224-418e-b53c-5549d17c2b4f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0c495661-33ee-4c26-8f1a-d8ca88b402ac-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2013680a-36e9-4a3a-9b18-08043b762f0d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/31a8064b-8fe7-474d-8794-8c220dac2539-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3715ea15-25d1-473e-9554-e59b5ec61a96-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3a2455f8-930e-486e-88c7-858c4ce94ef5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3cf2f8b9-e3e4-41d8-be9f-d4e9e4787745-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/404af8fd-cafa-434d-82fe-eda4106acb5a-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/537f941f-7b14-4d75-b568-ed94452e8cce-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6b390ee4-ced1-496e-842d-9ff9c442c7ec-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/76269a66-1a05-4d51-a870-8bb0d848e796-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/858c8bed-a1b6-4b2b-b92d-7f0d2066874e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/919288bf-6ceb-4571-bc5b-adbd7bdfeb52-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c07c6ce3-42da-4c8a-b76d-4be8b031a089-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/edf20ef3-20fb-415c-bf1e-bc6680e0afc6-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/SidebarMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/OrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/TopupHistoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/ProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/StorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/ReportsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/DriverProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/utilities/DriverProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nsano/web/Test_Scenarios_For_NSano_E2E_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nsano/web/Test_Scenarios_For_NSano_E2E_Functionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/CartPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/SidebarMenu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/DashboardPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/DashboardPage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/LoginPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/LoginPage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/testdata1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/testdata1.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_android.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_android.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_api_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_api_nsano.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_iOS.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_iOS.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_mobile_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_mobile_nsano.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web_nsano.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/OrderPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/TopupHistoryPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/ProfilePage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/PageReporties/web/StorePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/PageReporties/web/ReportsPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_web_nsano.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_web_nsano.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nsano/page/web/nsano/CartPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nsano/page/web/nsano/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nsano/page/web/nsano/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nsano/page/web/nsano/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nsano/page/web/nsano/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nsano/page/web/nsano/OrderPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nsano/page/web/nsano/ProfilePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nsano/page/web/nsano/StorePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nsano/utilities/DriverProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nsano/utilities/DriverProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageReporties/web/CartPage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageReporties/web/DashboardPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageReporties/web/DashboardPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageReporties/web/OrderPage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageReporties/web/ProfilePage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageReporties/web/StorePage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nsano/web/Test_Scenarios_For_NSano_E2E_Functionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nsano/web/Test_Scenarios_For_NSano_E2E_Functionality.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_web_nsano.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng_web_nsano.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +111,7 @@
     "TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile_starbucks.xml.executor": "Run",
     "TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_nsano.xml.executor": "Run",
     "TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_starbucks.xml.executor": "Run",
-    "com.google.cloudcode.ide_session_index": "20241014_0000",
+    "com.google.cloudcode.ide_session_index": "20241017_0001",
     "git-widget-placeholder": "auto-nsano",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Local-Git/TestDemoFramework/src/test/resources/TestData",
@@ -149,7 +119,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "com.android.studio.ml.bot.mainConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">

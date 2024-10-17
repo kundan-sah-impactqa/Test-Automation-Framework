@@ -42,8 +42,8 @@ public class Test_Scenarios_For_NSano_E2E_Functionality extends BaseTestWebClass
             Assert.fail("dataID '" + dataID + "' is valid the excel sheet. please check the test data sheet");
     }
 
-    @Test(priority = 1, description = "TC001_Verify that user is successfully able to do Login with valid credentials")
-    @Story("verify login functionality")
+    @Test(priority = 1, description = "TC004_Verify that user is successfully able to do Login with valid credentials")
+    @Story("Verify login functionality")
     @Description("Verify that user is successfully able to do Login with valid credentials")
     public void verify_UserSuccessfullyAbleToLoginWithValidCredentials() {
         LoginPage loginPage = new LoginPage(driver);
@@ -60,237 +60,178 @@ public class Test_Scenarios_For_NSano_E2E_Functionality extends BaseTestWebClass
         }
     }
 
-//    @Test(priority = 1, description = "TC005_Verify that the user is able to see total stars, rewards, and another reward level status on top of the dashboard")
-//    @Story("verify dashboard page functionality")
-//    @Description("Verify that the user is able to see total stars, rewards, and another reward level status on top of the dashboard")
-//    public void verify_DashboardPageFunctionality() {
-//        DashboardPage dashboardPage = new DashboardPage(driver);
-//        if (dashboardPage.isTotalStarsRewardsAndRewardLevelDisplayed()) {
-//            Allure.step("User is able to see total stars, rewards, and another reward level status", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to see total stars, rewards, and another reward level status", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC006_Verify that the user is able to see Promotional banner offers on Dashboard page")
-//    @Story("verify dashboard page functionality")
-//    @Description("Verify that the user is able to see Promotional banner offers on Dashboard page")
-//    public void verify_PromotionalBannerOffers() {
-//        DashboardPage dashboardPage = new DashboardPage(driver);
-//        if (dashboardPage.isPromotionalBannerOffersDisplayed()) {
-//            Allure.step("User is able to see Promotional banner offers on Dashboard page", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to see Promotional banner offers on Dashboard page", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC007_Verify that the user is able to see Latest Offerings on Dashboard page")
-//    @Story("verify dashboard page functionality")
-//    @Description("Verify that the user is able to see Latest Offerings on Dashboard page")
-//    public void verify_LatestOfferings() {
-//        DashboardPage dashboardPage = new DashboardPage(driver);
-//        if (dashboardPage.isLatestOfferingsDisplayed()) {
-//            Allure.step("User is able to see Latest Offerings on Dashboard page", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to see Latest Offerings on Dashboard page", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC008_Verify that the user is able to see Barista Recommends on Dashboard page")
-//    @Story("verify dashboard page functionality")
-//    @Description("Verify that the user is able to see Barista Recommends on Dashboard page")
-//    public void verify_BaristaRecommends() {
-//        DashboardPage dashboardPage = new DashboardPage(driver);
-//        if (dashboardPage.isBaristaRecommendsDisplayed()) {
-//            Allure.step("User is able to see Barista Recommends on Dashboard page", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to see Barista Recommends on Dashboard page", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC009_Verify that user is successfully able to land on Store Page")
-//    @Story("verify store page functionality")
-//    @Description("Verify that user is successfully able to land on Store Page")
-//    public void verify_UserSuccessfullyAbleToLandOnStorePage() {
-//        DashboardPage dashboardPage = new DashboardPage(driver);
-//        dashboardPage.clearExistingCart();
-//        dashboardPage.clickOnStorePage();
-//        StorePage storePage = new StorePage(driver);
-//        String title = "Store | Tata Starbucks";
-//        if (storePage.getPageTitle().equalsIgnoreCase(title)) {
-//            Allure.step("User is successfully able to land on Store Page", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to land on Store Page", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC010_Verify that user is successfully able to select desired store navigate to Store Details Page")
-//    @Story("verify store page functionality")
-//    @Description("Verify that user is successfully able to select desired store navigate to Store Details Page")
-//    public void verify_UserAbleToSelectDesiredStoreAndNavigateToStoreDetailsPage() {
-//        StorePage storePage = new StorePage(driver);
-//        storePage.enterAndSearchStore("Netaji Subhash Place, Shakurpur, Delhi, India");
-//        storePage.selectStore("Netaji Subhash Place");
-//        if (storePage.isStoreDetailsPageDisplayed()) {
-//            Allure.step("User is successfully able to select desired store navigate to Store Details Page", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to select desired store navigate to Store Details Page", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC011_Verify that user is successfully able to navigate to Ordering Page")
-//    @Story("verify store page functionality")
-//    @Description("Verify that user is successfully able to navigate to Ordering Page")
-//    public void verify_UserSuccessfullyAbleToNavigateToOrderingPage() {
-//        StorePage storePage = new StorePage(driver);
-//        storePage.clickOnOrderNowButton();
-//        OrderPage orderPage = new OrderPage(driver);
-//        if (orderPage.isOrderingPageDisplayed()) {
-//            Allure.step("User is successfully able to navigate to Ordering Page", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to navigate to Ordering Page", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC012_Verify that user is successfully able to add item and navigate to product page")
-//    @Story("verify product page functionality")
-//    @Description("Verify that user is successfully able to add item and navigate to product page")
-//    public void verify_AddItemAndNavigateToProductPage() {
-//        OrderPage orderPage = new OrderPage(driver);
-//        orderPage.clickOnAddItemButton("Signature Hot Chocolate");
-//        if (orderPage.isSignatureHotChocolatePageDisplayed()) {
-//            Allure.step("User is successfully able to add item and navigate to product page", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to add item and navigate to product page", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC013_Verify that user is able to see the view cart button after adding item")
-//    @Story("verify order page functionality")
-//    @Description("Verify that user is able to see the view cart button after adding item")
-//    public void verify_UserAbleToSeeTheViewCartButtonAfterAddingItem() {
-//        OrderPage orderPage = new OrderPage(driver);
-//        orderPage.clickOnAddItemButton();
-//        if (orderPage.isViewCartButtonDisplayed()) {
-//            Allure.step("User is able to see the view cart button after adding item", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to see the view cart button after adding item", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC014_Verify that user is successfully able to land on Cart Page")
-//    @Story("verify cart page functionality")
-//    @Description("Verify that user is successfully able to land on Cart Page")
-//    public void verify_UserSuccessfullyAbleToLandOnCartPage() {
-//        OrderPage orderPage = new OrderPage(driver);
-//        orderPage.clickOnViewCartButton();
-//        CartPage cartPage = new CartPage(driver);
-//        String title = "Cart | Tata Starbucks";
-//        if (cartPage.getPageTitle().equalsIgnoreCase(title)) {
-//            Allure.step("User is successfully able to land on Cart Page", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to land on Cart Page", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC015_Verify that user is able to repeat same order from Cart Page")
-//    @Story("verify cart page functionality")
-//    @Description("Verify that user is able to repeat same order from Cart Page")
-//    public void verify_UserAbleToRepeatSameOrder() {
-//        CartPage cartPage = new CartPage(driver);
-//        cartPage.clickOnPlusIcon();
-//        cartPage.clickOnRepeatLastButton();
-//        String newCartValue = "2";
-//        if (cartPage.isCartValueIncreases(newCartValue)) {
-//            Allure.step("User is able to repeat same order from Cart Page", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to repeat same order from Cart Page", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC016_Verify delete/decrease item functionality on Cart Page")
-//    @Story("verify cart page functionality")
-//    @Description("Verify delete/decrease item functionality on Cart Page")
-//    public void verify_UserAbleToDeleteItem() {
-//        CartPage cartPage = new CartPage(driver);
-//        cartPage.clickOnMinusIcon();
-//        String newCartValue = "1";
-//        if (cartPage.isCartValueIncreases(newCartValue)) {
-//            Allure.step("User is able to delete/decrease item", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to delete/decrease item", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC017_Verify cards displayed on make payment page")
-//    @Story("verify make payment page functionality")
-//    @Description("Verify cards displayed on make payment page")
-//    public void verify_CardsDisplayedOnMakePaymentPage() {
-//        CartPage cartPage = new CartPage(driver);
-//        cartPage.clickOnOtherPaymentMethods();
-//        if (cartPage.isCardsDisplayed()) {
-//            Allure.step("User is able to see cards on make payment page", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to see cards on make payment page", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC018_Verify payment method display in Pay With section")
-//    @Story("verify cart page functionality")
-//    @Description("Verify payment method display in Pay With section")
-//    public void verify_UserAbleToSeePaymentMethodInPayWithSection() {
-//        CartPage cartPage = new CartPage(driver);
-//        cartPage.selectCardForPayment();
-//        if (cartPage.isPaymentMethodSelected()) {
-//            Allure.step("User is able to see payment method in Pay With section", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able see payment method in Pay With section", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC019_Verify user is able to place order successfully")
-//    @Story("verify order functionality")
-//    @Description("Verify user is able to place order successfully")
-//    public void verify_OrderPlaceSuccessfully() {
-//        CartPage cartPage = new CartPage(driver);
-//        cartPage.clickOnPlaceOrderButton();
-//        if (cartPage.isOrderPlacedSuccessfully()) {
-//            Allure.step("User is able to place order successfully", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to place order successfully", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
-//
-//    @Test(priority = 1, description = "TC020_Verify that user is successfully able to logout from application")
-//    @Story("verify logout functionality")
-//    @Description("Verify that user is successfully able to logout from application")
-//    public void verify_LogOutFunctionality() {
-//        DashboardPage dashboardPage = new DashboardPage(driver);
-//        dashboardPage.wait(7000);
-//        dashboardPage.clickOnProfileIcon();
-//        ProfilePage profilePage = new ProfilePage(driver);
-//        profilePage.clickOnLogOutButton();
-//        LoginPage loginPage = new LoginPage(driver);
-//        if (loginPage.isLogInPageDisplayed()) {
-//            Allure.step("User is able to logout from application", Status.PASSED);
-//        } else {
-//            Allure.step("User is not able to logout from application", Status.FAILED);
-//            Assert.fail("Fail");
-//        }
-//    }
+    @Test(priority = 1, description = "TC005_Verify that user is able to see the dashboard screen")
+    @Story("Verify dashboard functionality")
+    @Description("Verify that user is able to see the dashboard screen")
+    public void verify_DashboardScreenDisplay() {
+        SidebarMenu sidebarMenu = new SidebarMenu(driver);
+        sidebarMenu.clickOnDashboardButton();
+
+        DashboardPage dashboardPage = new DashboardPage(driver);
+        if (dashboardPage.isDashboardPageDisplay()) {
+            Allure.step("User is able to see the dashboard screen", Status.PASSED);
+        } else {
+            Allure.step("User is not able to see the dashboard screen", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC006_Verify that user is able filter data on dashboard screen")
+    @Story("Verify filter functionality")
+    @Description("Verify that user is able filter data on dashboard screen")
+    public void verify_DashboardScreenFilterFunctionality() {
+        // Filter by "Last 30 Days"
+        DashboardPage dashboardPage = new DashboardPage(driver);
+        dashboardPage.clickOnFilterIcon();
+        dashboardPage.clickOnDateSent();
+        String filterBy = "Last 30 Days";
+        dashboardPage.selectDateSent(filterBy);
+        String account = "Nsano Business Team";
+        dashboardPage.selectAccount(account);
+        dashboardPage.clickOnFilterButton();
+
+        if (dashboardPage.isFilteredDataDisplay("7")) {
+            Allure.step("User is able filter data for 'Last 30 Days'", Status.PASSED);
+        } else {
+            Allure.step("User is not able filter data for 'Last 30 Days'", Status.FAILED);
+            Assert.fail("Fail");
+        }
+
+        // Filter by "Custom Date Range"
+        dashboardPage.clickOnFilterIcon();
+        dashboardPage.clickOnDateSent();
+        filterBy = "Custom Range";
+        dashboardPage.selectDateSent(filterBy);
+        dashboardPage.selectFromAndToDate("Sep", "1", "Oct", "15");
+
+        account = "Nsano Business Team";
+        dashboardPage.selectAccount(account);
+        dashboardPage.clickOnFilterButton();
+
+        if (dashboardPage.isFilteredDataDisplay("7")) {
+            Allure.step("User is able filter data for " + filterBy, Status.PASSED);
+        } else {
+            Allure.step("User is not able filter data for " + filterBy, Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC007_Verify account balance at to right corner")
+    @Story("Verify dashboard functionality")
+    @Description("Verify account balance at to right corner")
+    public void verify_AccountBalance() {
+        DashboardPage dashboardPage = new DashboardPage(driver);
+        if (dashboardPage.isAccountBalanceDisplay()) {
+            Allure.step("User is able to see account balance at to right corner", Status.PASSED);
+        } else {
+            Allure.step("User is not able to see account balance at to right corner", Status.FAILED);
+            Assert.fail("Fail");
+        }
+        String expectedMessage = "A maximum of 160 characters are allowed for each sms. Anything more than this will incur additional charges.";
+        if (dashboardPage.isSmsMaxLimitMessageDisplay(expectedMessage)) {
+            Allure.step("User is able to see SMS maximum limit message when hover on account balance", Status.PASSED);
+        } else {
+            Allure.step("User is not able to see SMS maximum limit message when hover on account balance", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC008_Verify list of top-ups per page displayed on TopUp History page")
+    @Story("Verify TopUp History page functionality")
+    @Description("Verify list of top-ups per page displayed on TopUp History page")
+    public void verify_ListOfTopUpsPerPage() {
+        SidebarMenu sidebarMenu = new SidebarMenu(driver);
+        sidebarMenu.clickOnTopUpHistoryButton();
+
+        TopupHistoryPage topupHistoryPage = new TopupHistoryPage(driver);
+        if (topupHistoryPage.verifyListOfTopupsCountPerPage(1)) {
+            Allure.step("User is able to see list of top-ups per page", Status.PASSED);
+        } else {
+            Allure.step("User is not able to see list of top-ups per page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC009_Verify top-up history page filter functionality")
+    @Story("Verify TopUp History page functionality")
+    @Description("Verify top-up history page filter functionality")
+    public void verify_TopUpHistoryPageFilterFunctionality() {
+        TopupHistoryPage topupHistoryPage = new TopupHistoryPage(driver);
+        topupHistoryPage.clickOnFilterIcon();
+
+        topupHistoryPage.clickOnDate();
+        String filterBy = "Custom Range";
+        topupHistoryPage.selectDate(filterBy);
+        //Select from date
+        topupHistoryPage.selectDate("1", "Jan", "2019");
+        //Select to date
+        topupHistoryPage.selectDate("1", "Feb", "2019");
+        topupHistoryPage.clickOnApplyButton();
+        topupHistoryPage.clickOnFilterButton();
+
+        if (topupHistoryPage.verifyListOfTopupsCountPerPage(1)) {
+            Allure.step("User is able to see list of top-ups per page", Status.PASSED);
+        } else {
+            Allure.step("User is not able to see list of top-ups per page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC010_Verify user is able to see message contents")
+    @Story("Verify SMS Reports functionality")
+    @Description("Verify user is able to see message contents")
+    public void verify_MessageContentsDisplayed() {
+        SidebarMenu sidebarMenu = new SidebarMenu(driver);
+        sidebarMenu.clickOnReportsButton();
+        if (sidebarMenu.isSmsReportsDisplay()) {
+            Allure.step("User is able see sms reports button", Status.PASSED);
+        } else {
+            Allure.step("User is not able see sms reports button", Status.FAILED);
+            Assert.fail("Fail");
+        }
+        sidebarMenu.clickOnSmsReportsButton();
+        ReportsPage reportsPage = new ReportsPage(driver);
+        if (reportsPage.isMessagesDisplay()) {
+            Allure.step("User is able to see list of messages", Status.PASSED);
+        } else {
+            Allure.step("User is not able to see list of messages", Status.FAILED);
+            Assert.fail("Fail");
+        }
+        String messageId = "670d4e461c01622dc7908a67";
+        reportsPage.clickOnMessageId(messageId);
+        if (reportsPage.isMessageContentDisplay()) {
+            Allure.step("User is able to see message contents", Status.PASSED);
+        } else {
+            Allure.step("User is not able to see message contents", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
+    @Test(priority = 1, description = "TC011_Verify SMS Reports Filter functionality")
+    @Story("Verify SMS Reports functionality")
+    @Description("Verify SMS Reports Filter functionality")
+    public void verify_SmsFilterFunctionality() {
+        ReportsPage reportsPage = new ReportsPage(driver);
+        String filterBy = "Last 30 Days";
+        String account = "Nsano Business Team";
+        String bulkId = "IZO20241014170054185920";
+        String recipient = "233542071549";
+
+        reportsPage.closeMessageDetailsModal();
+        reportsPage.clickOnFilterIcon();
+        reportsPage.clickOnDateSent();
+        reportsPage.selectDateSent(filterBy);
+        reportsPage.selectAccount(account);
+        reportsPage.enterBulkId(bulkId);
+        reportsPage.enterRecipient(recipient);
+        reportsPage.clickOnFilterButton();
+
+        if (reportsPage.getFilteredMessages() >= 1) {
+            Allure.step("User is able to see list of filtered messages", Status.PASSED);
+        } else {
+            Allure.step("User is not able to see list of filtered messages", Status.FAILED);
+            Assert.fail("Fail");
+        }
+    }
+
 }

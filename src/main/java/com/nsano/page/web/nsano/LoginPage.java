@@ -22,6 +22,7 @@ public class LoginPage extends BasePage {
 
     @Step("Enter email address {0}")
     public void enterEmail(String email) {
+        seleniumUtils.sleep(3000);
         seleniumUtils.isElementDisplayed("txtUsername", 30);
         seleniumUtils.enterText("txtUsername", email);
     }

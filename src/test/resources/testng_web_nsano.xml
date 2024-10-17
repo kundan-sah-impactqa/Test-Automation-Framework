@@ -16,16 +16,23 @@
         <parameter name="browser" value="chrome"/>
         <parameter name="dataID" value="NSano_Web_Automation"/>
         <classes>
-            <class name="com.nsano.web.Test_Scenarios_For_NSano_E2E_Functionality">
-                <methods>
-                    <include name="verify_UserSuccessfullyAbleToLoginWithValidCredentials"/>
-                </methods>
-            </class>
             <class name="com.nsano.web.Test_Scenarios_For_NSano_Login_Functionality">
                 <methods>
                     <include name="verify_UserNotAbleToLoginWithInvalidUsernameAndPassword"/>
                     <include name="verify_UserNotAbleToLoginWithInvalidPassword"/>
                     <include name="verify_UserNotAbleToLoginWithInvalidUsername"/>
+                </methods>
+            </class>
+            <class name="com.nsano.web.Test_Scenarios_For_NSano_E2E_Functionality">
+                <methods>
+                    <include name="verify_UserSuccessfullyAbleToLoginWithValidCredentials"/>
+                    <include name="verify_DashboardScreenDisplay"/>
+                    <include name="verify_DashboardScreenFilterFunctionality"/>
+                    <include name="verify_AccountBalance"/>
+                    <include name="verify_ListOfTopUpsPerPage"/>
+                    <exclude name="verify_TopUpHistoryPageFilterFunctionality"/>
+                    <include name="verify_MessageContentsDisplayed"/>
+                    <include name="verify_SmsFilterFunctionality"/>
                 </methods>
             </class>
         </classes>

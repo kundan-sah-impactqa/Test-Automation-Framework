@@ -1,0 +1,27 @@
+<objects>
+
+	<object name="icnDashboard">
+		<web locatorType="xpath" locatorValue="//i[@class='now-ui-icons design_app']" />
+	</object>
+
+	<object name="icnTopUpHistory">
+		<web locatorType="xpath" locatorValue="//i[@class='now-ui-icons business_money-coins']" />
+	</object>
+
+	<object name="tblTopupHistory">
+		<web locatorType="xpath" locatorValue="//tbody[@id='topupTrailTable']/tr" />
+	</object>
+
+	<object name="icnReports">
+		<web locatorType="xpath" locatorValue="//li[@id='nav_reports']//i" />
+	</object>
+
+	<object name="icnSmsReports">
+		<web locatorType="xpath" locatorValue="//li[@id='nav_sms_reports']/a" />
+	</object>
+
+	<object name="lblMessages">
+		<web locatorType="xpath" locatorValue="//h4[text()=' Messages']" />
+	</object>
+
+</objects>
