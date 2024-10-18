@@ -3,8 +3,8 @@
 <suite name="Web_Test_Execution_Suite" parallel="classes" thread-count="1" data-provider-thread-count="1">
     <listeners>
         <listener class-name="com.nsano.listeners.TestNGExecutionListener"/>
-        <!--        <listener class-name="com.nsano.listeners.TestSlackListener"/>-->
-        <!--        <listener class-name="com.nsano.listeners.TestTeamsListener"/>-->
+        <listener class-name="com.nsano.listeners.TestSlackListener"/>
+        <listener class-name="com.nsano.listeners.TestTeamsListener"/>
         <!--        <listener class-name="com.nsano.listeners.TestJiraListener"/>-->
     </listeners>
 
