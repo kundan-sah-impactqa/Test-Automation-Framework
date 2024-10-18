@@ -6,42 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="46990dc7-92a7-4613-9276-101f77143e6d" name="Default Changelist" comment="Adding new test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results.zip" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/050e9c9e-d85e-423d-b779-2e2162369c86-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/06b74f2a-046d-4600-b254-e60ba8ee7872-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0b6a1d8b-76e4-4853-8950-ecd2df08057c-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0bfb2160-3904-4fae-9a03-a5e67624578a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/150e5e4e-b290-4060-9528-b76bbb7ce14a-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2981b2e4-7888-480e-86a3-c0a0200b1a01-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2b4ee861-a86c-40be-a0ee-35c62233f22a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2d4eb240-d3a7-4261-b035-15fb1631ace4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/35d011a3-cc3c-46e6-b7ee-6b65c0c0fbfb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/46b4678b-b467-4145-91eb-a693989fc3c9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4db5c10a-936c-4feb-bde5-43d631f421ae-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4f5f79f3-5103-44f2-aac7-e927b547ebdb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/503b4143-2b35-431c-b380-7c92f34a6a72-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5093ad73-53f1-44c6-a4ad-df1dd2cb727e-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/54d3b06b-be38-48a1-bacc-b8df2458a40a-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6349a0e8-ce07-4f0e-9654-66cf7cca4f20-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/80317796-2716-4811-b522-d62066fa7c6e-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8a5c87e9-9b86-4ccf-905f-cccb79fee03c-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/995f6150-e26e-4dbb-bc5c-eb6dd6740f33-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a493e8d2-629b-4301-8dc2-f6c77b6d02d9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a838a7fd-8e7b-47fb-93d1-7db073baee02-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/acd30900-6e53-40f9-8d04-9306ec9bd918-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c1e6cbb2-8569-43d3-8a87-7c18b7aabb73-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d136c801-df02-4fb0-ad55-b84b811de1a9-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d2e5e3b7-ff2f-4b7b-81e5-ba4ce17c9fa4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d6ac9df8-f868-419e-9c15-035d24fc8f93-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d82ffcd5-78fd-4ec8-a51b-5ca386a0c8f7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/efcd1212-169a-4e53-87f0-df1dd37ca74d-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fc395510-845e-4883-9e48-1cbe48ce2be6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fe68272e-d1e0-4a1a-893b-0a54ad8f49ef-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fed24937-45ab-4f97-9d55-60a3bf9d1a93-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nsano/base/BaseTestWebClassContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/base/BaseTestWebClassContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsano/page/web/nsano/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/nsano/web/Test_Scenarios_For_NSano_E2E_Functionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nsano/web/Test_Scenarios_For_NSano_E2E_Functionality.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +67,7 @@
     "TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_mobile_starbucks.xml.executor": "Run",
     "TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_nsano.xml.executor": "Run",
     "TestNG.D:/Local-Git/TestDemoFramework/src/test/resources/testng_web_starbucks.xml.executor": "Run",
-    "com.google.cloudcode.ide_session_index": "20241018_0000",
+    "com.google.cloudcode.ide_session_index": "20241018_0001",
     "git-widget-placeholder": "auto-nsano",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Local-Git/TestDemoFramework/src/test/resources/TestData",
