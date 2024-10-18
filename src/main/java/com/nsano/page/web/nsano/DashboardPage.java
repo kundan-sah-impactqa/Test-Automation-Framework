@@ -65,7 +65,7 @@ public class DashboardPage extends BasePage {
         seleniumUtils.waitForElementToBeNotDisplayed("lnkDateSent");
     }
 
-    @Step("Is Filter Value Display {0})")
+    @Step("Is Filter Value Display: {0}")
     public boolean isFilteredDataDisplay(String totalCount) {
         try {
             return (seleniumUtils.getText("totalCount").trim().equalsIgnoreCase(totalCount));
@@ -104,7 +104,7 @@ public class DashboardPage extends BasePage {
         }
     }
 
-    @Step("get total count using API")
+    @Step("get total count using API: {0}")
     public String getTotalCount() {
         // Step 1: Login to authenticate and fetch data from the dashboard API at once
         String baseUri = "https://smsdashboard.nsano.com";
