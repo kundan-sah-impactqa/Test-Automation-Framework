@@ -78,10 +78,10 @@ public class BaseTestWebClassContext {
         end = Instant.now();
         PostExecutionClass.createReportVersionWithDateTime();
         try {
-//            String batchFilePath = System.getProperty("user.dir") + "\\GenerateAllureReport.bat";
-//            // Execute the batch file
-//            ProcessBuilder processBuilder = new ProcessBuilder(batchFilePath);
-//            processBuilder.start();
+            String batchFilePath = System.getProperty("user.dir") + "\\GenerateAllureReport.bat";
+            // Execute the batch file
+            ProcessBuilder processBuilder = new ProcessBuilder(batchFilePath);
+            processBuilder.start();
             System.out.println("Allure report generated successfully.");
         } catch (Exception e) {
             e.printStackTrace();

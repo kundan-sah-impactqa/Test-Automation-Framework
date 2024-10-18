@@ -3,10 +3,13 @@ package com.nsano.page.web.nsano;
 import com.nsano.page.web.BasePage;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 
 /**
@@ -99,6 +102,62 @@ public class DashboardPage extends BasePage {
         } catch (Exception ex) {
             return false;
         }
+    }
+
+    @Step("get total count)")
+    public String getTotalCount() {
+        // Step 1: Login to authenticate and fetch data from the dashboard API at once
+        String baseUri = "https://smsdashboard.nsano.com";
+        String loginPayload = "{\"username\":\"ysharma\",\"password\":\"Impactqa@2024\"}";
+        String dashboardPayload = "{\"start_date\":\"2024-09-16\",\"end_date\":\"2024-10-15\",\"account\":\"\"}";
+
+        // Execute login request
+        Response loginResponse = RestAssured
+                .given()
+                .baseUri(baseUri)
+                .basePath("/login")
+                .contentType(ContentType.JSON)
+                .body(loginPayload)
+                .post();
+
+        // If login fails, return error message
+        if (loginResponse.getStatusCode() != 200) {
+            System.out.println("Login failed. Status Code: " + loginResponse.getStatusCode());
+            return "Login failed"; // Indicate failure
+        }
+
+        // Step 2: Fetch data from the dashboard API, using cookies from the login response
+        Response dashboardResponse = RestAssured
+                .given()
+                .baseUri(baseUri)
+                .basePath("/filter_sms_graph_metrics")
+                .contentType(ContentType.JSON)
+                .cookies(loginResponse.getCookies()) // Use cookies from the login response
+                .body(dashboardPayload)
+                .redirects().follow(true) // Allow redirects
+                .post();
+
+        // If the dashboard request fails, return error message
+        if (dashboardResponse.getStatusCode() != 200) {
+            System.out.println("Dashboard request failed. Status Code: " + dashboardResponse.getStatusCode());
+            return "Dashboard request failed"; // Indicate failure
+        }
+
+        // Step 3: Parse the dashboard response to calculate the total count
+        String responseBody = dashboardResponse.getBody().asString();
+        JSONObject jsonResponse = new JSONObject(responseBody);
+        JSONArray dataArray = jsonResponse.getJSONArray("data");
+
+        int totalCount = 0;
+        for (int i = 0; i < dataArray.length(); i++) {
+            JSONObject dataObject = dataArray.getJSONObject(i);
+            totalCount += dataObject.getInt("count");
+        }
+
+        // Output the total count
+        String totalCountString = String.valueOf(totalCount);
+        System.out.println("Total Count: " + totalCountString);
+        return totalCountString;
     }
 
 }

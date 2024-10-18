@@ -90,7 +90,8 @@ public class Test_Scenarios_For_NSano_E2E_Functionality extends BaseTestWebClass
         dashboardPage.selectAccount(account);
         dashboardPage.clickOnFilterButton();
 
-        if (dashboardPage.isFilteredDataDisplay("7")) {
+        String totalCount = dashboardPage.getTotalCount();
+        if (dashboardPage.isFilteredDataDisplay(totalCount)) {
             Allure.step("User is able filter data for 'Last 30 Days'", Status.PASSED);
         } else {
             Allure.step("User is not able filter data for 'Last 30 Days'", Status.FAILED);
@@ -108,7 +109,8 @@ public class Test_Scenarios_For_NSano_E2E_Functionality extends BaseTestWebClass
         dashboardPage.selectAccount(account);
         dashboardPage.clickOnFilterButton();
 
-        if (dashboardPage.isFilteredDataDisplay("7")) {
+        totalCount = dashboardPage.getTotalCount();
+        if (dashboardPage.isFilteredDataDisplay(totalCount)) {
             Allure.step("User is able filter data for " + filterBy, Status.PASSED);
         } else {
             Allure.step("User is not able filter data for " + filterBy, Status.FAILED);
