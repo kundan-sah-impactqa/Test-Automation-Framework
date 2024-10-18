@@ -104,7 +104,7 @@ public class DashboardPage extends BasePage {
         }
     }
 
-    @Step("get total count using API: {0}")
+    @Step("get total count using API")
     public String getTotalCount() {
         // Step 1: Login to authenticate and fetch data from the dashboard API at once
         String baseUri = "https://smsdashboard.nsano.com";
