@@ -129,7 +129,15 @@ public class DriverProvider {
             case "chrome":
 //                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
 //                driver = new ChromeDriver();
+                // Set up ChromeOptions to configure the download directory
+                String downloadFilepath = System.getProperty("user.dir") + "\\target\\Downloads";
+                Map<String, Object> prefs = new HashMap<String, Object>();
+                prefs.put("download.default_directory", downloadFilepath);
+                prefs.put("download.prompt_for_download", false);
+                prefs.put("download.directory_upgrade", true);
+                prefs.put("safebrowsing.enabled", true);
                 ChromeOptions options = new ChromeOptions();
+                options.setExperimentalOption("prefs", prefs);
 //                options.addArguments("force-device-scale-factor=0.85");
 //                options.addArguments("high-dpi-support=0.85");
                 WebDriverManager.chromedriver().setup();

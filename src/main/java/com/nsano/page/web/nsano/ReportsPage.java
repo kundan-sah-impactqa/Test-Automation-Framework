@@ -51,6 +51,8 @@ public class ReportsPage extends BasePage {
         seleniumUtils.sleep(6000);
         WebElement message = seleniumUtils.getDriver().findElement(By.xpath("//tbody[@id='reportsTable']//a[text()='" + messageId + "']"));
         message.click();
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
     }
 
     @Step("Is Message Content Display")
@@ -66,12 +68,16 @@ public class ReportsPage extends BasePage {
     public void closeMessageDetailsModal() {
         seleniumUtils.isElementDisplayed("iconCloseMsgDetailsModal", 30);
         seleniumUtils.click("iconCloseMsgDetailsModal");
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
     }
 
     @Step("Click on Filter at Top")
     public void clickOnFilterIcon() {
         seleniumUtils.isElementDisplayed("lnkFilter", 30);
         seleniumUtils.click("lnkFilter");
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
     }
 
     @Step("Click on Date Sent")
@@ -89,7 +95,7 @@ public class ReportsPage extends BasePage {
 
     @Step("Select Account {0}")
     public void selectAccount(String account) {
-        seleniumUtils.isElementDisplayed("lstAccount", 30);
+        seleniumUtils.isElementDisplayed("lstAccount", 40);
         seleniumUtils.click("lstAccount");
         seleniumUtils.selectDropdown("lstAccount", account);
     }
@@ -99,6 +105,8 @@ public class ReportsPage extends BasePage {
         seleniumUtils.isElementDisplayed("btnFilter", 30);
         seleniumUtils.click("btnFilter");
         seleniumUtils.waitForElementToBeNotDisplayed("lnkDateSent");
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
     }
 
     @Step("Enter bulk id {0}")

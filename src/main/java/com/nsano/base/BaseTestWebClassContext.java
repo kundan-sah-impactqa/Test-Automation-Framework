@@ -42,7 +42,7 @@ public class BaseTestWebClassContext {
     }
 
     @BeforeSuite
-    public void clearOldAllureReport() {
+    public void clearOldAllureReportsAndDownloads() {
         start = Instant.now();
         // Specify the path to your Allure report directory
         String allureResultstDirectory = System.getProperty("user.dir") + "\\allure-results";
@@ -55,6 +55,16 @@ public class BaseTestWebClassContext {
             System.out.println("Old Allure result directory deleted successfully.");
         } else {
             System.out.println("No old Allure result directory found.");
+        }
+
+        // Delete target > Downloads folder
+        String targetDownloads = System.getProperty("user.dir") + "\\target\\Downloads";
+        File downloads = new File(targetDownloads);
+        if (downloads.exists()) {
+            deleteDirectory(downloads);
+            System.out.println("target > Downloads directory deleted.");
+        } else {
+            System.out.println("No old target > Downloads directory found.");
         }
     }
 

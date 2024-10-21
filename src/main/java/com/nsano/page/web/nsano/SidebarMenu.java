@@ -29,12 +29,16 @@ public class SidebarMenu extends BasePage {
         seleniumUtils.isElementDisplayed("icnTopUpHistory", 30);
         seleniumUtils.click("icnTopUpHistory");
         seleniumUtils.isElementDisplayed("tblTopupHistory", 30);
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
     }
 
     @Step("Click on Reports Button")
     public void clickOnReportsButton() {
         seleniumUtils.isElementDisplayed("icnReports", 30);
         seleniumUtils.click("icnReports");
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
     }
 
     @Step("Is SMS Reports Display")
@@ -50,6 +54,8 @@ public class SidebarMenu extends BasePage {
     public void clickOnSmsReportsButton() {
         seleniumUtils.isElementDisplayed("icnSmsReports", 30);
         seleniumUtils.click("icnSmsReports");
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
     }
 
 }

@@ -9,6 +9,9 @@ import org.openqa.selenium.WebElement;
 import java.util.NoSuchElementException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 
 /**
@@ -24,12 +27,22 @@ public class TopupHistoryPage extends BasePage {
 
     @Step("Verify list of top-ups count per page display as {0}")
     public boolean verifyListOfTopupsCountPerPage(int expectedCount) {
-        String topupValue = seleniumUtils.getText("lblTopupCount");
-        // Extract the total number of items using a regular expression
-        Matcher matcher = Pattern.compile("of (\\d+)").matcher(topupValue);
-        int totalCount = matcher.find() ? Integer.parseInt(matcher.group(1)) : 0;
+        seleniumUtils.sleep(6000);
         try {
-            return (totalCount == expectedCount);
+            if (seleniumUtils.isElementDisplayed("lblTopupCount", 10)) {
+                String topupValue = seleniumUtils.getText("lblTopupCount");
+                // Extract the total number of items using a regular expression
+                Matcher matcher = Pattern.compile("of (\\d+)").matcher(topupValue);
+                int totalCount = matcher.find() ? Integer.parseInt(matcher.group(1)) : 0;
+                return (totalCount == expectedCount);
+            } else {
+                String topupValue = seleniumUtils.getText("lblFilteredTopupCount");
+                // Extract the total number of items using a regular expression
+                Matcher matcher = Pattern.compile("of (\\d+)").matcher(topupValue);
+                int totalCount = matcher.find() ? Integer.parseInt(matcher.group(1)) : 0;
+                return (totalCount == expectedCount);
+            }
+
         } catch (Exception ex) {
             return false;
         }
@@ -39,6 +52,8 @@ public class TopupHistoryPage extends BasePage {
     public void clickOnFilterIcon() {
         seleniumUtils.isElementDisplayed("lnkFilter", 30);
         seleniumUtils.click("lnkFilter");
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
     }
 
     @Step("Click on Date")
@@ -90,25 +105,72 @@ public class TopupHistoryPage extends BasePage {
     public void clickOnApplyButton() {
         seleniumUtils.isElementDisplayed("btnApply", 30);
         seleniumUtils.click("btnApply");
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
     }
 
     @Step("Click on Filter Button")
     public void clickOnFilterButton() {
         seleniumUtils.isElementDisplayed("btnFilter", 30);
         seleniumUtils.click("btnFilter");
-        seleniumUtils.waitForLoader(30);
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
     }
 
     @Step("Click on Reset Button")
     public void clickOnResetButton() {
         seleniumUtils.isElementDisplayed("btnReset", 30);
         seleniumUtils.click("btnReset");
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
+
     }
 
     @Step("Click on Export Button")
     public void clickOnExportButton() {
         seleniumUtils.isElementDisplayed("btnExport", 30);
         seleniumUtils.click("btnExport");
+        seleniumUtils.sleep(4000);
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
+    }
+
+    @Step("Get TopUp Count From Exported CSV File")
+    public int getTopupCountFromExportedCsv(String fileName, String accountName) {
+        String filePath = System.getProperty("user.dir") + "\\target\\Downloads\\" + fileName;
+        int topupCount = 0;
+
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            boolean isHeader = true;
+            // Read each line from the CSV file
+            while ((line = br.readLine()) != null) {
+                // Skip the header row
+                if (isHeader) {
+                    isHeader = false;
+                    continue;
+                }
+                // Split the line by commas to get each column value
+                String[] columns = line.split(",");
+                // Ensure there are enough columns to avoid ArrayIndexOutOfBoundsException
+                if (columns.length < 3) {
+                    continue;
+                }
+                // Check if the account name matches (case-insensitive comparison)
+                if (columns[0].equalsIgnoreCase(accountName)) {
+                    try {
+                        // Parse the "Topup" value from the third column
+                        double topupValue = Double.parseDouble(columns[2]);
+                        topupCount += topupValue;
+                    } catch (NumberFormatException e) {
+                        // Handle cases where the topup value is not a valid number
+                    }
+                }
+            }
+        } catch (IOException e) {
+            // Handle file I/O exceptions
+        }
+        return topupCount;
     }
 
 }

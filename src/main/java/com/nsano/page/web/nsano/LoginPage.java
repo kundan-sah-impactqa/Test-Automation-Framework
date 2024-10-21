@@ -38,6 +38,8 @@ public class LoginPage extends BasePage {
         seleniumUtils.isElementDisplayed("btnLogin", 30);
         seleniumUtils.click("btnLogin");
         seleniumUtils.sleep(4000);
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
     }
 
     @Step("Is Log In Page Display")

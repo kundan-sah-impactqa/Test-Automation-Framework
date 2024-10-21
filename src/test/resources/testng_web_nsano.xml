@@ -30,7 +30,7 @@
                     <include name="verify_DashboardScreenFilterFunctionality"/>
                     <include name="verify_AccountBalance"/>
                     <include name="verify_ListOfTopUpsPerPage"/>
-                    <exclude name="verify_TopUpHistoryPageFilterFunctionality"/>
+                    <include name="verify_TopUpHistoryPageFilterFunctionality"/>
                     <include name="verify_MessageContentsDisplayed"/>
                     <include name="verify_SmsFilterFunctionality"/>
                 </methods>

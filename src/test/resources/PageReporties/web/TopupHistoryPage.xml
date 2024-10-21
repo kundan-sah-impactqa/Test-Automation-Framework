@@ -4,6 +4,10 @@
 		<web locatorType="xpath" locatorValue="//div[@id='topupTotalCount']" />
 	</object>
 
+	<object name="lblFilteredTopupCount">
+		<web locatorType="xpath" locatorValue="//div[@id='filterTopupTotalCount']" />
+	</object>
+
 	<object name="lnkFilter">
 		<web locatorType="xpath" locatorValue="//button[@data-target='#filterTopupModal']/i" />
 	</object>

@@ -103,7 +103,7 @@ public class Test_Scenarios_For_NSano_E2E_Functionality extends BaseTestWebClass
         dashboardPage.clickOnDateSent();
         filterBy = "Custom Range";
         dashboardPage.selectDateSent(filterBy);
-        dashboardPage.selectFromAndToDate("Sep", "1", "Oct", "15");
+        dashboardPage.selectFromAndToDate("Sep", "20", "Oct", "15");
 
         account = "Nsano Business Team";
         dashboardPage.selectAccount(account);
@@ -146,7 +146,7 @@ public class Test_Scenarios_For_NSano_E2E_Functionality extends BaseTestWebClass
         sidebarMenu.clickOnTopUpHistoryButton();
 
         TopupHistoryPage topupHistoryPage = new TopupHistoryPage(driver);
-        if (topupHistoryPage.verifyListOfTopupsCountPerPage(1)) {
+        if (topupHistoryPage.verifyListOfTopupsCountPerPage(3)) {
             Allure.step("User is able to see list of top-ups per page", Status.PASSED);
         } else {
             Allure.step("User is not able to see list of top-ups per page", Status.FAILED);
@@ -162,19 +162,41 @@ public class Test_Scenarios_For_NSano_E2E_Functionality extends BaseTestWebClass
         topupHistoryPage.clickOnFilterIcon();
 
         topupHistoryPage.clickOnDate();
-        String filterBy = "Custom Range";
+        String filterBy = "Last 30 Days";
         topupHistoryPage.selectDate(filterBy);
-        //Select from date
-        topupHistoryPage.selectDate("1", "Jan", "2019");
-        //Select to date
-        topupHistoryPage.selectDate("1", "Feb", "2019");
-        topupHistoryPage.clickOnApplyButton();
         topupHistoryPage.clickOnFilterButton();
 
-        if (topupHistoryPage.verifyListOfTopupsCountPerPage(1)) {
+        if (topupHistoryPage.verifyListOfTopupsCountPerPage(2)) {
             Allure.step("User is able to see list of top-ups per page", Status.PASSED);
         } else {
             Allure.step("User is not able to see list of top-ups per page", Status.FAILED);
+            Assert.fail("Fail");
+        }
+
+        // Reset filter entry
+        topupHistoryPage.clickOnFilterIcon();
+        topupHistoryPage.clickOnResetButton();
+        if (topupHistoryPage.verifyListOfTopupsCountPerPage(3)) {
+            Allure.step("User is able to reset the filter entry", Status.PASSED);
+        } else {
+            Allure.step("User is not able to reset the filter entry", Status.FAILED);
+            Assert.fail("Fail");
+        }
+
+        topupHistoryPage.clickOnFilterIcon();
+        topupHistoryPage.clickOnDate();
+        filterBy = "Last 30 Days";
+        topupHistoryPage.selectDate(filterBy);
+        topupHistoryPage.clickOnExportButton();
+
+        String fileName = "topup-report.csv";
+        String accountName = "Nsano Business Team";
+
+        int actualCount = topupHistoryPage.getTopupCountFromExportedCsv(fileName, accountName);
+        if (actualCount == 2) {
+            Allure.step("Verify that user is able to export data", Status.PASSED);
+        } else {
+            Allure.step("Verify that user is not able to export data", Status.FAILED);
             Assert.fail("Fail");
         }
     }

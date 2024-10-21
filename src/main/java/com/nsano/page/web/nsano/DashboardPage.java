@@ -63,6 +63,8 @@ public class DashboardPage extends BasePage {
         seleniumUtils.isElementDisplayed("btnFilter", 30);
         seleniumUtils.click("btnFilter");
         seleniumUtils.waitForElementToBeNotDisplayed("lnkDateSent");
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
     }
 
     @Step("Is Filter Value Display: {0}")
@@ -83,6 +85,8 @@ public class DashboardPage extends BasePage {
         WebElement selectToDate = seleniumUtils.getDriver().findElement(By.xpath("//th[text()='" + toMonth + " 2024']/ancestor::table//td[text()='" + toDay + "']"));
         selectToDate.click();
         seleniumUtils.click("btnApply");
+        seleniumUtils.waitForThePageLoad();
+        seleniumUtils.waitForLoader(implicitWaitSec);
     }
 
     @Step("Is Account Balance Display")

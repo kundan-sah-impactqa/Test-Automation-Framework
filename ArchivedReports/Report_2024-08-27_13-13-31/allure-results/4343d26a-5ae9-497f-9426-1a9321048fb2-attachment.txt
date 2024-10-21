@@ -1,7 +1,0 @@
-<table border='1'>
-<tr><th>JSON_PATH</th><th>EXPECTED_VALUE</th><th>ACTUAL_VALUE</th><th>RESULT</th></tr>
-<tr><td>JSON_PATH</td><td>EXPECTED_VALUE</td><td>ACTUAL_VALUE</td><td>RESULT</td></tr>
-<tr><td>name</td><td>Pam Kerluke</td><td>Pam Kerluke</td><td>MATCHED</td></tr>
-<tr><td>id</td><td>1996</td><td>1996</td><td>MATCHED</td></tr>
-<tr><td>job</td><td>Customer Marketing Executive</td><td>Customer Marketing Executive</td><td>MATCHED</td></tr>
-</table>
